@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Pay Buddy</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="{{url_for('static',filename='maincss.css')}}" rel="stylesheet" type="text/css">
+
+  <link href="{{url_for('static',filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+
+  <link href="{{url_for('static',filename='css/sb-admin-2.min.css')}}" rel="stylesheet">
+    <style>
+	.state{
+		fill: none;
+		stroke: #a9a9a9;
+		stroke-width: 1;
+	}
+	.state:hover{
+		fill-opacity:0.5;
+	}
+	#tooltip {
+		position: absolute;
+		text-align: center;
+		padding: 20px;
+		margin: 10px;
+		font: 12px sans-serif;
+		background: lightsteelblue;
+		border: 1px;
+		border-radius: 2px;
+		pointer-events: none;
+	}
+	#tooltip h4{
+		margin:0;
+		font-size:14px;
+	}
+	#tooltip{
+		background:rgba(0,0,0,0.9);
+		border:1px solid grey;
+		border-radius:5px;
+		font-size:12px;
+		width:auto;
+		padding:4px;
+		color:white;
+		opacity:0;
+	}
+	#tooltip table{
+		table-layout:fixed;
+	}
+	#tooltip tr td{
+		padding:0;
+		margin:0;
+	}
+	#tooltip tr td:nth-child(1){
+		width:50px;
+	}
+	#tooltip tr td:nth-child(2){
+		text-align:center;
+	}
+	/* Legend Font Style */
+body {
+	font: 11px sans-serif;
+	background-color: #ffffff;
+}
+
+/* Legend Position Style */
+.legend {
+	position:absolute;
+	left:20px;
+	top:30px;
+}
+
+.axis text {
+	font: 10px sans-serif;
+}
+
+.axis line, .axis path {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+</style>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-money-bill"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Pay Buddy</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-info-circle"></i>
+          <span>Company Info</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-university"></i>
+          <span>Universities</span></a>
+      </li>
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-chart-pie"></i>
+          <span>Compare</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+          <!-- Page Heading -->
+          <div>
+            <h4 id="header" style="text-align:center">Universities Information</h4>
+          </div>
+          <!--Search Box-->
+          <!--Levels of that company vs Salary Stacked Bar Chart-->
+          <div class="row" style="text-align:center">
+            <div class="col-sm-10">
+                <div id="tooltip"></div>
+                <svg width="960" height="600" id="statesvg"></svg> <!-- svg to hold the map. -->
+                <script src="{{url_for('static',filename='uStates.js')}}"></script> <!-- creates uStates. -->
+                <script src="http://d3js.org/d3.v4.min.js"></script>
+                <script src="https://d3js.org/topojson.v2.min.js"></script>
+                <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+                <script>
+	               function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
+		return "<h4>"+n+"</h4><table>"+
+			"<tr><td>Universities</td><td>"+(d.colleges)+"</td></tr>"+
+			"<tr><td>Companies</td><td>"+(d.companies)+"</td></tr>"+
+			//"<tr><td>High</td><td>"+('3')+"</td></tr>"+
+			"</table>";
+	}
+
+	var w = 140, h = 300;
+	var colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+	//legend
+	var lowColor = '#ffffcc'
+	var highColor = '#800026'
+	var minVal = 0
+	var maxVal = 10
+	var ramp = d3.scaleLinear().domain([minVal,maxVal]).range([lowColor,highColor])
+  var sampleData = {};
+  d3.csv("{{url_for('static',filename='colleges.csv')}}", function (data) {
+    data.forEach(function (d) {
+      sampleData[d.abbreviation.trim()] = {"state": d.state, "colleges": d.colleges,"companies": d.companies , "color": ramp(d.count)}
+    })
+		// add a legend
+		var key = d3.select("#f")
+			.append("svg")
+			.attr("width", w)
+			.attr("height", h)
+			.attr("class", "legend");
+
+		var legend = key.append("defs")
+			.append("svg:linearGradient")
+			.attr("id", "gradient")
+			.attr("x1", "100%")
+			.attr("y1", "0%")
+			.attr("x2", "100%")
+			.attr("y2", "100%")
+			.attr("spreadMethod", "pad");
+
+		legend.append("stop")
+			.attr("offset", "0%")
+			.attr("stop-color", highColor)
+			.attr("stop-opacity", 1);
+
+		legend.append("stop")
+			.attr("offset", "100%")
+			.attr("stop-color", lowColor)
+			.attr("stop-opacity", 1);
+
+		key.append("rect")
+			.attr("width", w - 100)
+			.attr("height", h)
+			.style("fill", "url(#gradient)")
+			.attr("transform", "translate(0,10)");
+
+		var y = d3.scaleLinear()
+			.range([h, 0])
+			.domain([minVal, maxVal]);
+
+
+		legend.append("text")
+    .attr("class", "caption")
+    .attr("x", 0)
+    .attr("y", 20)
+    .attr("fill", "#000")
+    .attr("text-anchor", "start")
+    .attr("font-weight", "bold")
+    .text("Unemployment rate");
+
+		var yAxis = d3.axisRight(y);
+
+		key.append("g")
+			.attr("class", "y axis")
+			.attr("transform", "translate(41,10)")
+			.call(yAxis)
+
+	uStates.draw("#statesvg", sampleData, tooltipHtml);
+	d3.select(self.frameElement).style("height", "600px");
+
+})
+</script>
+            </div>
+            <div class="col-sm-2" id="f">
+
+            </div>
+
+          </div>
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+</body>
+
+</html>
