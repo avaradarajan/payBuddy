@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Pay Buddy</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="{{url_for('static',filename='maincss.css')}}" rel="stylesheet" type="text/css">
+
+  <link href="{{url_for('static',filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+
+  <link href="{{url_for('static',filename='css/sb-admin-2.min.css')}}" rel="stylesheet">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{{url_for('static',filename='d3.legend.js')}}"></script>
+  <style>
+  #companySelect
+{
+ border: 2px solid #4e73df;
+  border-radius: 5px;
+}
+
+    .stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+  font-size: 30px;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-size: 30px;
+  color: #ff9933;
+}
+.itext
+{
+ color : black;
+ font-size:20px
+}
+path.color0 {
+    fill: #339933;
+}
+path.color1 {
+    fill: rgba(0,20,0,.3);
+}
+text {
+    font-size: 1em;
+    font-weight: 40;
+    line-height: 2em;
+    fill: #000;
+}
+#recc,#ceo,#users,#intpie,#intpiee,#stock,#sbar1,#sbar3,#idiff
+{
+text-align:center
+}
+.cols
+{
+  border: 0.51px solid grey;
+  border-radius: 12px;
+  border-style: groove;
+}
+.col
+{
+  border: 0.51px solid #4e73df;
+  border-style: dotted;
+}
+
+.usersInner
+{
+ font-size:30px;
+}
+<!-- Pie chart interview-->
+	#tooltip {
+		position: absolute;
+		text-align: center;
+		padding: 20px;
+		margin: 10px;
+		font: 12px sans-serif;
+		background: lightsteelblue;
+		border: 1px;
+		border-radius: 2px;
+		pointer-events: none;
+	}
+	#tooltip h4{
+		margin:0;
+		font-size:14px;
+	}
+	#tooltip{
+		background:rgba(0,0,0,0.9);
+		border:1px solid grey;
+		border-radius:5px;
+		font-size:12px;
+		width:auto;
+		padding:4px;
+		color:white;
+		opacity:0;
+	}
+
+<!-- Stacked Bar Chart -->
+.axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+  }
+
+  path.domain {
+    stroke: none;
+  }
+
+  .y .tick line {
+    stroke: #ddd;
+  }
+
+  #tooltipp {
+            position: absolute;
+            width: 50px;
+            height: auto;
+            padding: 10px;
+            background-color: white;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+        }
+        #tooltipp.hidden {
+            opacity: 0;
+        }
+        #tooltipp p {
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+        }
+  </style>
+  <script>
+var data = {{ data.chart_data | safe }}
+console.log(data)
+console.log(data[0][0])
+  </script>
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-money-bill"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Pay Buddy</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-info-circle"></i>
+          <span>Company Info</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="page2.html">
+          <i class="fas fa-fw fa-university"></i>
+          <span>Universities</span></a>
+      </li>
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="page3.html">
+          <i class="fas fa-fw fa-chart-pie"></i>
+          <span>Compare</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+          <!-- Page Heading -->
+          <div>
+            <h4 id="header">Dashboard</h4>
+          </div>
+          <!--Search Box-->
+          <div class="row">
+            <div class="col">
+              <label class="itext">Select Company</label> <select class="selectpicker" id="companySelect">
+              <option disabled selected value> -- Select Company -- </option>
+             </select>
+
+
+              <script>
+              function loadInterviewPie(data)
+              {
+                    var w = 420,                        //width
+                    h = 420,                            //height
+                    r = 160,                            //radius
+                    color = d3.scale.category20c();     //builtin range of colors
+
+
+                    var vis = d3.select("#intpie")
+                        .append("svg:svg")              //create the SVG element inside the <body>
+                        .data([data])                   //associate our data with the document
+                            .attr("width", w)           //set the width and height of our visualization (these will be attributes of the <svg> tag
+                            .attr("height", h)
+                        .append("svg:g")                //make a group to hold our pie chart
+                            .attr("transform", "translate(" + r + "," + r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
+
+                    var arc = d3.svg.arc()              //this will create <path> elements for us using arc data
+                        .outerRadius(r);
+
+                    var pie = d3.layout.pie()           //this will create arc data for us given a list of values
+                        .value(function(d) { return d.value; });    //we must tell it out to access the value of each element in our data array
+
+                    var arcs = vis.selectAll("g.slice")     //this selects all <g> elements with class slice (there aren't any yet)
+                        .data(pie)                          //associate the generated pie data (an array of arcs, each having startAngle, endAngle and value properties)
+                        .enter()                            //this will create <g> elements for every "extra" data element that should be associated with a selection. The result is creating a <g> for every object in the data array
+                            .append("svg:g")                //create a group to hold each slice (we will have a <path> and a <text> element associated with each slice)
+                                .attr("class", "slice");    //allow us to style things in the slices (like text)
+
+                        arcs.append("svg:path")
+                                .attr("fill", function(d, i) { return color(i); } ) //set the color for each slice to be chosen from the color function defined above
+                                .attr("d", arc).on("mouseover", function(d,i) {
+                                d3.select("#tooltipp")
+        .style("left", d3.event.pageX-280 + "px")
+        .style("top", d3.event.pageY-280 + "px")
+        .style("opacity", 1)
+        .select("#value")
+        .text(data[i].value+"%");
+
+                                })
+     .on("mouseout", function () {
+      d3.select("#tooltipp")
+         .style("opacity", 0);
+      });
+
+
+                                                                   //this creates the actual SVG path using the associated data (pie) with the arc drawing function
+
+
+
+                            var legendG = vis.selectAll(".legend") // note appending it to mySvg and not svg to make positioning easier
+                            .data(pie(data))
+                            .enter().append("g")
+                            .attr("transform", function(d,i){
+                              return "translate(" + (180) + "," + (i * 15) + ")"; // place each legend on the right and bump each one down 15 pixels
+                            })
+                            .attr("class", "legend");
+
+                          legendG.append("rect") // make a matching color rect
+                            .attr("width", 10)
+                            .attr("height", 10)
+                            .attr("fill", function(d, i) {
+                              return color(i);
+                            });
+
+                          legendG.append("text") // add the text
+                            .text(function(d,i){
+                              return data[i].label;
+                            })
+                            .style("font-size", 12)
+                            .attr("y", 10)
+                            .attr("x", 11);
+
+
+
+              }
+              /*function loadInterviewPie(data)
+              {
+                    var w = 420,                        //width
+                    h = 420,                            //height
+                    r = 160,                            //radius
+                    color = d3.scale.category20c();     //builtin range of colors
+
+
+                    var vis = d3.select("#intpie")
+                        .append("svg:svg")              //create the SVG element inside the <body>
+                        .data([data])                   //associate our data with the document
+                            .attr("width", w)           //set the width and height of our visualization (these will be attributes of the <svg> tag
+                            .attr("height", h)
+                        .append("svg:g")                //make a group to hold our pie chart
+                            .attr("transform", "translate(" + r + "," + r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
+
+                    var arc = d3.svg.arc()              //this will create <path> elements for us using arc data
+                        .outerRadius(r);
+
+                    var pie = d3.layout.pie()           //this will create arc data for us given a list of values
+                        .value(function(d) { return d.value; });    //we must tell it out to access the value of each element in our data array
+
+                    var arcs = vis.selectAll("g.slice")     //this selects all <g> elements with class slice (there aren't any yet)
+                        .data(pie)                          //associate the generated pie data (an array of arcs, each having startAngle, endAngle and value properties)
+                        .enter()                            //this will create <g> elements for every "extra" data element that should be associated with a selection. The result is creating a <g> for every object in the data array
+                            .append("svg:g")                //create a group to hold each slice (we will have a <path> and a <text> element associated with each slice)
+                                .attr("class", "slice");    //allow us to style things in the slices (like text)
+
+                        arcs.append("svg:path")
+                                .attr("fill", function(d, i) { return color(i); } ) //set the color for each slice to be chosen from the color function defined above
+                                .attr("d", arc);                                    //this creates the actual SVG path using the associated data (pie) with the arc drawing function
+
+                        arcs.append("svg:text")                                     //add a label to each slice
+                                .attr("transform", function(d) {                    //set the label's origin to the center of the arc
+                                //we have to make sure to set these before calling arc.centroid
+                                d.innerRadius = 0;
+                                d.outerRadius = r;
+                                return "translate(" + arc.centroid(d) + ")";        //this gives us a pair of coordinates like [50, 50]
+                            })
+                            .attr("text-anchor", "middle")                          //center the text on it's origin
+                            .text(function(d, i) { return data[i].value+'%'; });
+
+
+                            var legendG = vis.selectAll(".legend") // note appending it to mySvg and not svg to make positioning easier
+                            .data(pie(data))
+                            .enter().append("g")
+                            .attr("transform", function(d,i){
+                              return "translate(" + (180) + "," + (i * 15) + ")"; // place each legend on the right and bump each one down 15 pixels
+                            })
+                            .attr("class", "legend");
+
+                          legendG.append("rect") // make a matching color rect
+                            .attr("width", 10)
+                            .attr("height", 10)
+                            .attr("fill", function(d, i) {
+                              return color(i);
+                            });
+
+                          legendG.append("text") // add the text
+                            .text(function(d,i){
+                              return data[i].label;
+                            })
+                            .style("font-size", 12)
+                            .attr("y", 10)
+                            .attr("x", 11);
+
+                            var tooltip = vis                               // NEW
+                              .append('div')                                                // NEW
+                              .attr('class', 'tooltip');                                    // NEW
+
+                            tooltip.append('div')                                           // NEW
+                              .attr('class', 'label');                                      // NEW
+
+                            tooltip.append('div')                                           // NEW
+                              .attr('class', 'count');                                      // NEW
+
+                            tooltip.append('div')                                           // NEW
+                              .attr('class', 'percent');
+                              var path = vis.selectAll('path')
+                              console.log(path)
+                              path.on('mouseover', function(d,i) {  //alert(data[i].value)                          // NEW                                                       // NEW
+            d3.select("#tooltip").transition().duration(200).style("opacity", .9);
+			d3.select("#tooltip").html("Interview Call Source - "+data[i].label + " : " +data[i].value+" %")
+          });                                                           // NEW
+
+          path.on('mouseout', function() {                              // NEW
+            d3.select("#tooltip").transition().duration(500).style("opacity", 0);                          // NEW
+          });
+              }*/
+              function loadRecommendation(val)
+              {
+                    var duration = 1500,
+                    transition = 200,
+                    percent = val,
+                    width = 120,
+                    height = 120;
+
+                var dataset = {
+                            lower: calcPercent(0),
+                            upper: calcPercent(percent)
+                        },
+                        radius = Math.min(width, height) / 3,
+                        pie = d3.layout.pie().sort(null),
+                        format = d3.format(".0%");
+
+                var arc = d3.svg.arc()
+                        .innerRadius(radius * .8)
+                        .outerRadius(radius);
+
+                var svg = d3.select("#recc").append("svg")
+                        .attr("width", width)
+                        .attr("height", height)
+                        .append("g")
+                        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+                var path = svg.selectAll("path")
+                                .data(pie(dataset.lower))
+                                .enter().append("path")
+                                .attr("class", function (d, i) {
+                                    return "color" + i
+                                })
+                                .attr("d", arc)
+                                .each(function (d) {
+                                    this._current = d;
+                                });
+
+                var text = svg.append("text")
+                        .attr("text-anchor", "middle")
+                        .attr("dy", ".3em");
+
+                var progress = 0;
+
+                var timeout = setTimeout(function () {
+                    clearTimeout(timeout);
+                    path = path.data(pie(dataset.upper));
+                    path.transition().duration(duration).attrTween("d", function (a) {
+                        var i = d3.interpolate(this._current, a);
+                        var i2 = d3.interpolate(progress, percent)
+                        this._current = i(0);
+                        return function (t) {
+                            text.text(format(i2(t) / 100));
+                            return arc(i(t));
+                        };
+                    });
+                }, 200);
+
+                function calcPercent(percent) {
+                    return [percent, 100 - percent];
+                };
+
+              }
+              function loadCEOApproval(val)
+              {
+                    var duration = 1500,
+                    transition = 200,
+                    percent = val,
+                    width = 120,
+                    height = 120;
+
+                var dataset = {
+                            lower: calcPercent(0),
+                            upper: calcPercent(percent)
+                        },
+                        radius = Math.min(width, height) / 3,
+                        pie = d3.layout.pie().sort(null),
+                        format = d3.format(".0%");
+
+                var arc = d3.svg.arc()
+                        .innerRadius(radius * .8)
+                        .outerRadius(radius);
+
+                var svg = d3.select("#ceo").append("svg")
+                        .attr("width", width)
+                        .attr("height", height)
+                        .append("g")
+                        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+                var path = svg.selectAll("path")
+                                .data(pie(dataset.lower))
+                                .enter().append("path")
+                                .attr("class", function (d, i) {
+                                    return "color" + i
+                                })
+                                .attr("d", arc)
+                                .each(function (d) {
+                                    this._current = d;
+                                });
+
+                var text = svg.append("text")
+                        .attr("text-anchor", "middle")
+                        .attr("dy", ".3em");
+
+                var progress = 0;
+
+                var timeout = setTimeout(function () {
+                    clearTimeout(timeout);
+                    path = path.data(pie(dataset.upper));
+                    path.transition().duration(duration).attrTween("d", function (a) {
+                        var i = d3.interpolate(this._current, a);
+                        var i2 = d3.interpolate(progress, percent)
+                        this._current = i(0);
+                        return function (t) {
+                            text.text(format(i2(t) / 100));
+                            return arc(i(t));
+                        };
+                    });
+                }, 200);
+
+                function calcPercent(percent) {
+                    return [percent, 100 - percent];
+                };
+
+              }
+              function loadStackBar(data)
+              {
+                  var margin = {top: 20, right: 160, bottom: 35, left: 30};
+                  var width = 750 - margin.left - margin.right,
+                      height = 580 - margin.top - margin.bottom;
+
+                  var svg = d3.select("#sbar")
+                    .append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + 70 + "," + 0 + ")");
+
+
+
+                  // Transpose the data into layers
+                  var dataset = d3.layout.stack()(["salary", "bonus", "stock"].map(function(amount) {
+                    return data.map(function(d) {
+                      return {x: d.level, y: +d[amount]};
+                    });
+                  }));
+
+
+                  // Set x, y and colors
+                  var x = d3.scale.ordinal()
+                    .domain(dataset[0].map(function(d) { return d.x; }))
+                    .rangeRoundBands([10, width-10], 0.02);
+
+                  var y = d3.scale.linear()
+                    .domain([0, d3.max(dataset, function(d) {  return d3.max(d, function(d) { return d.y0 + d.y; });  })])
+                    .range([height, 0]);
+
+                  var colors = ["#00cc99", "#3399ff", "#ff9966"];
+
+
+                  // Define and draw axes
+                  var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+                    .ticks(5)
+                    .tickSize(-width, 0, 0)
+                    .tickFormat( function(d) { return d } );
+
+                  var xAxis = d3.svg.axis()
+                    .scale(x)
+                    .orient("bottom");
+
+                  svg.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis);
+
+                  svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis)
+                    .selectAll(".tick text")
+                    .call(wrap, x.rangeBand())
+
+
+                  // Create groups for each series, rects for each segment
+                  var groups = svg.selectAll("g.cost")
+                    .data(dataset)
+                    .enter().append("g")
+                    .attr("class", "cost")
+                    .style("fill", function(d, i) { return colors[i]; });
+
+                  var rect = groups.selectAll("rect")
+                    .data(function(d) { return d; })
+                    .enter()
+                    .append("rect")
+                    .attr("x", function(d) { return x(d.x); })
+                    .attr("y", function(d) { return y(d.y0 + d.y); })
+                    .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
+                    .attr("width", x.rangeBand())
+                    .on("mouseover", function(d) { tooltip.style("display", null);  })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+                      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.y)+"$");
+                    })
+                    .on("click", function(d) {
+                      getLevelInformation(d3.select('#companySelect').property('value'),d.x)
+                    });
+
+
+                  // Draw legend
+                  var legend = svg.selectAll(".legend")
+                    .data(colors)
+                    .enter().append("g")
+                    .attr("class", "legend")
+                    .attr("transform", function(d, i) { return "translate(30," + i * 19 + ")"; });
+
+                  legend.append("rect")
+                    .attr("x", width - 18)
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .style("fill", function(d, i) {return colors.slice().reverse()[i];});
+
+                  legend.append("text")
+                    .attr("x", width + 5)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("text-anchor", "start")
+                    .text(function(d, i) {
+                      switch (i) {
+                        case 2: return "Salary";
+                        case 1: return "Bonus";
+                        case 0: return "Stock";
+                      }
+                    });
+
+
+                  // Prep the tooltip bits, initial display is hidden
+                  var tooltip = svg.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+
+
+                //-------------------
+                function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em")
+    while (word = words.pop()) {
+      line.push(word)
+      tspan.text(line.join(" "))
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop()
+        tspan.text(line.join(" "))
+        line = [word]
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", `${++lineNumber * lineHeight + dy}em`).text(word)
+      }
+    }
+  })
+}
+              }
+
+
+              function loadStackBarForCountry(data)
+              {
+                  var margin = {top: 20, right: 160, bottom: 35, left: 30};
+                  var width = 660 - margin.left - margin.right,
+                      height = 300 - margin.top - margin.bottom;
+
+                  var svg = d3.select("#sbar2")
+                    .append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + 70 + "," + margin.top + ")");
+
+
+
+                  // Transpose the data into layers
+                  var dataset = d3.layout.stack()(["salary", "bonus", "stock"].map(function(amount) {
+                    return data.map(function(d) {
+                      return {x: d.state, y: +d[amount]};
+                    });
+                  }));
+
+
+                  // Set x, y and colors
+                  var x = d3.scale.ordinal()
+                    .domain(dataset[0].map(function(d) { return d.x; }))
+                    .rangeRoundBands([10, width-10], 0.02);
+
+                  var y = d3.scale.linear()
+                    .domain([0, d3.max(dataset, function(d) {  return d3.max(d, function(d) { return d.y0 + d.y; });  })])
+                    .range([height, 0]);
+
+                  var colors = ["#00cc99", "#3399ff", "#ff9966"];
+
+
+                  // Define and draw axes
+                  var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+                    .ticks(5)
+                    .tickSize(-width, 0, 0)
+                    .tickFormat( function(d) { return d } );
+
+                  var xAxis = d3.svg.axis()
+                    .scale(x)
+                    .orient("bottom");
+
+                  svg.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis);
+
+                  svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+
+                  // Create groups for each series, rects for each segment
+                  var groups = svg.selectAll("g.cost")
+                    .data(dataset)
+                    .enter().append("g")
+                    .attr("class", "cost")
+                    .style("fill", function(d, i) { return colors[i]; });
+
+                  var rect = groups.selectAll("rect")
+                    .data(function(d) { return d; })
+                    .enter()
+                    .append("rect")
+                    .attr("x", function(d) { return x(d.x); })
+                    .attr("y", function(d) { return y(d.y0 + d.y); })
+                    .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
+                    .attr("width", x.rangeBand())
+                    .on("mouseover", function() { tooltip.style("display", null); })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+                      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.y)+"$");
+                    });
+
+
+                  // Draw legend
+                  var legend = svg.selectAll(".legend")
+                    .data(colors)
+                    .enter().append("g")
+                    .attr("class", "legend")
+                    .attr("transform", function(d, i) { return "translate(30," + i * 19 + ")"; });
+
+                  legend.append("rect")
+                    .attr("x", width - 18)
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .style("fill", function(d, i) {return colors.slice().reverse()[i];});
+
+                  legend.append("text")
+                    .attr("x", width + 5)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("text-anchor", "start")
+                    .text(function(d, i) {
+                      switch (i) {
+                        case 2: return "Salary";
+                        case 1: return "Bonus";
+                        case 0: return "Stock";
+                      }
+                    });
+
+
+                  // Prep the tooltip bits, initial display is hidden
+                  var tooltip = svg.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+
+              }
+
+
+              function getLevelInformation(company,level) {
+                console.log(company+" "+level);
+                $.post("", {'data': 'getlevelsal','name':company,'level':level}, function(data_infunc){
+                data3 = JSON.parse(data_infunc.plot_data)
+                    console.log("callback")
+                    console.log(data3)
+                    d3.select("#sbar2").select("svg").remove();
+                    loadStackBarForCountry(data3)
+                })
+              }
+              function loadCompanyData(company) {
+                    $.post("", {'data': 'loadcomp1','name':company}, function(data_infunc){
+                    console.log("Load company")
+                    console.log(data_infunc.plot_data)
+                    data2 = JSON.parse(data_infunc.plot_data)
+                    console.log("callback")
+                    console.log(data2)
+                    //Star rating code
+                    var starPercentage = (data2[0].rating / 5) * 100;
+                    var starPercentageRounded = `${((starPercentage / 10) * 10)}%`;
+                    document.querySelector(`#crankstar`).style.width = starPercentageRounded;
+                    document.getElementById("cranknum").innerHTML = data2[0].rating;
+                    //reccomend function call
+                    d3.select("#recc").select("svg").remove();
+                    loadRecommendation(data2[0].recommendToFriend)
+
+                    //Interview Difficulty code
+                    starPercentage = (data2[0].interviewDifficulty / 5) * 100;
+                    starPercentageRounded = `${((starPercentage / 10) * 10)}%`;
+                    document.querySelector(`#idiffstar`).style.width = starPercentageRounded;
+                    document.getElementById("idiffnum").innerHTML = data2[0].interviewDifficulty;
+
+                    //Load CEO Approval
+                    d3.select("#ceo").select("svg").remove();
+                    loadCEOApproval(data2[0].ceoApproval)
+
+                    //Employee count
+                    document.getElementById("empCount").innerHTML = data2[0].noOfEmployees;
+
+                    //Interview pie
+                    d3.select("#intpie").select("svg").remove();
+                    var intList = [{"label":"Online", "value":data2[0].appliedOnline}, {"label":"Recruiter", "value":data2[0].Recruiter},{"label":"Referral", "value":data2[0].employeeReferral},{"label":"On-Campus", "value":data2[0].campusRecruiting}, {"label":"Other", "value":data2[0].other},{"label":"In-Person", "value":data2[0].inPerson},{"label":"Agency", "value":data2[0].staffingAgency}]
+                    loadInterviewPie(intList)
+
+                    //Stock URL
+                    document.getElementById("stockURL").href = data2[0].companyStockURL
+
+                    //StackedBar
+                    d3.select("#sbar").select("svg").remove();
+                    //{ year: "2006", redDelicious: "10", mcintosh: "15", oranges: "9", pears: "6" }
+                    var salaryList = [];
+                    var dl = {};
+                    for(index in data2)
+                    {
+                      if(dl[data2[index].levelTag]!=undefined)
+                      {
+                        //console.log("Here")
+                        //console.log(dl[data2[index].levelTagNormalized][0])
+                        dl[data2[index].levelTag] = [dl[data2[index].levelTag][0]+data2[index].salary,dl[data2[index].levelTag][1]+data2[index].bonus,dl[data2[index].levelTag][2]+data2[index].stock,Number(dl[data2[index].levelTag][3])+1]
+                      }
+                      else
+                      {
+                        console.log(data2[index].levelTag)
+                        dl[data2[index].levelTag] = [data2[index].salary,data2[index].bonus,data2[index].stock,Number(1)]
+                      }
+                    }
+                    //console.log(dl)
+                    for(var val in dl)
+                    {
+                      //console.log(dl[val])
+                      salaryList.push({"level":val,"salary":dl[val][0]/dl[val][3],"bonus":dl[val][1]/dl[val][3],"stock":dl[val][2]/dl[val][3]})
+                    }
+                    //console.log(salaryList)
+                    loadStackBar(salaryList)
+
+                    //StackedBar-LevelWise
+
+                    })
+              }
+
+                var select = document.getElementById("companySelect");
+                for(index in data) {
+                  console.log(index)
+                  selected = false;
+                  //key for each company record is 0
+                  select.options[select.options.length] = new Option(data[index][0], data[index][0],selected,selected);
+                }
+                d3.select("#companySelect").on("change",function(inp){
+                    dropDownValue = d3.select('#companySelect').property('value');
+                    console.log(dropDownValue)
+                    loadCompanyData(dropDownValue)
+                })
+              </script>
+
+
+            </div>
+            </div>
+          <!--Widgets for Company review rating, #employees, recommend to friend, approve of ceo,interview calls,interview diff  Box-->
+          <div class="row">
+            <div class="col" id="crank">
+              <label class="itext">Company Rating</label><br><label class="itext" id="cranknum"></label>&nbsp;<div class="stars-outer">
+          <div class="stars-inner" id="crankstar"></div>
+        </div>
+              <script>
+              </script>
+
+            </div>
+            <div class="col" id="recc">
+            <label class="itext">Recommend To Friend</label>
+            </div>
+            <div class="col" id="idiff">
+              <label class="itext">Interview Difficulty</label><br><label class="itext" id="idiffnum"></label>&nbsp;<div class="stars-outer">
+              <div class="stars-inner" id="idiffstar"></div>
+              </div>
+            </div>
+            <div class="col" id="ceo">
+              <label class="itext">Approve CEO</label>
+            </div>
+            <div class="col" id="users">
+              <label class="itext">Employees</label><br>
+              <div class="usersInner">
+              <i class="fas fa-users"></i>
+              <div id="empCount"></div></div>
+            </div>
+            <div class="col" id="stock">
+              <label class="itext">Stock Link</label>
+              <div class="usersInner">
+                <i class="fas fa-chart-line"></i>
+                <div><a id="stockURL" target="_blank">Stock URL</a></div>
+              </div>
+            </div>
+          </div>
+          <!--Levels of that company vs Salary Stacked Bar Chart-->
+          <div class="row">
+            <div class="col">
+              <label class="itext" id="intpiee">Interview Pie</label>
+              <div id="tooltipp" class="hidden">
+      <p><strong><span id="value"></span></strong></p>
+  </div>
+              <div id="intpie" class="itext"></div>
+            </div>
+          </div>
+          <!--Stock Link-->
+          <div class="row">
+            <div class="col" id="sbar1">
+              <label class="itext">Levels vs Salary($)</label>
+              <div id="sbar"></div>
+            </div>
+            <div class="col" id="sbar3">
+              <label class="itext">Location vs Salary($) for a Level</label>
+              <div id="sbar2"></div>
+            </div>
+            </div>
+          <div class="row">
+
+            <div class="col">SSS</div>
+          </div>
+
+          </div>
+          <!--Salary by location for level selected-->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+</body>
+
+</html>

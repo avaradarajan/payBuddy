@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Pay Buddy</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="{{url_for('static',filename='maincss.css')}}" rel="stylesheet" type="text/css">
+
+  <link href="{{url_for('static',filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+
+  <link href="{{url_for('static',filename='css/sb-admin-2.min.css')}}" rel="stylesheet">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{{url_for('static',filename='d3.legend.js')}}"></script>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='level_comparator.css')}}">
+
+  <style>
+  .button {
+  background-color: #4e73df;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+    .stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+  font-size: 30px;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-size: 30px;
+  color: #3366ff;
+}
+.itext
+{
+ color : black;
+ font-size:20px
+}
+path.color0 {
+    fill: #3366ff;
+}
+path.color1 {
+    fill: rgba(0,20,0,.3);
+}
+text {
+    font-size: 1em;
+    font-weight: 40;
+    line-height: 2em;
+    fill: #000;
+}
+#recc,#ceo,#users,#intpie,#intpiee,#stock,#sbar1,#sbar3,#cmpbutton,#table1,#sal5,#sal2,#sal3,#sal4,#newid1,#newid2
+{
+text-align:center
+}
+.cols
+{
+  border: 0.51px solid grey;
+  border-radius: 12px;
+}
+.col
+{
+  border: 0.51px solid #4e73df;
+  border-style: dotted;
+}
+.usersInner
+{
+ font-size:30px;
+}
+<!-- Pie chart interview-->
+	#tooltip {
+		position: absolute;
+		text-align: center;
+		padding: 20px;
+		margin: 10px;
+		font: 12px sans-serif;
+		background: lightsteelblue;
+		border: 1px;
+		border-radius: 2px;
+		pointer-events: none;
+	}
+	#tooltip h4{
+		margin:0;
+		font-size:14px;
+	}
+	#tooltip{
+		background:rgba(0,0,0,0.9);
+		border:1px solid grey;
+		border-radius:5px;
+		font-size:12px;
+		width:auto;
+		padding:4px;
+		color:white;
+		opacity:0;
+	}
+
+<!-- Stacked Bar Chart -->
+.axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+  }
+
+  path.domain {
+    stroke: none;
+  }
+
+  .y .tick line {
+    stroke: #ddd;
+  }
+  <!-- Multi select-->
+  .drop
+  {
+    border: 0.41px solid grey;
+  border-radius: 12px;
+  }
+
+#companySelect1,#companySelect2
+{
+ border: 2px solid #4e73df;
+  border-radius: 5px;
+}
+
+  </style>
+  <script>
+var data = {{ data.chart_data | safe }}
+console.log(data)
+console.log(data[0][0])
+  </script>
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-money-bill"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Pay Buddy</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-info-circle"></i>
+          <span>Company Info</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="page2.html">
+          <i class="fas fa-fw fa-university"></i>
+          <span>Universities</span></a>
+      </li>
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="page3.html">
+          <i class="fas fa-fw fa-chart-pie"></i>
+          <span>Compare</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+          <!-- Page Heading -->
+          <div>
+            <h4 id="header">Dashboard</h4>
+          </div>
+          <!--Search Box-->
+          <div class="row">
+            <div class="col" id="newid1">
+              <label class="itext">Company 1</label>&nbsp;&nbsp;<select class="selectpicker" id="companySelect1">
+              <option disabled selected value> -- Select Company -- </option>
+             </select>
+            </div>
+            <div class="col" id="newid2">
+              <label class="itext">Company 2</label>&nbsp;&nbsp;<select class="selectpicker" id="companySelect2">
+              <option disabled selected value> -- Select Company -- </option>
+             </select>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" id="cmpbutton">
+              <button id="cmpbutton1" class="button">Compare</button>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col" id="table1">
+                <label class="itext">Pick Level To Compare</label><div >
+                <div id="table"></div>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col" id="sal5"><label class="itext">Compensation in USD</label><div id="newbar"></div></div>
+          </div>
+          <div class="row">
+            <div class="col" id="sal4"><label class="itext">Other Factors</label><div id="others"></div></div>
+          </div>
+
+            <script>
+            function loadGChartP(data){
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                        width = 960 - margin.left - margin.right,
+                        height = 300 - margin.top - margin.bottom;
+
+                    // set the ranges
+                    var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
+                    var y = d3.scale.linear().range([height, 0]);
+
+
+                    // append the svg object to the body of the page
+                    // append a 'group' element to 'svg'
+                    // moves the 'group' element to the top left margin
+                    var g = d3.select("#newbar").append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                      .append("g")
+                        .attr("transform",
+                              "translate(" + 70 + "," + margin.top + ")");
+
+var color = d3.scale.category10()
+var ymaxdomain = d3.max(data, function(d) {
+  return d.count;
+});
+
+x.domain(data.map(function(d) {
+  return d.months
+}));
+y.domain([0, ymaxdomain]);
+
+
+var x1 = d3.scale.ordinal().rangeRoundBands([0, x.rangeBand()], 0.05)
+  .domain(data.map(function(d) {
+    return d.Group;
+  }));
+
+color.domain(data.map(function(d) {
+  return d.Group;
+}));
+
+var groups = g.selectAll(null)
+  .data(data)
+  .enter()
+  .append("g")
+  .attr("transform", function(d) {
+    return "translate(" + x(d.months) + ",0)";
+  })
+
+var bars = groups.selectAll(null)
+  .data(function(d) {
+    return [d]
+  })
+  .enter()
+  .append("rect")
+  .attr("x", function(d, i) {
+    return x1(d.Group)
+  })
+  .attr("y", function(d) {
+    return y(d.count);
+  })
+  .attr("width", x1.rangeBand())
+  .attr("height", function(d) {
+    return height - y(d.count);
+  })
+  .attr("fill", function(d) {
+    return color(d.Group)
+  })
+  .on("mouseover", function() { tooltip.style("display", null); })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+
+                      var act = x(d.months)+xPosition
+                      tooltip.attr("transform", "translate(" + act + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.count)+"$");
+                    });
+
+g.append("g")
+  .attr("class", "axis")
+  .attr("transform", "translate(0," + height + ")")
+  .call(d3.svg.axis().scale(x).orient("bottom"));
+
+g.append("g")
+  .attr("class", "axis")
+  .call(d3.svg.axis().scale(y).orient("left"))
+  .append("text")
+  .attr("x", 2)
+  .attr("y", y(y.ticks().pop()) + 0.5)
+  .attr("dy", "0.32em")
+  .attr("fill", "#000")
+  .attr("font-weight", "bold")
+  .attr("font-size", "1px")
+  .attr("text-anchor", "start")
+  .text("Score in $");
+
+
+  // Prep the tooltip bits, initial display is hidden
+                  var tooltip = g.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+}
+
+
+               function loadBarChartsBonus(data)
+               {
+                                    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                        width = 560 - margin.left - margin.right,
+                        height = 200 - margin.top - margin.bottom;
+
+                    // set the ranges
+                    var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
+                    var y = d3.scale.linear().range([height, 0]);
+
+
+                    // append the svg object to the body of the page
+                    // append a 'group' element to 'svg'
+                    // moves the 'group' element to the top left margin
+                    var svg = d3.select("#bonusbar").append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                      .append("g")
+                        .attr("transform",
+                              "translate(" + 70 + "," + margin.top + ")");
+
+                    // get the data
+
+                      // Scale the range of the data in the domains
+                      x.domain(data.map(function(d) { return d.level; }));
+                      y.domain([0, d3.max(data, function(d) { return d.bonus; })]);
+                      var colors = ["#1f77b4", "#ff7f0e", "#00cc99"];
+                      // append the rectangles for the bar chart
+                      svg.selectAll(".bar")
+                          .data(data)
+                        .enter().append("rect")
+                          .attr("class", "bar")
+                          .attr("x", function(d) { return x(d.level); })
+                          .attr("width", x.rangeBand())
+                          .attr("y", function(d) { return y(d.bonus); })
+                          .attr("height", function(d) { return height - y(d.bonus); })
+                          .style("fill", function(d, i) { return colors[i]; })
+                          .on("mouseover", function() { tooltip.style("display", null); })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+                      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.bonus)+"$");
+                    });
+
+                      // add the x Axis
+                      var xAxis = d3.svg.axis()
+                    .scale(x)
+                    .orient("bottom");
+
+                      svg.append("g")
+                          .attr("transform", "translate(0," + height + ")")
+                          .call(xAxis);
+                      var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+
+                      // add the y Axis
+                      svg.append("g")
+                          .call(yAxis);
+
+// Prep the tooltip bits, initial display is hidden
+                  var tooltip = svg.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+
+
+               }
+            function loadGChart(data){
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                        width = 960 - margin.left - margin.right,
+                        height = 300 - margin.top - margin.bottom;
+
+                    // set the ranges
+                    var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
+                    var y = d3.scale.linear().range([height, 0]);
+
+
+                    // append the svg object to the body of the page
+                    // append a 'group' element to 'svg'
+                    // moves the 'group' element to the top left margin
+                    var g = d3.select("#others").append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                      .append("g")
+                        .attr("transform",
+                              "translate(" + 70 + "," + margin.top + ")");
+
+var color = d3.scale.category10()
+
+
+x.domain(data.map(function(d) {
+  return d.months
+}));
+y.domain([0, 100]);
+
+
+var x1 = d3.scale.ordinal().rangeRoundBands([0, x.rangeBand()], 0.05)
+  .domain(data.map(function(d) {
+    return d.Group;
+  }));
+
+color.domain(data.map(function(d) {
+  return d.Group;
+}));
+
+var groups = g.selectAll(null)
+  .data(data)
+  .enter()
+  .append("g")
+  .attr("transform", function(d) {
+    return "translate(" + x(d.months) + ",0)";
+  })
+
+var bars = groups.selectAll(null)
+  .data(function(d) {
+    return [d]
+  })
+  .enter()
+  .append("rect")
+  .attr("x", function(d, i) {
+    return x1(d.Group)
+  })
+  .attr("y", function(d) {
+    return y(d.count);
+  })
+  .attr("width", x1.rangeBand())
+  .attr("height", function(d) {
+    return height - y(d.count);
+  })
+  .attr("fill", function(d) {
+    return color(d.Group)
+  })
+  .on("mouseover", function() { tooltip.style("display", null); })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+
+                      var act = x(d.months)+xPosition
+                      tooltip.attr("transform", "translate(" + act + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.count)+"%");
+                    });
+
+g.append("g")
+  .attr("class", "axis")
+  .attr("transform", "translate(0," + height + ")")
+  .call(d3.svg.axis().scale(x).orient("bottom"));
+
+g.append("g")
+  .attr("class", "axis")
+  .call(d3.svg.axis().scale(y).orient("left"))
+  .append("text")
+  .attr("x", 2)
+  .attr("y", y(y.ticks().pop()) + 0.5)
+  .attr("dy", "0.32em")
+  .attr("fill", "#000")
+  .attr("font-weight", "bold")
+  .attr("font-size", "1px")
+  .attr("text-anchor", "start")
+  .text("Score");
+
+
+  // Prep the tooltip bits, initial display is hidden
+                  var tooltip = g.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+}
+
+
+               function loadBarChartsBonus(data)
+               {
+                                    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                        width = 560 - margin.left - margin.right,
+                        height = 200 - margin.top - margin.bottom;
+
+                    // set the ranges
+                    var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
+                    var y = d3.scale.linear().range([height, 0]);
+
+
+                    // append the svg object to the body of the page
+                    // append a 'group' element to 'svg'
+                    // moves the 'group' element to the top left margin
+                    var svg = d3.select("#bonusbar").append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                      .append("g")
+                        .attr("transform",
+                              "translate(" + 70 + "," + margin.top + ")");
+
+                    // get the data
+
+                      // Scale the range of the data in the domains
+                      x.domain(data.map(function(d) { return d.level; }));
+                      y.domain([0, d3.max(data, function(d) { return d.bonus; })]);
+                      var colors = ["#1f77b4", "#ff7f0e", "#00cc99"];
+                      // append the rectangles for the bar chart
+                      svg.selectAll(".bar")
+                          .data(data)
+                        .enter().append("rect")
+                          .attr("class", "bar")
+                          .attr("x", function(d) { return x(d.level); })
+                          .attr("width", x.rangeBand())
+                          .attr("y", function(d) { return y(d.bonus); })
+                          .attr("height", function(d) { return height - y(d.bonus); })
+                          .style("fill", function(d, i) { return colors[i]; })
+                          .on("mouseover", function() { tooltip.style("display", null); })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+                      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.bonus)+"$");
+                    });
+
+                      // add the x Axis
+                      var xAxis = d3.svg.axis()
+                    .scale(x)
+                    .orient("bottom");
+
+                      svg.append("g")
+                          .attr("transform", "translate(0," + height + ")")
+                          .call(xAxis);
+                      var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+
+                      // add the y Axis
+                      svg.append("g")
+                          .call(yAxis);
+
+// Prep the tooltip bits, initial display is hidden
+                  var tooltip = svg.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+
+
+               }
+function loadBarChartsStocks(data)
+               {
+                                    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                        width = 560 - margin.left - margin.right,
+                        height = 200 - margin.top - margin.bottom;
+
+                    // set the ranges
+                    var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
+                    var y = d3.scale.linear().range([height, 0]);
+
+
+                    // append the svg object to the body of the page
+                    // append a 'group' element to 'svg'
+                    // moves the 'group' element to the top left margin
+                    var svg = d3.select("#stockbar").append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                      .append("g")
+                        .attr("transform",
+                              "translate(" + 70 + "," + margin.top + ")");
+
+                    // get the data
+
+                      // Scale the range of the data in the domains
+                      x.domain(data.map(function(d) { return d.level; }));
+                      y.domain([0, d3.max(data, function(d) { return d.stock; })]);
+                      var colors = ["#1f77b4", "#ff7f0e", "#ff9966"];
+                      // append the rectangles for the bar chart
+                      svg.selectAll(".bar")
+                          .data(data)
+                        .enter().append("rect")
+                          .attr("class", "bar")
+                          .attr("x", function(d) { return x(d.level); })
+                          .attr("width", x.rangeBand())
+                          .attr("y", function(d) { return y(d.stock); })
+                          .attr("height", function(d) { return height - y(d.stock); })
+                          .style("fill", function(d, i) { return colors[i]; })
+                          .on("mouseover", function() { tooltip.style("display", null); })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+                      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.stock)+"$");
+                    });
+
+                      // add the x Axis
+                      var xAxis = d3.svg.axis()
+                    .scale(x)
+                    .orient("bottom");
+
+                      svg.append("g")
+                          .attr("transform", "translate(0," + height + ")")
+                          .call(xAxis);
+                      var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+
+                      // add the y Axis
+                      svg.append("g")
+                          .call(yAxis);
+
+// Prep the tooltip bits, initial display is hidden
+                  var tooltip = svg.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+
+
+               }
+
+               function loadBarCharts(data)
+               {
+                                    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                        width = 560 - margin.left - margin.right,
+                        height = 200 - margin.top - margin.bottom;
+
+                    // set the ranges
+                    var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
+                    var y = d3.scale.linear().range([height, 0]);
+
+
+                    // append the svg object to the body of the page
+                    // append a 'group' element to 'svg'
+                    // moves the 'group' element to the top left margin
+                    var svg = d3.select("#salBar").append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                      .append("g")
+                        .attr("transform",
+                              "translate(" + 70 + "," + margin.top + ")");
+
+                    // get the data
+
+                      // Scale the range of the data in the domains
+                      x.domain(data.map(function(d) { return d.level; }));
+                      y.domain([0, d3.max(data, function(d) { return d.salary; })]);
+                      var colors = ["#1f77b4", "#ff7f0e", "#3399ff"];
+                      // append the rectangles for the bar chart
+                      svg.selectAll(".bar")
+                          .data(data)
+                        .enter().append("rect")
+                          .attr("class", "bar")
+                          .attr("x", function(d) { return x(d.level); })
+                          .attr("width", x.rangeBand())
+                          .attr("y", function(d) { return y(d.salary); })
+                          .attr("height", function(d) { return height - y(d.salary); })
+                          .style("fill", function(d, i) { return colors[i]; })
+                          .on("mouseover", function() { tooltip.style("display", null); })
+                    .on("mouseout", function() { tooltip.style("display", "none"); })
+                    .on("mousemove", function(d) {
+                      var xPosition = d3.mouse(this)[0] - 15;
+                      var yPosition = d3.mouse(this)[1] - 25;
+                      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                      tooltip.select("text").text(Math.round(d.salary)+"$");
+                    });
+
+                      // add the x Axis
+                      var xAxis = d3.svg.axis()
+                    .scale(x)
+                    .orient("bottom");
+
+                      svg.append("g")
+                          .attr("transform", "translate(0," + height + ")")
+                          .call(xAxis);
+                      var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+
+                      // add the y Axis
+                      svg.append("g")
+                          .call(yAxis);
+
+                          // Prep the tooltip bits, initial display is hidden
+                  var tooltip = svg.append("g")
+                    .attr("class", "tooltips")
+                    .style("display", "none");
+
+
+
+                  tooltip.append("text")
+                    .attr("x", 15)
+                    .attr("dy", "1.2em")
+                    .style("text-anchor", "middle")
+                    .attr("font-size", "20px")
+                    .attr("font-weight", "bold");
+
+
+
+               }
+               function loadGraphs(company1,company2,level1,level2) {
+                  console.log(company1+" "+company2+" "+level1+" "+level2)
+                  $.post("", {'data': 'compdata','name1':company1,'name2':company2,'level1':level1,'level2':level2}, function(data_infunc){
+                    console.log("Load company")
+                    //console.log(data_infunc.c1_data)
+                    //{'comp_data': compNames, 'levels': levels, 'sal': salaryVals, 'bonus': bonusVals, 'stock': stockVals}
+                    comprecords = JSON.parse(data_infunc.comp_data)
+                    levelrecords = JSON.parse(data_infunc.levels)
+                    salrecords = JSON.parse(data_infunc.sal)
+                    bonusrecords = JSON.parse(data_infunc.bonus)
+                    stockrecords = JSON.parse(data_infunc.stock)
+                    ratingrecords = JSON.parse(data_infunc.rating)
+                    rtfrecords = JSON.parse(data_infunc.rtf)
+                    idrecords = JSON.parse(data_infunc.interviewdiff)
+                    carecords = JSON.parse(data_infunc.ceo)
+                    console.log(comprecords.cmp1+" "+levelrecords.lvl1+" "+salrecords.sal1+" "+bonusrecords.bonus1+" "+stockrecords.st1)
+                    //--------------------------------
+                    //d3.select("#salBar").select("svg").remove();
+                    //d3.select("#bonusbar").select("svg").remove();
+                    //d3.select("#stockbar").select("svg").remove();
+                    d3.select("#others").select("svg").remove();
+                    d3.select("#newbar").select("svg").remove();
+                    //loadBarCharts([{"level":levelrecords.lvl1,"salary":salrecords.sal1},{"level":levelrecords.lvl2,"salary":salrecords.sal2}])
+                    //loadBarChartsStocks([{"level":levelrecords.lvl1,"stock":stockrecords.st1},{"level":levelrecords.lvl2,"stock":stockrecords.st2}])
+                    //loadBarChartsBonus([{"level":levelrecords.lvl1,"bonus":bonusrecords.bonus1},{"level":levelrecords.lvl2,"bonus":bonusrecords.bonus2}])
+                    loadGChart([{"Group":"RATING","count":ratingrecords.r1,"months":"Ranking"},{"Group":"RATING2","count":ratingrecords.r2,"months":"Ranking"}
+                    ,{"Group":"RATING","count":rtfrecords.rt1,"months":"Recommended"},{"Group":"RATING2","count":rtfrecords.rt2,"months":"Recommended"}
+                    ,{"Group":"RATING","count":idrecords.id1,"months":"Interview Difficulty"},{"Group":"RATING2","count":idrecords.id2,"months":"Interview Difficulty"},
+                    {"Group":"RATING","count":carecords.ca1,"months":"CEO Rating"},{"Group":"RATING2","count":carecords.ca2,"months":"CEO Rating"}])
+
+
+
+                //loadGChartP
+                loadGChartP([{"Group":"RATING","count":salrecords.sal1,"months":"Salary"},{"Group":"RATING2","count":salrecords.sal2,"months":"Salary"}
+                    ,{"Group":"RATING","count":stockrecords.st1,"months":"Stock"},{"Group":"RATING2","count":stockrecords.st2,"months":"Stock"}
+                    ,{"Group":"RATING","count":bonusrecords.bonus1,"months":"Bonus"},{"Group":"RATING2","count":bonusrecords.bonus2,"months":"Bonus"}])
+
+                })
+               }
+               function loadTable(company1,company2,myData)
+               {
+                    var colorScale = d3.scale.category10()
+                        var data1 = []
+                        var data2 = []
+
+                        myData.forEach(function(d, i){
+                            console.log(d.company)
+                            if (d.company == company1) {
+                                d.company = company1;
+                                d.levelTagNormalized = d.levelTagNormalized
+                                d.levelTag = d.levelTag
+                                data1.push([d.company, d.levelTagNormalized, d.levelTag, 1])
+                            }
+
+                            if (d.company == company2) {
+                                d.company = company2;
+                                d.levelTagNormalized = d.levelTagNormalized
+                                d.levelTag = d.levelTag
+                                data2.push([d.company, d.levelTagNormalized, d.levelTag, 2])
+                            }
+                      });
+
+
+                        var tablesData = new Array()
+                        console.log("TablesData Type: " + data2)
+                        var fdict = {}
+                        data1.forEach(function(cell1) {
+                                data2.filter(function(cell2) {
+                                if(cell1[1] === cell2[1]){
+                                  var temp = []
+                                  temp.push(cell1[2])
+                                  temp.push(cell2[2])
+                                  fdict[Array(temp)] = 1
+                                }
+                            });
+
+
+                        });
+                        //console.log("Keys List")
+                        //console.log(Object.keys(fdict))
+                        console.log("########################")
+                        console.log(fdict)
+                        //console.log("########################")
+                        if($.isEmptyObject(fdict))
+                        {
+                            console.log("Emptyyyy")
+                            company1 = "No"
+                            company2 = "Matches"
+                        }
+
+
+                        for (var key in fdict) {
+                            //console.log("KEY: "+ key + "  TYPE: "+typeof(key))
+                            var temp = [key.replace(',', ' - ')]
+                            console.log("Temp: "+temp)
+                            console.log("  TYPE: "+typeof(temp))
+                            tablesData.push(temp)
+                        }
+
+                        console.log(" TABLES DATA  " + tablesData)
+                        //tabulate(tablesData, [company1, company2])
+
+
+                        var table = d3.select("#table").append("table").attr("class", "center");
+                        var header = table.append("thead").append("tr");
+                        header
+                                .selectAll("th")
+                                .data([company1 + " vs " + company2])
+                                .enter()
+                                .append("th")
+                                .text(function(d) { return d; });
+                        var tablebody = table.append("tbody");
+                        rows = tablebody
+                                .selectAll("tr")
+                                .data(tablesData)
+                                .enter()
+                                .append("tr");
+                        // We built the rows using the nested array - now each row has its own array.
+                        cells = rows.selectAll("td")
+                            // each row has data associated; we get it and enter it for the cells.
+                                .data(function(d) {
+
+                                    return d;
+                                })
+                                .enter()
+                                .append("td")
+
+                                .on('click', function (d) {
+                                        //cells.style("background-color", 'yellow')
+                                        console.log("Click Happenede")
+                                        console.log(d)
+                                        var levelList = d.split(' - ')
+                                        console.log(levelList)
+                                        var input = levelList
+                                        input.push(company1)
+                                        input.push(company2)
+                                        console.log(input)
+                                        loadGraphs(input[2],input[3],input[0],input[1])
+                                        //return input
+                                     })
+                                .text(function(d) {
+                                    console.log("Text: "+ d)
+                                    return d;
+                                });
+
+
+
+               }
+               function loadCompanyData(company1,company2) {
+                    $.post("", {'data': 'comp','name1':company1,'name2':company2}, function(data_infunc){
+                    console.log("Load company")
+                    //console.log(data_infunc.c1_data)
+                    records = JSON.parse(data_infunc.plot_data)
+                    console.log(records)
+                    d3.select("#table").select("table").remove();
+                    loadTable(company1,company2,records)
+                })}
+                function sendPostCall() {
+                    dropDownValue1 = d3.select('#companySelect1').property('value');
+                    console.log(dropDownValue1)
+                    dropDownValue2 = d3.select('#companySelect2').property('value');
+                    console.log(dropDownValue2)
+
+                    loadCompanyData(dropDownValue1,dropDownValue2)
+                }
+                document.getElementById("cmpbutton1").addEventListener("click", sendPostCall);
+
+                var select = document.getElementById("companySelect1");
+                for(index in data) {
+                  selected = false;
+                  select.options[select.options.length] = new Option(data[index][0], data[index][0],selected,selected);
+                }
+                var select2 = document.getElementById("companySelect2");
+                for(index in data) {
+                  selected = false;
+                  select2.options[select2.options.length] = new Option(data[index][0], data[index][0],selected,selected);
+                }
+                d3.select("#companySelect3").on("change",function(inp){
+                    dropDownValue1 = d3.select('#companySelect1').property('value');
+                    console.log(dropDownValue1)
+                    dropDownValue2 = d3.select('#companySelect2').property('value');
+                    console.log(dropDownValue2)
+                    loadCompanyData(dropDownValue)
+                })
+            </script>
+
+            </div>
+          <!--Widgets for Company review rating, #employees, recommend to friend, approve of ceo,interview calls,interview diff  Box-->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+</body>
+
+</html>
