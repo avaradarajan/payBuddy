@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Pay Buddy</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="{{url_for('static',filename='maincss.css')}}" rel="stylesheet" type="text/css">
+
+  <link href="{{url_for('static',filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+
+  <link href="{{url_for('static',filename='css/sb-admin-2.min.css')}}" rel="stylesheet">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{{url_for('static',filename='d3.legend.js')}}"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+
+  <style>
+    .stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+  font-size: 30px;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-size: 30px;
+  color: #3366ff;
+}
+.itext
+{
+ color : black;
+ font-size:20px
+}
+.itext2
+{
+ color : black;
+ font-size:17px
+}
+path.color0 {
+    fill: #3366ff;
+}
+path.color1 {
+    fill: rgba(0,20,0,.3);
+}
+text {
+    font-size: 1em;
+    font-weight: 40;
+    line-height: 2em;
+    fill: #000;
+}
+#recc,#ceo,#users,#intpie,#intpiee,#stock,#sbar1,#sbar3
+{
+text-align:center
+}
+.col
+{
+  border: 0.41px solid grey;
+  border-radius: 12px;
+}
+.filter-option
+{
+  border: 0.41px solid grey;
+  border-radius: 12px;
+}
+.usersInner
+{
+ font-size:30px;
+}
+<!-- Pie chart interview-->
+	#tooltip {
+		position: absolute;
+		text-align: center;
+		padding: 20px;
+		margin: 10px;
+		font: 12px sans-serif;
+		background: lightsteelblue;
+		border: 1px;
+		border-radius: 2px;
+		pointer-events: none;
+	}
+	#tooltip h4{
+		margin:0;
+		font-size:14px;
+	}
+	#tooltip{
+		background:rgba(0,0,0,0.9);
+		border:1px solid grey;
+		border-radius:5px;
+		font-size:12px;
+		width:auto;
+		padding:4px;
+		color:white;
+		opacity:0;
+	}
+
+<!-- Stacked Bar Chart -->
+.axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+  }
+
+  path.domain {
+    stroke: none;
+  }
+
+  .y .tick line {
+    stroke: #ddd;
+  }
+  <!-- Multi select-->
+ .filter-option-inner-inner{
+    color: black;
+}
+  </style>
+  <script>
+var data = {{ data.chart_data | safe }}
+console.log(data)
+console.log(data[0][0])
+  </script>
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-money-bill"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Pay Buddy</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-info-circle"></i>
+          <span>Company Info</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="page2.html">
+          <i class="fas fa-fw fa-university"></i>
+          <span>Universities</span></a>
+      </li>
+      <hr class="sidebar-divider">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="page3.html">
+          <i class="fas fa-fw fa-chart-pie"></i>
+          <span>Compare</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+          <!-- Page Heading -->
+          <div>
+            <h4 id="header">Dashboard</h4>
+            <br>
+          </div>
+          <!--Search Box-->
+          <div class="row">
+            <div class="col">
+                <label class="itext2">Select Companies - </label>&nbsp;<select class="selectpicker" multiple data-live-search="true" id="companySelect1">
+            </select>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col">Salary
+              </div>
+            <div class="col">Bonus
+              </div>
+            <div class="col">Stock
+              </div>
+          </div>
+            <script>
+                function loadCompanyData(companyList) {
+                    console.log("H"+companyList+" "+typeof (JSON.stringify(companyList)))
+                    $.post("", {'data': 'comp','name':JSON.stringify(companyList)}, function(data_infunc){
+                    console.log("Load company")
+                    //console.log(data_infunc.plot_data)
+                    data2 = JSON.parse(data_infunc.plot_data)
+                    console.log("callback")
+                    console.log(data2)
+                })}
+
+                d3.select("#companySelect1").on("change",function(inp){
+                    dropDownValue1 = d3.select('#companySelect1').property('value');
+                    console.log(dropDownValue1)
+                    console.log(typeof $(this).val())
+                    loadCompanyData($(this).val())
+                })
+                var select = document.getElementById("companySelect1");
+                for(index in data) {
+                  console.log(index)
+                  selected = false;
+                  //key for each company record is 0
+                  select.options[select.options.length] = new Option(data[index][0], data[index][0],selected,selected);
+                }
+
+            </script>
+
+            </div>
+          <!--Widgets for Company review rating, #employees, recommend to friend, approve of ceo,interview calls,interview diff  Box-->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+</body>
+
+</html>

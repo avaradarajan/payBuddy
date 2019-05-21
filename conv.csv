@@ -1,0 +1,801 @@
+company,Company Code,Company Stock URL,Location,Level Tag,Level,Tag,Level Tag,compensation,Salary,Stock,Bonus
+Accenture,acn,https://www.nasdaq.com/symbol/acn,"Boston, MA",Manager,Manager,Full Stack,Manager;Full Stack,124000,119k,5k,
+Accenture,acn,https://www.nasdaq.com/symbol/acn,"Dallas, TX",Manager,Manager,Big data Tech lead,Manager;Big data Tech lead,125000,,,
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,"Los Angeles, CA",Senior Software Engineer (4),Senior Software Engineer (4),Web Development (Front-End),Senior Software Engineer (4);Web Development (Front-End),281000,145k , 129k,7k
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,"Austin, TX",Technical Support Engineer 4,Technical Support Engineer 4,Technical Support,Technical Support Engineer 4;Technical Support,117000,102k , 10k,5k
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,"San Jose, CA",Software Engineer 1,Software Engineer 1,Distributed Systems (Back-End),Software Engineer 1;Distributed Systems (Back-End),140000,120k , 20k,
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,San Jose,Software Engineer 2,Software Engineer 2,Full Stack,Software Engineer 2;Full Stack,150000,120k , 22k,8k
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,"San Jose, CA",Senior Software Engineer (4),Senior Software Engineer (4),Full Stack,Senior Software Engineer (4);Full Stack,240000,,,
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,"San Francisco, CA",Senior Software Engineer (4),Senior Software Engineer (4),Full Stack,Senior Software Engineer (4);Full Stack,209000,,,
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"San Framcisco, CA",L5,L5,Full Stack,L5;Full Stack,450000,220k , 190k,40k
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"Oakland, CA",L6,L6,Distributed Systems (Back-End),L6;Distributed Systems (Back-End),550000,225k , 270k,55k
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"San Francisco, CA",L5,L5,Full Stack,L5;Full Stack,527000,210k , 275k,42k
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"San Francisco, CA",L4,L4,Web Development (Front-End),L4;Web Development (Front-End),292000,180k , 90k,22k
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"San Francisco, CA",L5,L5,ML / AI,L5;ML / AI,300000,,,
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,334000,195k , 110k,29k
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"San Francisco, CA",L5,L5,Full Stack,L5;Full Stack,422000,197k , 186k,40k
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"San Francisco, CA",L4,L4,Full Stack,L4;Full Stack,165000,,,
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,343000,195k , 118k,30k
+Akamai,akam,https://www.nasdaq.com/symbol/akam,"Santa clara, CA",Senior,Senior,Full Stack,Senior;Full Stack,187000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",SDE III,SDE III,Distributed Systems (Back-End),SDE III;Distributed Systems (Back-End),289000,185k , 104k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L7,L7,Distributed Systems (Back-End),L7;Distributed Systems (Back-End),350000,160k , 190k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Tempe, AZ",L4,L4,Full Stack,L4;Full Stack,150000,110k , 10k,30k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE III,SDE III,Distributed Systems (Back-End),SDE III;Distributed Systems (Back-End),238000,160k ,"78,687",
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L5,L5,API Development (Back-End),L5;API Development (Back-End),177000,134k , 55k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,Distributed Systems (Back-End),SDE I;Distributed Systems (Back-End),152000,125k , 15k,22k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,seattle,L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),246000,151k , 50k,38k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),209000,150k , 59k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,API Development (Back-End),L5;API Development (Back-End),260000,155k , 64k,41k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC, Canada",SDE I,SDE I,Distributed Systems (Back-End),SDE I;Distributed Systems (Back-End),136000,100k , 16k,20k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,API Development (Back-End),L5;API Development (Back-End),201000,142k , 59k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,SDE I,SDE I,API Development (Back-End),SDE I;API Development (Back-End),177000,135k , 17k,25k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L5,L5,Full Stack,L5;Full Stack,245000,130k , 115k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",SDE I,SDE I,Mobile (iOS + Android),SDE I;Mobile (iOS + Android),186000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),198000,152k , 25k,21k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,API Development (Back-End),SDE II;API Development (Back-End),185000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),199000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Bellevue, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),202000,140k , 60k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,SDE III,SDE III,Developer Tools,SDE III;Developer Tools,381000,160k , 221k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,SDE I,SDE I,Distributed Systems (Back-End),SDE I;Distributed Systems (Back-End),144000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),236000,134k ,"101,750",
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC, Canada",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),135000,135k , 25k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L6,L6,Distributed Systems (Back-End),L6;Distributed Systems (Back-End),370000,160k , 210k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",L5,L5,API Development (Back-End),L5;API Development (Back-End),202000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Austin, TX",L5,L5,ML / AI,L5;ML / AI,130000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattlee, WA",SDE I,SDE I,Full Stack,SDE I;Full Stack,145000,108k , 27k,10k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),280000,155k , 125k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L4,L4,Middleware,L4;Middleware,127000,115k , 18k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"New York, NY",L4,L4,Data,L4;Data,148000,115k , 10k,23k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Palo alto,L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),300000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"San Francisco, CA",L4,L4,Full Stack,L4;Full Stack,137000,108k , 15k,24k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Full Stack,SDE II;Full Stack,209000,"145,500", 64k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Santa Clara, CA",L5,L5,ML / AI,L5;ML / AI,250000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),171000,128k , 17k,26k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,ML / AI,L4;ML / AI,217000,147k , 42k,22k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC, Canada",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),190000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",L4,L4,API Development (Back-End),L4;API Development (Back-End),130000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",SDE II,SDE II,Testing (SDET),SDE II;Testing (SDET),247000,145k , 100k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Boston,SDE II,SDE II,Android,SDE II;Android,200000,150k , 50k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Herndon, VA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),170000,130k , 5k,35k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Bangalore, KA, India",SDE II,SDE II,Full Stack,SDE II;Full Stack,57000,37k , 20k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",L4,L4,ML / AI,L4;ML / AI,170000,135k , 2k,35k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"New York, NY",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),270000,170k , 60k,40k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),162000,112k , 16k,34k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Full Stack,L5;Full Stack,180000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDEIII,SDEIII,DevOps,SDEIII;DevOps,200000,120k , 80k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Herndon, VA",SDE I,SDE I,Security,SDE I;Security,148000,105k , 20k,23k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,Security,SDE I;Security,185000,130k , 5k,50k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,API Development (Back-End),L4;API Development (Back-End),135000,108k , 3k,24k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L4,L4,API Development (Back-End),L4;API Development (Back-End),127000,105k , 22k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L4,L4,API Development (Back-End),L4;API Development (Back-End),128000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,API Development (Back-End),L5;API Development (Back-End),195000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),220000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),194000,144k , 50k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,Web Development (Front-End),SDE I;Web Development (Front-End),136000,108k , 17k,11k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,Full Stack,SDE I;Full Stack,168000,130k , 21k,17k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,200000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Santa Cruz, CA",L6,L6,Full Stack,L6;Full Stack,320000,160k , 160k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Toronto, ON, Canada",SDE I,SDE I,API Development (Back-End),SDE I;API Development (Back-End),153000,98k , 21k,34k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,seattle,L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),150000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Networking,L5;Networking,227000,131k , 96k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L6,L6,ML / AI,L6;ML / AI,330000,150k , 170k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),250000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),170000,140k , 30k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC, Canada",L4,L4,Full Stack,L4;Full Stack,140000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle,WA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),190000,135k , 55k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Full Stack,L5;Full Stack,180000,134k , 40k,10k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"New York, NY",SDE I,SDE I,Full Stack,SDE I;Full Stack,156000,120k , 20k,16k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",5,5,API Development (Back-End),5;API Development (Back-End),230000,145k , 85k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Germany,SDE II,SDE II,API Development (Back-End),SDE II;API Development (Back-End),124000,88k , 18k,18k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"New York, NY",SDE II,SDE II,Full Stack,SDE II;Full Stack,210000,156k , 53k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",SDE II,SDE II,ML / AI,SDE II;ML / AI,253000,175k , 48k,30k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Full Stack,SDE II;Full Stack,202000,150k , 45k,7k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,API Development (Back-End),L4;API Development (Back-End),145000,108k , 20k,14k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,Distributed Systems (Back-End),SDE I;Distributed Systems (Back-End),165000,125k , 4k,36k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Full Stack,L5;Full Stack,230000,150k , 50k,30k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,API Development (Back-End),L4;API Development (Back-End),172000,130k , 4k,38k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,API Development (Back-End),SDE I;API Development (Back-End),163000,125k , 4k,34k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L5,L5,API Development (Back-End),L5;API Development (Back-End),215000,162k , 40k,13k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"San Francisco, CA",SDE I,SDE I,Full Stack,SDE I;Full Stack,185000,140k , 25k,20k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),156000,112k , 13k,31k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Austin, TX",SDE III,SDE III,Distributed Systems (Back-End),SDE III;Distributed Systems (Back-End),300000,155k , 145k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,API Development (Back-End),L5;API Development (Back-End),250000,160k , 40k,50k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Web Development (Front-End),SDE II;Web Development (Front-End),205000,150k , 55k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC, Canada",L5,L5,API Development (Back-End),L5;API Development (Back-End),165000,139k , 5k,26k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L6,L6,Android,L6;Android,285000,175k , 110k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L6,L6,API Development (Back-End),L6;API Development (Back-End),315000,160k , 150k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Web Development (Front-End),L5;Web Development (Front-End),213000,157k , 6k,50k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,AWS,L4;AWS,135000,108k , 3k,24k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC, Canada",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),115000,94k , 14k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Full Stack,SDE II;Full Stack,213000,150k , 55k,8k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"San Francisco, CA",L5,L5,iOS,L5;iOS,200000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L5,L5,Android,L5;Android,215000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),265000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),350000,133k , 40k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,5,5,Distributed Systems (Back-End),5;Distributed Systems (Back-End),220000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC, Canada",L4,L4,API Development (Back-End),L4;API Development (Back-End),140000,105k , 2k,33k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),260000,155k , 40k,65k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,iOS,SDE II;iOS,224000,142k , 62k,20k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Vancouver, BC",SDE II,SDE II,API Development (Back-End),SDE II;API Development (Back-End),288000,135k , 88k,65k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),220000,157k , 63k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),500000,160k , 340k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,API Development (Back-End),SDE I;API Development (Back-End),125000,117k,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,ML / AI,L4;ML / AI,150000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),220000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),218000,133k , 85k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,New Jersey,L4,L4,Full Stack,L4;Full Stack,165000,112k , 29k,24k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Cambridge, UK",L4,L4,API Development (Back-End),L4;API Development (Back-End),85000,59k , 14k,9k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Web Development (Front-End),L5;Web Development (Front-End),169000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L4,L4,ML / AI,L4;ML / AI,188000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,SDE III,SDE III,Distributed Systems (Back-End),SDE III;Distributed Systems (Back-End),360000,160k , 200k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,API Development (Back-End),L5;API Development (Back-End),180000,140k , 40k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),200000,135k , 65k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,132000,104k , 16k,10k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",L4,L4,ML / AI,L4;ML / AI,174000,135k , 15k,24k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L5,L5,Full Stack,L5;Full Stack,200000,150k , 30k,20k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),193000,144k , 34k,16k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,Full Stack,SDE I;Full Stack,136000,108k , 17k,11k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"San Francisco, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),248000,153k , 95k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),179000,131k , 41k,7k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Full Stack,L5;Full Stack,230000,150k , 80k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Minneapolis, MN",SDE I,SDE I,API Development (Back-End),SDE I;API Development (Back-End),165000,125k , 3k,37k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L5,L5,ML / AI,L5;ML / AI,190000,150k , 40k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Irvine, CA",L4,L4,Full Stack,L4;Full Stack,223000,112k , 70k,36k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"New York, NY",L5,L5,API Development (Back-End),L5;API Development (Back-End),216000,160k , 34k,22k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,Full Stack,L5;Full Stack,255000,160k , 40k,55k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",SDE I,SDE I,Full Stack,SDE I;Full Stack,175000,137k,38k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Palo Alto, CA",SDE I,SDE I,API Development (Back-End),SDE I;API Development (Back-End),166000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,Distributed Systems (Back-End),SDE I;Distributed Systems (Back-End),135000,108k , 17k,11k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE I,SDE I,,SDE I,135000,108k,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Boston, MA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),135000,108k , 17k,10k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Sunnyvale, CA",L5,L5,API Development (Back-End),L5;API Development (Back-End),235000,160k , 46k,28k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,San Francisco,Sde2,Sde2,Testing (SDET),Sde2;Testing (SDET),275000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),240000,150k,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Testing (SDET),L4;Testing (SDET),145000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Dublin, Dublin, Ireland",L5,L5,Web Development (Front-End),L5;Web Development (Front-End),142000,102k , 20k,20k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,172000,145k , 2k,25k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,172000,145k , 2k,25k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),230000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L5,L5,ML / AI,L5;ML / AI,155000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,150000,108k , 17k,24k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L6,L6,Distributed Systems (Back-End),L6;Distributed Systems (Back-End),355000,160k , 195k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Irvine, CA",SDE II,SDE II,API Development (Back-End),SDE II;API Development (Back-End),197000,131k , 66k,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,Seattle,L5,L5,Security,L5;Security,240000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Mobile (iOS + Android),L4;Mobile (iOS + Android),143000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,162000,125k , 5k,32k
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,145000,,,
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,"Cambridge, MA",L4,L4,ML / AI,L4;ML / AI,190000,,,
+Amazon.com,amzn,https://www.nasdaq.com/symbol/amzn,"Seattle, WA",L6,L6,API Development (Back-End),L6;API Development (Back-End),307000,"147,700","159,300",
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Seattle, WA",ICT5,ICT5,Distributed Systems (Back-End),ICT5;Distributed Systems (Back-End),460000,,,
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,Operations,ICT3;Operations,197000,124k , 62k,11k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,Full Stack,ICT3;Full Stack,185000,135k , 25k,25k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,Cupertino,ICT3,ICT3,CoreOS,ICT3;CoreOS,178000,130k , 28k,
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"San Francisco, CA",IC5,IC5,Distributed Systems (Back-End),IC5;Distributed Systems (Back-End),400000,220k,180k,
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT4,ICT4,ML / AI,ICT4;ML / AI,340000,,,
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,iOS,ICT3;iOS,180000,135k , 35k,10k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT4,ICT4,Distributed Systems (Back-End),ICT4;Distributed Systems (Back-End),270000,170k , 100k,10k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT3,ICT3,Full Stack,ICT3;Full Stack,180000,140k , 28k,14k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ict4,ict4,Connectivity,ict4;Connectivity,225000,165k , 40k,20k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT4,ICT4,Full Stack,ICT4;Full Stack,305000,160k , 135k,11k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT4,ICT4,API Development (Back-End),ICT4;API Development (Back-End),325000,170k , 130k,25k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT5,ICT5,ML / AI,ICT5;ML / AI,540000,,,
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,Full Stack,ICT3;Full Stack,230000,150k , 60k,20k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT3,ICT3,Distributed Systems (Back-End),ICT3;Distributed Systems (Back-End),205000,140k , 50k,14k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,Cupertino,ICT3,ICT3,Compilers,ICT3;Compilers,183000,140k , 43k,
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,iOS,ICT3;iOS,175000,140k , 30k,5k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,Cupertino,ICT3,ICT3,Full Stack,ICT3;Full Stack,180000,135k , 30k,15k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT4,ICT4,API Development (Back-End),ICT4;API Development (Back-End),307000,174k , 103k,30k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT4,ICT4,Testing (SDET),ICT4;Testing (SDET),260000,170k , 70k,20k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT3,ICT3,Full Stack,ICT3;Full Stack,199000,134k , 50k,15k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,ML / AI,ICT3;ML / AI,240000,165k , 45k,30k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT2,ICT2,Full Stack,ICT2;Full Stack,188000,120k , 18k,40k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,Firmware,ICT3;Firmware,224000,135k , 69k,20k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT3,ICT3,Testing (SDET),ICT3;Testing (SDET),247000,120k , 120k,7k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT3,ICT3,Distributed Systems (Back-End),ICT3;Distributed Systems (Back-End),185000,135k , 26k,24k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT4,ICT4,Distributed Systems (Back-End),ICT4;Distributed Systems (Back-End),250000,170k , 60k,20k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT2,ICT2,iOS,ICT2;iOS,130000,110k , 12k,10k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT3,ICT3,Distributed Systems (Back-End),ICT3;Distributed Systems (Back-End),180000,135k , 35k,10k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT4,ICT4,iOS,ICT4;iOS,354000,224k , 100k,30k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"cupertino, ca",ICT5,ICT5,iOS,ICT5;iOS,550000,224k , 290k,36k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ic4,ic4,iOS,ic4;iOS,400000,,,
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",ICT3,ICT3,ML / AI,ICT3;ML / AI,255000,145k , 98k,12k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,iOS,ICT3;iOS,181000,133k , 35k,13k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,cupertino,ICT5,ICT5,iOS,ICT5;iOS,354000,200k , 130k,24k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Sunnyvale, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),321000,176k , 124k,21k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT4,ICT4,Full Stack,ICT4;Full Stack,330000,170k , 130k,30k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"Cupertino, CA",ICT3,ICT3,Distributed Systems (Back-End),ICT3;Distributed Systems (Back-End),224000,165k , 43k,16k
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,"San Francisco, CA",ICT4,ICT4,ML / AI,ICT4;ML / AI,380000,180k , 180k,20k
+Atlassian,team,https://www.nasdaq.com/symbol/team,"Mountain View, CA",P5,P5,Web Development (Front-End),P5;Web Development (Front-End),236000,170k , 40k,26k
+Atlassian,team,https://www.nasdaq.com/symbol/team,"Mountain view, CA",P3,P3,Web Development (Front-End),P3;Web Development (Front-End),165000,,,
+Autodesk,adsk,https://www.nasdaq.com/symbol/adsk,"Montreal, QC, Canada",Software Engineer 1,Software Engineer 1,API Development (Back-End),Software Engineer 1;API Development (Back-End),60000,,,
+Autodesk,adsk,https://www.nasdaq.com/symbol/adsk,San Francisco,Grade 12,Grade 12,DevOps,Grade 12;DevOps,150000,120k , 25k,5k
+Autodesk,adsk,https://www.nasdaq.com/symbol/adsk,"Montreal, QC",Senior Software Engineer 2,Senior Software Engineer 2,Distributed Systems (Back-End),Senior Software Engineer 2;Distributed Systems (Back-End),110000,,,
+Autodesk,adsk,https://www.nasdaq.com/symbol/adsk,san francisco,Grade 12,Grade 12,Security,Grade 12;Security,160000,140k , 6k,14k
+Bank of America Merrill Lynch,BAC,https://finance.yahoo.com/quote/BAC/,"Charlotte, NC",Staff,Staff,Mobile (iOS + Android),Staff;Mobile (iOS + Android),160000,,,
+Barclays,bclyf,https://www.nasdaq.com/symbol/bclyf,"Whippany, NJ",Analyst,Analyst,Full Stack,Analyst;Full Stack,99000,97k,2k,
+Barclays,bclyf,https://www.nasdaq.com/symbol/bclyf,"New York, NY",Analyst,Analyst,Full Stack,Analyst;Full Stack,101000,101k,4k,
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,"Irvine, CA",Senior Software Engineer I,Senior Software Engineer I,Games,Senior Software Engineer I;Games,145000,125k,20k,
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,"Irvine, CA",Software Engineer,Software Engineer,Games,Software Engineer;Games,120000,105k,15k,
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,"Irvine, CA",Software Engineer,Software Engineer,Games,Software Engineer;Games,140000,125k,15k,
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,"Irvine, CA",Software Engineer,Software Engineer,Games,Software Engineer;Games,120000,105k,15k,
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,"Irvine, CA",Associate Software Engineer,Associate Software Engineer,Games,Associate Software Engineer;Games,108000,96k,12k,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",$1 ,1,Full Stack,1;Full Stack,135000,,,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",Senior,Senior,Distributed Systems (Back-End),Senior;Distributed Systems (Back-End),233000,195k,38k,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"London, EN, United Kingdom",Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),91000,91k,,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",Senior,Senior,API Development (Back-End),Senior;API Development (Back-End),174000,152k,22k,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"new york, ny",Software Engineer,Software Engineer,Full Stack,Software Engineer;Full Stack,160000,142k,18k,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",entry,entry,software developer,entry;software developer,135000,,,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",New Grad,New Grad,N/A,New Grad;N/A,200000,142k,18k,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),200000,142k,58k,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",Entry-Level (Master's),Entry-Level (Master's),Distributed Systems (Back-End),Entry-Level (Master's);Distributed Systems (Back-End),170000,142k,18k,
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,"New York, NY",NA,NA,Full Stack,NA;Full Stack,150000,135k,15k,
+Booking.com,bkng,https://www.nasdaq.com/symbol/bkng,"Amsterdam, NH, Netherlands",Core Developer,Core Developer,Distributed Systems (Back-End),Core Developer;Distributed Systems (Back-End),116000,92k , 12k,21k
+Booking.com,bkng,https://www.nasdaq.com/symbol/bkng,Amsterdam,Software Developer,Software Developer,Distributed Systems (Back-End),Software Developer;Distributed Systems (Back-End),110000,85k , 12k,12k
+Box,box,https://www.nasdaq.com/symbol/box,Redwood City,Senior,Senior,Full Stack,Senior;Full Stack,300000,210k , 90k,
+Box,box,https://www.nasdaq.com/symbol/box,"Redwood City, CA",Senior,Senior,Distributed Systems (Back-End),Senior;Distributed Systems (Back-End),280000,195k , 75k,10k
+Broadcom,avgo,https://www.nasdaq.com/symbol/avgo,"Duluth, GA",Senior Engineer,Senior Engineer,Firmware,Senior Engineer;Firmware,155000,97k , 43k,15k
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"Vienna, VA",Master Software Eng,Master Software Eng,Full Stack,Master Software Eng;Full Stack,177000,164k,"13,200",
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"Vienna, VA",Senior Associate,Senior Associate,Full Stack,Senior Associate;Full Stack,123000,118k,5k,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"New York, NY",Senior Associate,Senior Associate,iOS,Senior Associate;iOS,120000,117k,6k,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,Seattle,Software Eng,Software Eng,Distributed Systems (Back-End),Software Eng;Distributed Systems (Back-End),115000,107k , 2k,6k
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"Mc Lean, VA",Senior Software Eng,Senior Software Eng,Distributed Systems (Back-End),Senior Software Eng;Distributed Systems (Back-End),161000,140k,21k,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"McLean, VA",Director of Software Eng,Director of Software Eng,Full Stack,Director of Software Eng;Full Stack,261000,208k , 13k,40k
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"Plano, TX",Master Software Eng,Master Software Eng,Web Development (Front-End),Master Software Eng;Web Development (Front-End),155000,130k,25k,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"Vienna, VA",Senior Associate,Senior Associate,DevOps,Senior Associate;DevOps,128000,,,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"mclean, VA",Senior Associate,Senior Associate,API Development (Back-End),Senior Associate;API Development (Back-End),123000,116k , 2k,7k
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"Reston, VA",Associate Software Eng,Associate Software Eng,rotational program (TDP),Associate Software Eng;rotational program (TDP),108000,99k,9k,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"San Francisco, CA",Manager,Manager,Distributed Systems (Back-End),Manager;Distributed Systems (Back-End),195000,180k,15k,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,Chicago,Associate Software Eng,Associate Software Eng,Full Stack,Associate Software Eng;Full Stack,114000,,,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,Chicago,Associate Software Eng,Associate Software Eng,Full Stack,Associate Software Eng;Full Stack,114000,,,
+Capital One,COF,https://finance.yahoo.com/quote/COF/,"Plano, TX",Associate Software Eng,Associate Software Eng,Full Stack,Associate Software Eng;Full Stack,100000,90k,10k,
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Fulton, MD",Grade 10,Grade 10,Full Stack,Grade 10;Full Stack,150000,120k , 10k,20k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Jose, CA",Software Engineer III,Software Engineer III,Distributed Systems (Back-End),Software Engineer III;Distributed Systems (Back-End),170000,125k , 30k,15k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Milpitas, CA",Software Engineer IV,Software Engineer IV,Networking,Software Engineer IV;Networking,200000,155k , 22k,23k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Francisco, CA",L4,L4,Networking,L4;Networking,207000,160k , 15k,32k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Francisco, CA",Software Engineer VIII,Software Engineer VIII,Distributed Systems (Back-End),Software Engineer VIII;Distributed Systems (Back-End),151000,135k,16k,
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Jose, CA",Technical Leader 1,Technical Leader 1,Distributed Systems (Back-End),Technical Leader 1;Distributed Systems (Back-End),230000,,,
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Dallas, TX",Grade 6,Grade 6,Networking,Grade 6;Networking,400000,300k , 60k,40k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Dallas, TX",L6,L6,Networking,L6;Networking,400000,300k , 60k,40k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Raleigh, NC",Grade 8,Grade 8,Networking,Grade 8;Networking,115000,95k , 10k,10k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Boston, MA",Software Engineer 1,Software Engineer 1,Full Stack,Software Engineer 1;Full Stack,120000,,,
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Jose, CA",Software Engineer IV,Software Engineer IV,Networking,Software Engineer IV;Networking,183000,146k , 8k,29k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Atlanta, GA",Grade 13,Grade 13,Full Stack,Grade 13;Full Stack,380000,215k , 90k,75k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Francisco, CA",Technical Leader 1,Technical Leader 1,Web Development (Front-End),Technical Leader 1;Web Development (Front-End),255000,165k , 40k,50k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Jose, CA",Grade 6,Grade 6,ML / AI,Grade 6;ML / AI,161000,135k , 13k,13k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Jose, CA",Grade 8,Grade 8,Testing (SDET),Grade 8;Testing (SDET),163000,130k , 17k,15k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Jose, CA",Grade 12,Grade 12,Testing (SDET),Grade 12;Testing (SDET),300000,180k , 70k,50k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"Seattle, WA",Software Engineer III,Software Engineer III,API Development (Back-End),Software Engineer III;API Development (Back-End),140000,130k,10k,
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,Grade 10,Grade 10,Networking,Grade 10;Networking,170000,120k , 35k,15k
+Cisco,csco,https://www.nasdaq.com/symbol/csco,"San Jose, CA",Software Engineer 2,Software Engineer 2,Networking,Software Engineer 2;Networking,152000,128k,24k,
+Citrix Systems Inc,ctxs,https://www.nasdaq.com/symbol/ctxs,"Fort Lauderdale, FL",Software Engineer II,Software Engineer II,DevOps,Software Engineer II;DevOps,120000,105k , 10k,5k
+Cloudera,cldr,https://www.nasdaq.com/symbol/cldr,"Palo Alto, CA",Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),231000,,,
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,"Philadelphia, PA",Senior Engineer,Senior Engineer,Programming,Senior Engineer;Programming,132000,116k,16k,
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,"Mount Laurel, NJ",Senior Engineer,Senior Engineer,Networking,Senior Engineer;Networking,163000,131k , 22k,10k
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,"Mount Laurel, NJ",Senior Engineer,Senior Engineer,Networking,Senior Engineer;Networking,164000,131k , 22k,11k
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,"Philadelphia, PA",Principal Engineer,Principal Engineer,DevOps,Principal Engineer;DevOps,160000,133k , 15k,14k
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,"Philadelphia, PA",Senior Engineer,Senior Engineer,Full Stack,Senior Engineer;Full Stack,142000,122k , 10k,10k
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,"Philadelphia, PA",Engineer 3,Engineer 3,Android,Engineer 3;Android,136000,115k , 12k,9k
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,"Mt laurel, nj",Engineer 3,Engineer 3,Full Stack,Engineer 3;Full Stack,122000,110k , 2k,10k
+Cruise Automation,Cruise Automation,https://en.wikipedia.org/wiki/Cruise_Automation,"Seattle, WA",Senior Software Engineer,Senior Software Engineer,API Development (Back-End),Senior Software Engineer;API Development (Back-End),320000,210k , 60k,50k
+Cruise Automation,Cruise Automation,https://en.wikipedia.org/wiki/Cruise_Automation,"San Francisco, CA",IC2,IC2,ML / AI,IC2;ML / AI,240000,,,
+Dell,dell,https://www.nasdaq.com/symbol/dell,"Santa Clara, CA",Software Engineer I,Software Engineer I,Distributed Systems (Back-End),Software Engineer I;Distributed Systems (Back-End),992000,987k,5k,
+Dell,dell,https://www.nasdaq.com/symbol/dell,"Hopkinton, MA",Senior Engineer,Senior Engineer,Distributed Systems (Back-End),Senior Engineer;Distributed Systems (Back-End),110000,,,
+Dell,dell,https://www.nasdaq.com/symbol/dell,"Santa Clara, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),128000,"121,900","6,100",
+Dell,dell,https://www.nasdaq.com/symbol/dell,"Boston, MA",L6,L6,Full Stack,L6;Full Stack,112000,96k,8k,
+Deloitte,Deloitte,https://en.wikipedia.org/wiki/Deloitte,"Kitchener, ON, Canada",Consultant,Consultant,Full Stack,Consultant;Full Stack,75000,,,
+DocuSign,docu,https://www.nasdaq.com/symbol/docu,"San Francisco, CA",P4,P4,Mobile (iOS + Android),P4;Mobile (iOS + Android),235000,160k , 60k,15k
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,"Tel Aviv, TA, Israel",IC2,IC2,Full Stack,IC2;Full Stack,159000,,,
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,"San Francisco, CA",L4,L4,API Development (Back-End),L4;API Development (Back-End),210000,140k , 55k,15k
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,San Francisco,IC2,IC2,Networking,IC2;Networking,241000,141k , 86k,14k
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,Seattle,IC3,IC3,Full Stack,IC3;Full Stack,313000,173k , 115k,25k
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,"San Francisco, CA",IC3,IC3,Desktop,IC3;Desktop,380000,204k , 150k,30k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",Member of Technical Staff 1,Member of Technical Staff 1,API Development (Back-End),Member of Technical Staff 1;API Development (Back-End),261000,160k , 85k,16k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",T23,T23,ML / AI,T23;ML / AI,132000,120k , 6k,10k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",Software Engineer 1,Software Engineer 1,Full Stack,Software Engineer 1;Full Stack,150000,107k , 7k,36k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"Seattle, WA",MTS2,MTS2,Distributed Systems (Back-End),MTS2;Distributed Systems (Back-End),300000,185k , 100k,15k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"Seattle, WA",26,26,Distributed Systems (Back-End),26;Distributed Systems (Back-End),300000,185k , 100k,15k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",SE 2,SE 2,API Development (Back-End),SE 2;API Development (Back-End),180000,,,
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",MTS 1,MTS 1,ML / AI,MTS 1;ML / AI,345000,,,
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",Software Engineer 2,Software Engineer 2,Full Stack,Software Engineer 2;Full Stack,146000,124k , 10k,12k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",SE 3,SE 3,API Development (Back-End),SE 3;API Development (Back-End),164000,145k , 15k,14k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",Software Engineer 1,Software Engineer 1,Web Development (Front-End),Software Engineer 1;Web Development (Front-End),120000,,,
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",24,24,Full Stack,24;Full Stack,150000,,,
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",T24,T24,Web Development (Front-End),T24;Web Development (Front-End),180000,150k , 20k,10k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",SE 2,SE 2,Full Stack,SE 2;Full Stack,197000,120k , 35k,42k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",SE 3,SE 3,Distributed Systems (Back-End),SE 3;Distributed Systems (Back-End),184000,145k , 25k,14k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,San Jose,26,26,API Development (Back-End),26;API Development (Back-End),300000,210k , 70k,30k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"Portland, OR",Senior MTS,Senior MTS,iOS,Senior MTS;iOS,270000,,,
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",SE 3,SE 3,Distributed Systems (Back-End),SE 3;Distributed Systems (Back-End),175000,145k , 20k,10k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",Member of Technical Staff 2,Member of Technical Staff 2,Distributed Systems (Back-End),Member of Technical Staff 2;Distributed Systems (Back-End),290000,185k , 80k,25k
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,"San Jose, CA",MTS 2,MTS 2,Testing (SDET),MTS 2;Testing (SDET),300000,200k , 75k,25k
+Etsy,etsy,https://www.nasdaq.com/symbol/etsy,"New York, NY",2,2,Full Stack,2;Full Stack,190000,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,"Bellevue, WA",L,L,API Development (Back-End),L;API Development (Back-End),204000,147k , 20k,37k
+Expedia,expe,https://www.nasdaq.com/symbol/expe,"Bellevue,WA",SDE II,SDE II,API Development (Back-End),SDE II;API Development (Back-End),181000,148k , 10k,23k
+Expedia,expe,https://www.nasdaq.com/symbol/expe,"Seattle, WA",M,M,Full Stack,M;Full Stack,242000,150k , 35k,57k
+Expedia,expe,https://www.nasdaq.com/symbol/expe,Seattle,Senior,Senior,Full Stack,Senior;Full Stack,242000,150k , 35k,57k
+Expedia,expe,https://www.nasdaq.com/symbol/expe,"Bellevue, WA",M,M,API Development (Back-End),M;API Development (Back-End),228000,165k , 30k,29k
+Expedia,expe,https://www.nasdaq.com/symbol/expe,Bellevue,M,M,Full Stack,M;Full Stack,175000,155k , 5k,15k
+Expedia,expe,https://www.nasdaq.com/symbol/expe,wa,l2,l2,Web Development (Front-End),l2;Web Development (Front-End),100000,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,"Seattle, WA",M,M,API Development (Back-End),M;API Development (Back-End),215000,160k , 25k,30k
+Expedia,expe,https://www.nasdaq.com/symbol/expe,"Chicago, IL",K,K,Full Stack,K;Full Stack,84000,75k,9k,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"New York, NY",E6,E6,Distributed Systems (Back-End),E6;Distributed Systems (Back-End),450000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E3,E3,DevOps,E3;DevOps,165000,115k , 38k,11k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E3,E3,ML / AI,E3;ML / AI,168000,115k , 38k,16k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",IC4,IC4,ML / AI,IC4;ML / AI,360000,160k , 100k,100k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E4,E4,ML / AI,E4;ML / AI,250000,160k , 75k,16k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E3,E3,Networking,E3;Networking,180000,120k , 50k,10k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,Mpk,E6,E6,iOS,E6;iOS,515000,225k , 250k,45k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E4,E4,Android,E4;Android,330000,165k , 90k,75k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E4,E4,Full Stack,E4;Full Stack,229000,149k , 68k,22k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"New York, NY",e5,e5,Mobile (iOS + Android),e5;Mobile (iOS + Android),350000,200k , 125k,25k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,iOS,E5;iOS,355000,195k , 130k,30k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,ML / AI,E5;ML / AI,310000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,Seattle,E5,E5,Full Stack,E5;Full Stack,312000,185k , 100k,28k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Seattle, WA",E6,E6,Distributed Systems (Back-End),E6;Distributed Systems (Back-End),545000,215k , 280k,50k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E4,E4,ML / AI,E4;ML / AI,238000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"London, EN, United Kingdom",E4,E4,Full Stack,E4;Full Stack,160000,105k , 45k,10k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E4,E4,Full Stack,E4;Full Stack,212000,148k , 49k,15k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E3,E3,Full Stack,E3;Full Stack,176000,110k , 55k,11k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,Distributed Systems (Back-End),E5;Distributed Systems (Back-End),405000,188k , 200k,20k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,Full Stack,E5;Full Stack,368000,190k , 150k,28k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E8,E8,ML / AI,E8;ML / AI,1450000,300k ,"1,085",65k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E4,E4,Distributed Systems (Back-End),E4;Distributed Systems (Back-End),240000,150k , 75k,15k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,API Development (Back-End),E5;API Development (Back-End),385000,205k , 150k,30k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Seattle, WA",E5,E5,Distributed Systems (Back-End),E5;Distributed Systems (Back-End),191000,150k,32k,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E7,E7,Distributed Systems (Back-End),E7;Distributed Systems (Back-End),950000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,Networking,E5;Networking,360000,178k , 150k,40k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E4,E4,Full Stack,E4;Full Stack,300000,160k , 115k,15k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E3,E3,Full Stack,E3;Full Stack,160000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,New York,E5,E5,API Development (Back-End),E5;API Development (Back-End),309000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,Distributed Systems (Back-End),E5;Distributed Systems (Back-End),307000,180k , 100k,27k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",IC6,IC6,ML / AI,IC6;ML / AI,500000,230k , 225k,45k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"New York, NY",E5,E5,API Development (Back-End),E5;API Development (Back-End),327000,183k , 120k,24k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,MPK,E4,E4,Full Stack,E4;Full Stack,200000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E6,E6,Distributed Systems (Back-End),E6;Distributed Systems (Back-End),446000,213k , 190k,43k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,iOS,E5;iOS,368000,203k , 135k,30k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E6,E6,Full Stack,E6;Full Stack,440000,200k , 200k,40k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E7,E7,Full Stack,E7;Full Stack,725000,250k , 400k,75k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,Unable to Disclose,E5;Unable to Disclose,399000,195k , 125k,79k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"New York, NY",E8,E8,Mobile (iOS + Android),E8;Mobile (iOS + Android),999000,292k , 619k,88k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,Distributed Systems (Back-End),E5;Distributed Systems (Back-End),350000,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Seattle, WA",E5,E5,Full Stack,E5;Full Stack,328000,185k , 115k,28k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E5,E5,Web Development (Front-End),E5;Web Development (Front-End),340000,190k , 130k,30k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Seattle, WA",E6,E6,Mobile (iOS + Android),E6;Mobile (iOS + Android),445000,215k , 200k,30k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E7,E7,Web Development (Front-End),E7;Web Development (Front-End),885000,260k , 560k,65k
+Facebook,fb,https://www.nasdaq.com/symbol/fb,"Menlo Park, CA",E3,E3,ML / AI,E3;ML / AI,164000,115k , 38k,11k
+GE Digital,ge,https://www.nasdaq.com/symbol/ge,"San Ramon, CA",Staff SWE,Staff SWE,Full Stack,Staff SWE;Full Stack,220000,160k , 20k,40k
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,"Bengaluru, KA, India",Executive Director / Vice-President,Executive Director / Vice-President,Full Stack,Executive Director / Vice-President;Full Stack,60000,,,
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,"London, UK",Associate,Associate,Distributed Systems (Back-End),Associate;Distributed Systems (Back-End),110000,,,
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,"Jersey City, NJ",Executive Director / Vice-President,Executive Director / Vice-President,Distributed Systems (Back-End),Executive Director / Vice-President;Distributed Systems (Back-End),210000,170k,30k,
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,"Bangalore, India",Analyst,Analyst,API Development (Back-End),Analyst;API Development (Back-End),47000,33k , 2k,12k
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,New York,Executive Director / Vice-President,Executive Director / Vice-President,API Development (Back-End),Executive Director / Vice-President;API Development (Back-End),203000,,,
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,"New York, NY",Associate,Associate,Web Development (Front-End),Associate;Web Development (Front-End),200000,140k,60k,
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,"New York, NY",Vice President,Vice President,Distributed Systems (Back-End),Vice President;Distributed Systems (Back-End),260000,180k , 20k,60k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Boulder, CO",L5,L5,Android,L5;Android,335000,146k , 160k,27k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",$5 ,5,Distributed Systems (Back-End),5;Distributed Systems (Back-End),300000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Zurich, ZH, Switzerland",Senior Staff SWE,Senior Staff SWE,Full Stack,Senior Staff SWE;Full Stack,600000,300k , 220k,80k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Kirkland, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),327000,172k , 120k,30k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Distributed Systems (Back-End),L3;Distributed Systems (Back-End),193000,128k,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"New York, NY",L3,L3,Full Stack,L3;Full Stack,221000,140k , 60k,21k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Tools & Infrastructure,L3;Tools & Infrastructure,163000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Full Stack,L3;Full Stack,171000,121k , 32k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"London, EN, United Kingdom",4,4,ML / AI,4;ML / AI,211000,123k , 60k,28k
+Google,googl,https://www.nasdaq.com/symbol/googl,San Francisco,L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),340000,200k , 110k,30k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),360000,155k , 182k,23k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L6,L6,Distributed Systems (Back-End),L6;Distributed Systems (Back-End),522000,227k , 250k,45k
+Google,googl,https://www.nasdaq.com/symbol/googl,"San Francisco, CA",L4,L4,Android,L4;Android,120000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,Mobile (iOS + Android),L4;Mobile (iOS + Android),325000,160k , 90k,75k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L4,L4,Testing (SDET),L4;Testing (SDET),283000,156k , 100k,27k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),185000,125k , 41k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),188000,125k , 45k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Pittsburgh, PA",L3,L3,Full Stack,L3;Full Stack,188000,115k , 56k,17k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Zurich, ZH, Switzerland",L4,L4,Full Stack,L4;Full Stack,224000,140k , 55k,29k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Zurich, ZH, Switzerland",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),175000,134k , 21k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Full Stack,L3;Full Stack,223000,125k , 50k,48k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Distributed Systems (Back-End),L3;Distributed Systems (Back-End),163000,120k , 25k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L6,L6,ML / AI,L6;ML / AI,410000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Firmware,L3;Firmware,186000,129k , 27k,29k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Cambridge, MA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),300000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Boulder, CO",L3,L3,Full Stack,L3;Full Stack,140000,102k , 20k,15k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),196000,120k , 58k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,Somewhere in USA,L5,L5,Android,L5;Android,212000,145k , 45k,21k
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,L4,L4,Networking,L4;Networking,215000,153k , 39k,23k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),210000,129k , 42k,30k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),278000,150k , 86k,42k
+Google,googl,https://www.nasdaq.com/symbol/googl,"San Bruno, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),177000,130k , 28k,19k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,Full Stack,L4;Full Stack,199000,143k , 35k,21k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Chicago, IL",Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),193000,125k , 50k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Security,L3;Security,160000,120k , 22k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,ML / AI,L4;ML / AI,233000,153k , 57k,23k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Seattle, WA",4,4,API Development (Back-End),4;API Development (Back-End),288000,146k , 110k,33k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Distributed Systems (Back-End),L3;Distributed Systems (Back-End),248000,150k , 69k,29k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,ML / AI,L3;ML / AI,204000,146k , 32k,26k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Singapore, SG, Singapore",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),237000,123k , 81k,32k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sydney, NS, Australia",Senior SWE,Senior SWE,DevOps,Senior SWE;DevOps,250000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Los Angeles, CA",L3,L3,Full Stack,L3;Full Stack,213000,120k , 70k,23k
+Google,googl,https://www.nasdaq.com/symbol/googl,"New York, NY",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),256000,175k , 55k,26k
+Google,googl,https://www.nasdaq.com/symbol/googl,"New York, NY",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),338000,170k , 136k,32k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Android,L3;Android,160000,120k , 25k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",7,7,Android,7;Android,450000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"San Francisco, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),240000,140k , 80k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"New York, NY",L7,L7,ML / AI,L7;ML / AI,600000,245k , 300k,55k
+Google,googl,https://www.nasdaq.com/symbol/googl,"New York, NY",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),354000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),264000,144k , 95k,25k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Cambridge, MA",L4,L4,API Development (Back-End),L4;API Development (Back-End),200000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Full Stack,L3;Full Stack,212000,135k , 50k,27k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),267000,165k , 77k,25k
+Google,googl,https://www.nasdaq.com/symbol/googl,"San Bruno, CA",L3,L3,iOS,L3;iOS,169000,125k , 25k,19k
+Google,googl,https://www.nasdaq.com/symbol/googl,new york,L3,L3,ML / AI,L3;ML / AI,128000,128k,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Security,L3;Security,195000,129k , 47k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",4,4,DevOps,4;DevOps,226000,142k , 63k,21k
+Google,googl,https://www.nasdaq.com/symbol/googl,"San Francisco, CA",L3,L3,Distributed Systems (Back-End),L3;Distributed Systems (Back-End),195000,127k , 50k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L6,L6,DevOps,L6;DevOps,270000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Zurich, ZH, Switzerland",L3,L3,Distributed Systems (Back-End),L3;Distributed Systems (Back-End),167000,133k , 16k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,API Development (Back-End),L4;API Development (Back-End),251000,,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Seattle, WA",L3,L3,Full Stack,L3;Full Stack,117000,102k,15k,
+Google,googl,https://www.nasdaq.com/symbol/googl,New York,L5,L5,API Development (Back-End),L5;API Development (Back-End),400000,200k , 150k,50k
+Google,googl,https://www.nasdaq.com/symbol/googl,"New York, NY",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),300000,170k , 100k,30k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Seattle, WA",L5,L5,API Development (Back-End),L5;API Development (Back-End),310000,174k , 105k,31k
+Google,googl,https://www.nasdaq.com/symbol/googl,Canada,L4,L4,Cloud,L4;Cloud,150000,114k , 30k,6k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Boulder, CO",L4,L4,Full Stack,L4;Full Stack,240000,140k , 80k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,ML / AI,L3;ML / AI,215000,129k , 40k,46k
+Google,googl,https://www.nasdaq.com/symbol/googl,"London, EN, United Kingdom",L3,L3,Android,L3;Android,110000,78k , 20k,12k
+Google,googl,https://www.nasdaq.com/symbol/googl,"New York, NY",L3,L3,DevOps,L3;DevOps,160000,120k , 25k,15k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),290000,140k , 140k,13k
+Google,googl,https://www.nasdaq.com/symbol/googl,"San Bruno, CA",L4,L4,Full Stack,L4;Full Stack,228000,146k , 60k,22k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,Testing (SDET),L4;Testing (SDET),241000,144k , 65k,32k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),245000,170k , 50k,25k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Infrastructure,L3;Infrastructure,201000,120k , 63k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,Waterloo,L4,L4,DevOps,L4;DevOps,200000,90k , 90k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,DevOps,L3;DevOps,169000,125k , 25k,19k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),189000,125k , 25k,39k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,iOS,L3;iOS,200000,100k , 50k,50k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),210000,130k , 60k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Full Stack,L3;Full Stack,169000,125k , 25k,19k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Full Stack,L3;Full Stack,169000,125k , 25k,19k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Los Angeles, CA",L3,L3,Full Stack,L3;Full Stack,174000,108k , 50k,16k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L4,L4,Backend,L4;Backend,243000,142k , 25k,76k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, Ca",SWE III,SWE III,Web Development (Front-End),SWE III;Web Development (Front-End),133000,90k , 20k,23k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Sunnyvale, CA",L3,L3,Full Stack,L3;Full Stack,163000,120k , 25k,18k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Irvine, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),220000,140k , 60k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Irvine, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),220000,140k , 60k,20k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Seattle, WA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),400000,170k,,
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Android,L3;Android,200000,100k , 50k,50k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",L3,L3,Android,L3;Android,200000,100k , 50k,50k
+Google,googl,https://www.nasdaq.com/symbol/googl,"Mountain View, CA",SWE II,SWE II,Web Development (Front-End),SWE II;Web Development (Front-End),190000,120k , 25k,45k
+Groupon,grpn,https://www.nasdaq.com/symbol/grpn,"San Francisco, CA",SDE 2,SDE 2,API Development (Back-End),SDE 2;API Development (Back-End),155000,143k , 11k,1k
+Groupon,grpn,https://www.nasdaq.com/symbol/grpn,"Seattle, WA",SDE 3,SDE 3,Full Stack,SDE 3;Full Stack,180000,,,
+GrubHub,grub,https://www.nasdaq.com/symbol/grub,Chicago,Senior,Senior,Full Stack,Senior;Full Stack,175000,130k , 45k,
+Hulu,Hulu,https://en.wikipedia.org/wiki/Hulu,"Santa Monica, CA",IC3,IC3,Web Development (Front-End),IC3;Web Development (Front-End),225000,145k , 40k,40k
+Hulu,Hulu,https://en.wikipedia.org/wiki/Hulu,"Seattle, WA",IC3,IC3,Distributed Systems (Back-End),IC3;Distributed Systems (Back-End),256000,165k , 30k,61k
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"Austin, TX",6,6,Distributed Systems (Back-End),6;Distributed Systems (Back-End),81000,79k,2k,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"Austin, TX",7,7,Distributed Systems (Back-End),7;Distributed Systems (Back-End),112000,10k,2k,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"Littleton, MA",Staff Engineer,Staff Engineer,Full Stack,Staff Engineer;Full Stack,120000,117k,3k,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"San Jose, CA",Associate Engineer,Associate Engineer,Distributed Systems (Back-End),Associate Engineer;Distributed Systems (Back-End),107000,107k , 2k,2k
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"Durham, NC",7,7,DevOps,7;DevOps,110000,110k,,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"San Jose, CA",7,7,Full Stack,7;Full Stack,130000,130k,,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"San Jose, CA",Staff Engineer,Staff Engineer,ML / AI,Staff Engineer;ML / AI,130000,,,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"San Jose, CA",Grade 10,Grade 10,Distributed Systems (Back-End),Grade 10;Distributed Systems (Back-End),380000,330k , 50k,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"San Jose, CA",7,7,ML / AI,7;ML / AI,138000,136k,2k,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"Poughkeepsie, NY",Advisory Engineer,Advisory Engineer,DevOps,Advisory Engineer;DevOps,122000,,,
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,"Boston, MA",7,7,API Development (Back-End),7;API Development (Back-End),136000,126k , 8k,2k
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,"Tokyo, Japan",SWE1,SWE1,Full Stack,SWE1;Full Stack,120000,100k , 7k,12k
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,"Tokyo, TY, Japan",SWE 1,SWE 1,Full Stack,SWE 1;Full Stack,154000,105k , 30k,19k
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,"Seattle, WA",Product Developer,Product Developer,Full Stack,Product Developer;Full Stack,123000,,,
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,"Austin, TX",L3,L3,Full Stack,L3;Full Stack,345000,165k , 150k,30k
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,"San Francisco, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),126000,100k , 25k,1k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hudson, MA",Grade 6,Grade 6,Software Products,Grade 6;Software Products,102000,,,
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Santa Clara, CA",Grade 6,Grade 6,Full Stack,Grade 6;Full Stack,150000,130k , 8k,12k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Bellevue, WA",Grade 6,Grade 6,DevOps,Grade 6;DevOps,116000,100k,16k,
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Santa Clara, CA",Grade 9,Grade 9,Distributed Systems (Back-End),Grade 9;Distributed Systems (Back-End),230000,175k , 25k,30k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hillsboro, OR",Grade 8,Grade 8,SW,Grade 8;SW,180000,130k , 20k,30k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hudson, MA",L6,L6,ML / AI,L6;ML / AI,128000,110k , 8k,10k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hillsboro, OR",6,6,Distributed Systems (Back-End),6;Distributed Systems (Back-End),125000,,,
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hillsboro, OR",Staff Engineer,Staff Engineer,Design,Staff Engineer;Design,187000,136k , 25k,26k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"San Jose, CA",Staff Engineer,Staff Engineer,Networking,Staff Engineer;Networking,240000,180k , 30k,30k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hillsboro, OR",G7,G7,Operating systems,G7;Operating systems,130000,110k , 2k,18k
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hillsboro, OR",Grade 6,Grade 6,API Development (Back-End),Grade 6;API Development (Back-End),127000,,,
+Intel,INTC,https://finance.yahoo.com/quote/INTC,"Hillsboro, OR",Grade 7,Grade 7,Firmware,Grade 7;Firmware,140000,,,
+Intel,INTC,https://finance.yahoo.com/quote/INTC,Folsom,Grade 6,Grade 6,Firmware,Grade 6;Firmware,120000,103k , 7k,10k
+Intercom,Intercom,https://en.wikipedia.org/wiki/Intercom_(company),Dublin,Product Engineer 2,Product Engineer 2,DevOps,Product Engineer 2;DevOps,73000,,,
+Intercom,Intercom,https://en.wikipedia.org/wiki/Intercom_(company),"San Francisco, CA",Product Engineer 2,Product Engineer 2,Full Stack,Product Engineer 2;Full Stack,130000,,,
+Intuit,intu,https://www.nasdaq.com/symbol/intu,"Mountain View, CA",Software Engineer 2,Software Engineer 2,Full Stack,Software Engineer 2;Full Stack,167000,130k , 25k,12k
+Intuit,intu,https://www.nasdaq.com/symbol/intu,"Mountain View, CA",Staff Software Engineer,Staff Software Engineer,Distributed Systems (Back-End),Staff Software Engineer;Distributed Systems (Back-End),323000,181k , 105k,36k
+Intuit,intu,https://www.nasdaq.com/symbol/intu,"Mountain View, CA",Principal / Architect,Principal / Architect,Full Stack,Principal / Architect;Full Stack,390000,192k , 150k,48k
+Intuit,intu,https://www.nasdaq.com/symbol/intu,"Mountain view, ca",Software Engineer 1,Software Engineer 1,Full Stack,Software Engineer 1;Full Stack,132000,105k , 17k,10k
+Intuit,intu,https://www.nasdaq.com/symbol/intu,"San Diego, CA",Software Engineer 1,Software Engineer 1,Web Development (Front-End),Software Engineer 1;Web Development (Front-End),130000,110k , 15k,5k
+JPMorgan Chase,amj,https://www.nasdaq.com/symbol/amj,"New York, NY",Associate,Associate,API Development (Back-End),Associate;API Development (Back-End),114000,110k,4k,
+JPMorgan Chase,amj,https://www.nasdaq.com/symbol/amj,"San Francisco, CA",602,602,Web Development (Front-End),602;Web Development (Front-End),150000,140k,10k,
+JPMorgan Chase,amj,https://www.nasdaq.com/symbol/amj,"Tampa, FL",603,603,Full Stack,603;Full Stack,145000,,,
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Sunnyvale, CA",Staff Software Engineer,Staff Software Engineer,Distributed Systems (Back-End),Staff Software Engineer;Distributed Systems (Back-End),340000,185k , 125k,30k
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Mountain View, CA",Senior Software Engineer,Senior Software Engineer,API Development (Back-End),Senior Software Engineer;API Development (Back-End),353000,174k , 149k,30k
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Sunnyvale, CA",Senior Software Engineer,Senior Software Engineer,Distributed Systems (Back-End),Senior Software Engineer;Distributed Systems (Back-End),330000,180k , 120k,30k
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Sunnyvale, CA",Senior Software Engineer,Senior Software Engineer,iOS,Senior Software Engineer;iOS,225000,,,
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"San Francisco, CA",Software Engineer,Software Engineer,API Development (Back-End),Software Engineer;API Development (Back-End),184000,130k , 43k,11k
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Sunnyvale, CA",Senior Software Engineer,Senior Software Engineer,API Development (Back-End),Senior Software Engineer;API Development (Back-End),300000,152k , 133k,15k
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Sunnyvale, CA",Senior Software Engineer,Senior Software Engineer,Web Development (Front-End),Senior Software Engineer;Web Development (Front-End),145000,,,
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Sunnyvale, CA",Senior Software Engineer,Senior Software Engineer,Distributed Systems (Back-End),Senior Software Engineer;Distributed Systems (Back-End),291000,185k , 88k,19k
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Sunnyvale, CA",Senior Software Engineer,Senior Software Engineer,ML / AI,Senior Software Engineer;ML / AI,250000,,,
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"San Jose, CA",Senior Software Engineer,Senior Software Engineer,Security,Senior Software Engineer;Security,250000,,,
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Mountain View, CA",Senior Software Engineer,Senior Software Engineer,Distributed Systems (Back-End),Senior Software Engineer;Distributed Systems (Back-End),300000,,,
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,sunnyvale,Staff Software Engineer,Staff Software Engineer,software,Staff Software Engineer;software,435000,230k , 170k,35k
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"Mountain View, CA",Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),233000,,,
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,"San Francisco, CA",Senior Software Engineer,Senior Software Engineer,API Development (Back-End),Senior Software Engineer;API Development (Back-End),336000,178k , 140k,18k
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,"San Francisco, CA",T5,T5,Web Development (Front-End),T5;Web Development (Front-End),377000,190k , 187k,
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,"Palo Alto, CA",T5,T5,Distributed Systems (Back-End),T5;Distributed Systems (Back-End),420000,200k , 213k,7k
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,"Seattle, WA",T4,T4,Web Development (Front-End),T4;Web Development (Front-End),300000,,,
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,"San Francisco, CA",T5,T5,Distributed Systems (Back-End),T5;Distributed Systems (Back-End),425000,,,
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,"San Francisco, CA",T5,T5,Android,T5;Android,420000,185k , 235k,
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,"Seattle, WA",T5,T5,Distributed Systems (Back-End),T5;Distributed Systems (Back-End),355000,190k , 165k,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",62,62,Web Development (Front-End),62;Web Development (Front-End),142000,112k , 15k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",60,60,Distributed Systems (Back-End),60;Distributed Systems (Back-End),186000,117k , 19k,50k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",64,64,Distributed Systems (Back-End),64;Distributed Systems (Back-End),250000,166k , 40k,40k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"San Juan, PR, Puerto Rico",62,62,Full Stack,62;Full Stack,104000,90k , 8k,6k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,redmond,$63 ,63,Full Stack,63;Full Stack,220000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"San Francisco, CA",60,60,iOS,60;iOS,125000,80k , 20k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Cambridge, MA",59,59,API Development (Back-End),59;API Development (Back-End),162000,108k , 18k,36k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",63,63,Distributed Systems (Back-End),63;Distributed Systems (Back-End),240000,165k , 40k,40k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",62,62,Android,62;Android,160000,144k , 6k,10k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,API Development (Back-End),59;API Development (Back-End),160000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",$59 ,59,Full Stack,59;Full Stack,184000,109k , 30k,45k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",L61,L61,API Development (Back-End),L61;API Development (Back-End),200000,140k , 35k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Vancouver, BC, Canada",$62 ,62,Distributed Systems (Back-End),62;Distributed Systems (Back-End),120000,110k , 4k,6k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",65,65,API Development (Back-End),65;API Development (Back-End),287000,192k , 55k,40k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),170000,142k , 14k,14k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bengaluru, KA, India",60,60,Full Stack,60;Full Stack,36000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Hyderabad, TS, India",59,59,Full Stack,59;Full Stack,31000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,Distributed Systems (Back-End),59;Distributed Systems (Back-End),133000,118k , 3k,12k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",SDE II,SDE II,Full Stack,SDE II;Full Stack,197000,147k , 30k,20k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Redmond,64,64,Windows,64;Windows,243000,170k , 43k,30k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bellevue, WA",SDE,SDE,API Development (Back-End),SDE;API Development (Back-End),139000,109k , 20k,10k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",61,61,Full Stack,61;Full Stack,186000,131k , 40k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",62,62,Web Development (Front-End),62;Web Development (Front-End),185000,150k , 20k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",61,61,Distributed Systems (Back-End),61;Distributed Systems (Back-End),180000,135k , 30k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",63,63,Web Development (Front-End),63;Web Development (Front-End),207000,157k , 20k,30k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"San Diego, CA",64,64,Full Stack,64;Full Stack,220000,165k , 30k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",59,59,Full Stack,59;Full Stack,175000,109k , 31k,35k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",61,61,API Development (Back-End),61;API Development (Back-End),158000,135k , 8k,14k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",63,63,API Development (Back-End),63;API Development (Back-End),252000,152k , 50k,50k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",62,62,Full Stack,62;Full Stack,160000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,Full Stack,59;Full Stack,163000,109k , 34k,20k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",63,63,Full Stack,63;Full Stack,240000,160k , 50k,30k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",62,62,Full Stack,62;Full Stack,195000,147k , 13k,35k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Bellevue,61,61,Web Development (Front-End),61;Web Development (Front-End),142000,123k , 7k,12k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",61,61,Full Stack,61;Full Stack,190000,130k , 35k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,India,62,62,Web Development (Front-End),62;Web Development (Front-End),60000,46k , 9k,4k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",65,65,Distributed Systems (Back-End),65;Distributed Systems (Back-End),290000,190k , 50k,48k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"San Francisco, CA",64,64,Distributed Systems (Back-End),64;Distributed Systems (Back-End),287000,195k , 62k,30k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",61,61,Office,61;Office,172000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bellevue, WA",SDE II,SDE II,ML / AI,SDE II;ML / AI,176000,138k , 18k,20k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Seattle,63,63,Full Stack,63;Full Stack,188000,147k , 25k,16k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",SDE II,SDE II,Distributed Systems (Back-End),SDE II;Distributed Systems (Back-End),140000,128k , 6k,4k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",62,62,Data Analysis,62;Data Analysis,176000,152k , 8k,16k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Hyderabad, TS, India",60,60,API Development (Back-End),60;API Development (Back-End),22000,20k , 1k,1k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,API Development (Back-End),59;API Development (Back-End),154000,109k , 30k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",61,61,API Development (Back-End),61;API Development (Back-End),140000,125k , 5k,12k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bellevue, WA",63,63,API Development (Back-End),63;API Development (Back-End),190000,153k , 20k,17k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",62,62,Full Stack,62;Full Stack,185000,140k , 20k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",60,60,API Development (Back-End),60;API Development (Back-End),160000,117k , 19k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",64,64,Distributed Systems (Back-End),64;Distributed Systems (Back-End),265000,182k , 55k,28k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Dublin, Ireland",63,63,Distributed Systems (Back-End),63;Distributed Systems (Back-End),158000,107k , 37k,14k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Redmond WA,62,62,DevOps,62;DevOps,172000,142k , 20k,10k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",60,60,Full Stack,60;Full Stack,175000,125k , 25k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Seattle,62,62,Distributed Systems (Back-End),62;Distributed Systems (Back-End),192000,140k , 25k,28k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bangalore, India",59,59,API Development (Back-End),59;API Development (Back-End),30000,19k , 8k,3k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",63,63,API Development (Back-End),63;API Development (Back-End),263000,158k , 82k,23k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Hyderabad, AP, India",59,59,Distributed Systems (Back-End),59;Distributed Systems (Back-End),35000,18k , 8k,9k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",61,61,Full Stack,61;Full Stack,170000,135k , 20k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Redmond,65,65,Full Stack,65;Full Stack,246000,186k , 30k,30k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",SDE II,SDE II,DevOps,SDE II;DevOps,151000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Vancouver, BC, Canada",62,62,Full Stack,62;Full Stack,142000,115k , 15k,12k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bellevue, WA",60,60,ML / AI,60;ML / AI,190000,125k , 30k,35k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",63,63,API Development (Back-End),63;API Development (Back-End),211000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",60,60,Distributed Systems (Back-End),60;Distributed Systems (Back-End),164000,121k , 30k,13k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Cambridge, MA",SDE II (62),SDE II (62),Full Stack,SDE II (62);Full Stack,168000,135k , 13k,20k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"London, EN, United Kingdom",65,65,Full Stack,65;Full Stack,228000,140k , 50k,40k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",SDE,SDE,Full Stack,SDE;Full Stack,141000,109k , 15k,17k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bellevue, WA",61,61,Web Development (Front-End),61;Web Development (Front-End),123000,115k , 6k,2k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",61,61,API Development (Back-End),61;API Development (Back-End),190000,129k , 46k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",67,67,API Development (Back-End),67;API Development (Back-End),530000,242k , 202k,86k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",67,67,Full Stack,67;Full Stack,530000,242k , 202k,86k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,London,62,62,Full Stack,62;Full Stack,103000,86k , 9k,8k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,London,61,61,Full Stack,61;Full Stack,91000,76k , 4k,11k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",63,63,Full Stack,63;Full Stack,245000,156k , 66k,23k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,API Development (Back-End),59;API Development (Back-End),150000,109k , 30k,10k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",62,62,Distributed Systems (Back-End),62;Distributed Systems (Back-End),206000,147k , 31k,28k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Hyderabad,61,61,Distributed Systems (Back-End),61;Distributed Systems (Back-End),39000,29k , 7k,3k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",61,61,API Development (Back-End),61;API Development (Back-End),180000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",63,63,Distributed Systems (Back-End),63;Distributed Systems (Back-End),226000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Seattle,60,60,"IoT, computer engineering","60;IoT, computer engineering",155000,118k , 35k,12k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",64,64,Distributed Systems (Back-End),64;Distributed Systems (Back-End),258000,177k , 40k,36k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Vancouver, BC, Canada",59,59,Full Stack,59;Full Stack,151000,91k , 25k,35k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,Full Stack,59;Full Stack,158000,108k , 25k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",63,63,Full Stack,63;Full Stack,280000,165k , 86k,29k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",62,62,Full Stack,62;Full Stack,155000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",60,60,DevOps,60;DevOps,188000,118k , 50k,15k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",60,60,Networking,60;Networking,135000,120k , 5k,10k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"San Francisco, CA",64,64,Web Development (Front-End),64;Web Development (Front-End),246000,181k , 40k,25k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",66,66,Testing (SDET),66;Testing (SDET),332000,202k , 90k,40k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Hyderabad, TS, India",64,64,Full Stack,64;Full Stack,128000,70k , 48k,10k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",62,62,API Development (Back-End),62;API Development (Back-End),201000,137k , 51k,13k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",65,65,Full Stack,65;Full Stack,600000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",64,64,Distributed Systems (Back-End),64;Distributed Systems (Back-End),256000,177k , 40k,36k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,Seattle,59,59,Distributed Systems (Back-End),59;Distributed Systems (Back-End),199000,116k , 33k,50k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",60,60,Desktop App Development,60;Desktop App Development,140000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,ML / AI,59;ML / AI,269000,109k , 120k,40k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Seattle, WA",60,60,API Development (Back-End),60;API Development (Back-End),138000,120k , 6k,12k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Bellevue, WA",64,64,ML / AI,64;ML / AI,210000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,Web Development (Front-End),59;Web Development (Front-End),136000,108k , 18k,10k
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",63,63,API Development (Back-End),63;API Development (Back-End),190000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",Senior SDE,Senior SDE,API Development (Back-End),Senior SDE;API Development (Back-End),190000,,,
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,"Redmond, WA",59,59,ML / AI,59;ML / AI,160000,109k , 30k,21k
+Morgan Stanley,Morgan Stanley,https://en.wikipedia.org/wiki/Morgan_Stanley,New York,Contractor,Contractor,Full Stack,Contractor;Full Stack,190000,190k,,
+NetApp,Morgan Stanley,https://en.wikipedia.org/wiki/Morgan_Stanley,"Sunnyvale, CA",MTS IV,MTS IV,Distributed Systems (Back-End),MTS IV;Distributed Systems (Back-End),200000,180k , 20k,10k
+NetApp,ntap,https://www.nasdaq.com/symbol/ntap,"Sunnyvale, CA",MTS IV,MTS IV,Distributed Systems (Back-End),MTS IV;Distributed Systems (Back-End),160000,,,
+Netflix,nflx,https://www.nasdaq.com/symbol/nflx,"Los Gatos, CA",Senior Software Engineer,Senior Software Engineer,--,Senior Software Engineer;--,393000,375k ,"18,750",
+Netflix,nflx,https://www.nasdaq.com/symbol/nflx,"Los Gatos, CA",1,1,Full Stack,1;Full Stack,394000,375k , 19k,
+Netflix,nflx,https://www.nasdaq.com/symbol/nflx,"Los Gatos, CA",Senior,Senior,API Development (Back-End),Senior;API Development (Back-End),483000,460k , 23k,
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,"Santa Clara, CA",IC5,IC5,ML / AI,IC5;ML / AI,415000,230k , 150k,35k
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,Santa Clara,Ic4,Ic4,API Development (Back-End),Ic4;API Development (Back-End),200000,,,
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,USA,3,3,Mobile (iOS + Android),3;Mobile (iOS + Android),200000,,,
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,"Santa Clara, CA",IC4,IC4,iOS,IC4;iOS,230000,194k , 50k,
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,Santa Clara,IC4,IC4,Systems,IC4;Systems,235000,194k , 50k,
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,"Santa Clara, CA",IC5,IC5,Android,IC5;Android,230000,192k , 32k,4k
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,USA,IC3,IC3,ML / AI,IC3;ML / AI,173000,161k , 12k,
+Oath,Oath,https://en.wikipedia.org/wiki/Verizon_Media,"Playa vista, ca",Ic2,Ic2,DevOps,Ic2;DevOps,145000,131k , 1k,13k
+Oath,Oath,https://en.wikipedia.org/wiki/Verizon_Media,"Los Angeles, CA",IC2,IC2,DevOps,IC2;DevOps,147000,134k , 1k,13k
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Toronto, ON, Canada",IC-4,IC-4,Web Development (Front-End),IC-4;Web Development (Front-End),129000,124k , 5k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Redwood City, CA",IC4,IC4,Web Development (Front-End),IC4;Web Development (Front-End),145000,140k , 5k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"New York, NY",IC-2,IC-2,Full Stack,IC-2;Full Stack,175000,125k , 50k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Santa Clara, CA",IC-2,IC-2,API Development (Back-End),IC-2;API Development (Back-End),130000,130k , 10k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Seattle, WA",IC-3,IC-3,Full Stack,IC-3;Full Stack,250000,150k , 100k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,Seattle,IC3,IC3,Distributed Systems (Back-End),IC3;Distributed Systems (Back-End),320000,,,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Seattle, WA",IC3,IC3,Security,IC3;Security,264000,160k , 84k,20k
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"San Francisco, CA",IC-2,IC-2,Distributed Systems (Back-End),IC-2;Distributed Systems (Back-End),136000,121k , 15k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Pleasanton, CA",Application developer 3,Application developer 3,Full Stack,Application developer 3;Full Stack,132000,128k , 4k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Manchester, NH",IC-3,IC-3,Full Stack,IC-3;Full Stack,167000,152k , 15k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Redwood City, CA",IC-4,IC-4,Distributed Systems (Back-End),IC-4;Distributed Systems (Back-End),375000,,,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Redwood City, CA",Principal MTS,Principal MTS,Testing (SDET),Principal MTS;Testing (SDET),159000,,,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Redwood City, CA",IC-3,IC-3,Testing (SDET),IC-3;Testing (SDET),139000,123k , 16k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Redwood City, CA",Senior MTS,Senior MTS,Testing (SDET),Senior MTS;Testing (SDET),139000,123k , 16k,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Redwood City, CA",IC-4,IC-4,Testing (SDET),IC-4;Testing (SDET),150000,150k,,
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,"Redwood City, CA",Member of Technical Staff,Member of Technical Staff,Database,Member of Technical Staff;Database,170000,,,
+Palantir,Palantir,https://en.wikipedia.org/wiki/Palantir_Technologies,United Kingdom,Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),183000,163k,20k,
+Palantir,Palantir,https://en.wikipedia.org/wiki/Palantir_Technologies,"Washington, DC","FDE - Forward Deployed Engineer (different roles, but same starting level, only one level across Palantir)","FDE - Forward Deployed Engineer (different roles, but same starting level, only one level across Palantir)",Full Stack,"FDE - Forward Deployed Engineer (different roles, but same starting level, only one level across Palantir);Full Stack",212000,,,
+Palantir,Palantir,https://en.wikipedia.org/wiki/Palantir_Technologies,"London, EN, United Kingdom",Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),210000,160k , 30k,20k
+Palantir,Palantir,https://en.wikipedia.org/wiki/Palantir_Technologies,"New York, New York",Software Engineer,Software Engineer,Full Stack,Software Engineer;Full Stack,200000,155k , 10k,35k
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,Oakland,SDE3,SDE3,Mobile (iOS + Android),SDE3;Mobile (iOS + Android),175000,135k , 25k,20k
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,"Oakland, CA",Senior software engineer,Senior software engineer,Full Stack,Senior software engineer;Full Stack,177000,145k , 18k,14k
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,"Oakland, CA",1,1,API Development (Back-End),1;API Development (Back-End),140000,,,
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,"Oakland, CA",1,1,API Development (Back-End),1;API Development (Back-End),115000,,,
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,"San Jose, CA",Member of Technical Staff 2,Member of Technical Staff 2,Distributed Systems (Back-End),Member of Technical Staff 2;Distributed Systems (Back-End),271000,211k , 30k,30k
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,"San Jose, CA",Member of Technical Staff 1,Member of Technical Staff 1,Distributed Systems (Back-End),Member of Technical Staff 1;Distributed Systems (Back-End),250000,,,
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,"San Jose, CA",T23,T23,Full Stack,T23;Full Stack,155000,130k , 12k,13k
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,"San Jose, CA",T24,T24,DevOps,T24;DevOps,156000,128k , 20k,8k
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,"San Jose, CA",T25,T25,Distributed Systems (Back-End),T25;Distributed Systems (Back-End),180000,,,
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,"San Jose, CA",T24,T24,Full Stack,T24;Full Stack,171000,135k , 20k,16k
+Pinterest,Pinterest,https://en.wikipedia.org/wiki/Pinterest,"San Francisco, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),150000,150k , 100k,
+Pinterest,Pinterest,https://en.wikipedia.org/wiki/Pinterest,"Seattle, WA",L4,L4,Full Stack,L4;Full Stack,175000,165k , 138k,
+Pinterest,Pinterest,https://en.wikipedia.org/wiki/Pinterest,"San Francisco, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),564000,200k , 313k,50k
+Qualcomm,qcom,https://www.nasdaq.com/symbol/qcom,"San Diego, CA",Staff Engineer,Staff Engineer,ASIC,Staff Engineer;ASIC,200000,150k , 35k,15k
+Qualcomm,qcom,https://www.nasdaq.com/symbol/qcom,"San Diego, CA",Senior Engineer,Senior Engineer,RFSW,Senior Engineer;RFSW,145000,120k , 15k,10k
+Qualcomm,qcom,https://www.nasdaq.com/symbol/qcom,"San Diego, CA",Senior Engineer,Senior Engineer,RF software,Senior Engineer;RF software,130000,,,
+Reddit,Reddit,https://en.wikipedia.org/wiki/Reddit,"San Francisco, CA",L5,L5,Distributed Systems (Back-End),L5;Distributed Systems (Back-End),265000,200k , 65k,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Bellevue, WA",Senior MTS,Senior MTS,Distributed Systems (Back-End),Senior MTS;Distributed Systems (Back-End),236000,162k , 50k,24k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",LMTS,LMTS,Full Stack,LMTS;Full Stack,260000,195k , 35k,30k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Boston, MA",MTS,MTS,API Development (Back-End),MTS;API Development (Back-End),152000,125k , 15k,12k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,Bellevue,Lead SWE,Lead SWE,Distributed Systems (Back-End),Lead SWE;Distributed Systems (Back-End),469000,265k , 169k,35k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Salt Lake City, UT",7,7,Full Stack,7;Full Stack,139000,120k,18k,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Seattle, WA, USA",Senior Director,Senior Director,Infrastructure,Senior Director;Infrastructure,350000,250k , 60k,40k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,San Francisco,PMTS,PMTS,Distributed Systems (Back-End),PMTS;Distributed Systems (Back-End),297000,203k , 60k,40k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Principal MTS,Principal MTS,Distributed Systems (Back-End),Principal MTS;Distributed Systems (Back-End),365000,235k , 83k,47k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Principal MTS,Principal MTS,Distributed Systems (Back-End),Principal MTS;Distributed Systems (Back-End),272000,212k , 18k,42k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Senior SWE,Senior SWE,API Development (Back-End),Senior SWE;API Development (Back-End),270000,180k , 63k,27k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Principal MTS,Principal MTS,Distributed Systems (Back-End),Principal MTS;Distributed Systems (Back-End),340000,202k , 100k,40k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,sf,SMTS,SMTS,Distributed Systems (Back-End),SMTS;Distributed Systems (Back-End),210000,,,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Principal SWE,Principal SWE,Distributed Systems (Back-End),Principal SWE;Distributed Systems (Back-End),350000,210k , 98k,42k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Herndon, VA",Senior MTS,Senior MTS,Distributed Systems (Back-End),Senior MTS;Distributed Systems (Back-End),160000,,,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Senior MTS,Senior MTS,Distributed Systems (Back-End),Senior MTS;Distributed Systems (Back-End),220000,,,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,San Francisco,Lead MTS,Lead MTS,Distributed Systems (Back-End),Lead MTS;Distributed Systems (Back-End),250000,,,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Burlington, MA",Senior MTS,Senior MTS,API Development (Back-End),Senior MTS;API Development (Back-End),209000,160k , 25k,24k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Associate Member of Technical Staff,Associate Member of Technical Staff,Full Stack,Associate Member of Technical Staff;Full Stack,160000,125k , 22k,13k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Indianapolis, IN",Senior SWE,Senior SWE,API Development (Back-End),Senior SWE;API Development (Back-End),220000,,,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"Melbourne, Victoria, Australia",Software Engineer (SWE),Software Engineer (SWE),API Development (Back-End),Software Engineer (SWE);API Development (Back-End),160000,128k,32k,
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,Remote,Lead MTS,Lead MTS,Web Development (Front-End),Lead MTS;Web Development (Front-End),214000,174k , 14k,26k
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,"San Francisco, CA",Associate Member of Technical Staff,Associate Member of Technical Staff,DevOps,Associate Member of Technical Staff;DevOps,165000,130k , 22k,13k
+SAP,sap,https://www.nasdaq.com/symbol/sap,"San Francisco, CA",t2,t2,Distributed Systems (Back-End),t2;Distributed Systems (Back-End),105000,,,
+SAP,sap,https://www.nasdaq.com/symbol/sap,"Vancouver, BC, Canada",T2,T2,Web Development (Front-End),T2;Web Development (Front-End),100000,80k , 8k,9k
+SAP,sap,https://www.nasdaq.com/symbol/sap,"Palo Alto, CA",Senior Developer,Senior Developer,Full Stack,Senior Developer;Full Stack,171000,,,
+SAP,sap,https://www.nasdaq.com/symbol/sap,"San Francisco, CA",T2,T2,Distributed Systems (Back-End),T2;Distributed Systems (Back-End),144000,124k , 7k,14k
+SAP,sap,https://www.nasdaq.com/symbol/sap,"Vancouver, BC, Canada",T2-2,T2-2,Full Stack,T2-2;Full Stack,92000,,,
+SAP,sap,https://www.nasdaq.com/symbol/sap,"Palo Alto, CA",T4,T4,Distributed Systems (Back-End),T4;Distributed Systems (Back-End),225000,160k , 15k,50k
+SAP,sap,https://www.nasdaq.com/symbol/sap,Newtown Square,T3-2,T3-2,Networking,T3-2;Networking,154000,115k , 20k,20k
+SAP,sap,https://www.nasdaq.com/symbol/sap,"San Ramon, CA",T2,T2,Full Stack,T2;Full Stack,110000,103k,7k,
+SAP,sap,https://www.nasdaq.com/symbol/sap,"Palo Alto, CA",Senior Developer,Senior Developer,Distributed Systems (Back-End),Senior Developer;Distributed Systems (Back-End),200000,,,
+SAP,sap,https://www.nasdaq.com/symbol/sap,"Palo Alto, CA",T3,T3,Web Development (Front-End),T3;Web Development (Front-End),320000,200k , 100k,20k
+servicenow,NOW,https://finance.yahoo.com/quote/NOW,San Diego,IC2,IC2,Full Stack,IC2;Full Stack,135000,100k , 25k,10k
+Snap,NOW,https://finance.yahoo.com/quote/NOW,"Seattle, WA",L7,L7,Full Stack,L7;Full Stack,860000,260k , 550k,52k
+Snap,snap,https://www.nasdaq.com/symbol/snap,"San Francisco, CA",L3,L3,Full Stack,L3;Full Stack,260000,160k , 100k,
+Splunk,splk,https://www.nasdaq.com/symbol/splk,"San Francisco, CA",P4,P4,Web Development (Front-End),P4;Web Development (Front-End),300000,165k , 110k,25k
+Spotify,snap,https://www.nasdaq.com/symbol/snap,New York,L2,L2,Web Development (Front-End),L2;Web Development (Front-End),200000,150k , 50k,
+SquareSpace,splk,https://www.nasdaq.com/symbol/splk,"New York, NY",E3,E3,Web Development (Front-End),E3;Web Development (Front-End),189000,151k , 18k,20k
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),"San Francisco, CA",2,2,Full Stack,2;Full Stack,149000,"148,500",,
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),"San Francisco, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),360000,201k , 129k,30k
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),"San Francisco, CA",L1,L1,Full Stack,L1;Full Stack,203000,121k , 67k,15k
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),"San Francisco, CA",L3,L3,API Development (Back-End),L3;API Development (Back-End),478000,229k , 204k,45k
+Tableau Software,data,https://www.nasdaq.com/symbol/data,"Seattle, WA",Senior SWE,Senior SWE,Full Stack,Senior SWE;Full Stack,350000,180k , 152k,18k
+Tableau Software,data,https://www.nasdaq.com/symbol/data,"Seattle, WA",Software Engineer (SWE),Software Engineer (SWE),API Development (Back-End),Software Engineer (SWE);API Development (Back-End),242000,120k , 110k,12k
+Tesla,tsla,https://www.nasdaq.com/symbol/tsla,"Palo Alto, CA",Senior Engineer,Senior Engineer,Distributed Systems (Back-End),Senior Engineer;Distributed Systems (Back-End),400000,183k , 202k,15k
+Tesla,tsla,https://www.nasdaq.com/symbol/tsla,"San Francisco, CA",P5,P5,Pipeline,P5;Pipeline,460000,240k , 220k,
+Tesla,tsla,https://www.nasdaq.com/symbol/tsla,"Palo Alto, CA",Senior Engineer,Senior Engineer,Embedded,Senior Engineer;Embedded,253000,166k , 75k,
+T-Mobile,TMUS,https://finance.yahoo.com/quote/TMUS,San Francisco,L3,L3,iOS,L3;iOS,100000,,,
+T-Mobile,TMUS,https://finance.yahoo.com/quote/TMUS,Bellevue,Engineer,Engineer,Full Stack,Engineer;Full Stack,136000,110k , 10k,15k
+Tripadvisor,trip,https://www.nasdaq.com/symbol/trip,"Boston, MA",I,I,Full Stack,I;Full Stack,150000,110k , 33k,12k
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,Remote,SWE II,SWE II,Full Stack,SWE II;Full Stack,135000,,,
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,"Boulder, CO",Senior SWE,Senior SWE,API Development (Back-End),Senior SWE;API Development (Back-End),280000,155k , 100k,25k
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,"San Francisco, CA",SWE II,SWE II,Distributed Systems (Back-End),SWE II;Distributed Systems (Back-End),290000,175k , 75k,30k
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,"San Francisco, CA",SWE II,SWE II,Full Stack,SWE II;Full Stack,215000,145k , 60k,10k
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,"San Francisco, CA",SWE II,SWE II,ML / AI,SWE II;ML / AI,230000,150k , 70k,10k
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,"San Francisco, CA",SWE II,SWE II,Android,SWE II;Android,221000,145k , 55k,21k
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,New York,SWE II,SWE II,Distributed Systems (Back-End),SWE II;Distributed Systems (Back-End),213000,,,
+Two Sigma,Two Sigma,https://en.wikipedia.org/wiki/Two_Sigma,New York,4,4,Distributed Systems (Back-End),4;Distributed Systems (Back-End),350000,204k , 146k,
+Two Sigma,Two Sigma,https://en.wikipedia.org/wiki/Two_Sigma,"New York, NY",4,4,Distributed Systems (Back-End),4;Distributed Systems (Back-End),380000,190k,190k,
+Two Sigma,Two Sigma,https://en.wikipedia.org/wiki/Two_Sigma,"New York, NY",3,3,Distributed Systems (Back-End),3;Distributed Systems (Back-End),335000,175k,160k,
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Software Engineer II,Software Engineer II,API Development (Back-End),Software Engineer II;API Development (Back-End),241000,140k , 87k,14k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Senior Software Engineer,Senior Software Engineer,ML / AI,Senior Software Engineer;ML / AI,400000,,,
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,San Francisco,Senior Software Engineer,Senior Software Engineer,Distributed Systems (Back-End),Senior Software Engineer;Distributed Systems (Back-End),525000,,,
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",5a,5a,Full Stack,5a;Full Stack,317000,176k , 120k,21k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Pittsburgh, PA",4,4,Distributed Systems (Back-End),4;Distributed Systems (Back-End),312000,155k , 142k,15k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Senior Software Engineer,Senior Software Engineer,Full Stack,Senior Software Engineer;Full Stack,442000,192k , 225k,25k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Seattle, WA",4,4,Android,4;Android,249000,149k , 85k,15k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Palo Alto, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),260000,152k , 90k,17k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",L3,L3,ML / AI,L3;ML / AI,220000,140k , 70k,10k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",L4,L4,Distributed Systems (Back-End),L4;Distributed Systems (Back-End),275000,151k , 100k,18k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Palo Alto, CA",4,4,Distributed Systems (Back-End),4;Distributed Systems (Back-End),290000,145k , 128k,17k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Pittsburgh, PA",Software Engineer II,Software Engineer II,Web Development (Front-End),Software Engineer II;Web Development (Front-End),234000,159k , 60k,15k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,Seattle,Software Engineer II,Software Engineer II,API Development (Back-End),Software Engineer II;API Development (Back-End),230000,143k , 73k,14k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Senior Software Engineer II,Senior Software Engineer II,Distributed Systems (Back-End),Senior Software Engineer II;Distributed Systems (Back-End),485000,230k , 225k,30k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",L5a,L5a,Distributed Systems (Back-End),L5a;Distributed Systems (Back-End),410000,188k , 190k,32k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Senior Software Engineer,Senior Software Engineer,Distributed Systems (Back-End),Senior Software Engineer;Distributed Systems (Back-End),372000,172k , 178k,22k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Software Engineer II,Software Engineer II,Distributed Systems (Back-End),Software Engineer II;Distributed Systems (Back-End),297000,147k , 95k,55k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,sfo,l4,l4,API Development (Back-End),l4;API Development (Back-End),10000,,,
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Software Engineer II,Software Engineer II,Android,Software Engineer II;Android,260000,160k , 80k,20k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Mountain View, CA",3,3,Testing (SDET),3;Testing (SDET),340000,160k , 135k,50k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Palo Alto, CA",Software Engineer II,Software Engineer II,API Development (Back-End),Software Engineer II;API Development (Back-End),220000,143k , 70k,14k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"Palo Alto, CA",Software Engineer I,Software Engineer I,API Development (Back-End),Software Engineer I;API Development (Back-End),155000,110k , 35k,10k
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,"San Francisco, CA",Software Engineer II,Software Engineer II,Distributed Systems (Back-End),Software Engineer II;Distributed Systems (Back-End),200000,137k , 50k,13k
+USAA,USAA,https://en.wikipedia.org/wiki/USAA,Plano,Software Engineer III,Software Engineer III,B2B,Software Engineer III;B2B,70000,60k,10k,
+Veritas Technologies,Veritas Technologies,https://en.wikipedia.org/wiki/Veritas_Technologies,"Santa Clara, CA",Senior Principal SWE,Senior Principal SWE,Distributed Systems (Back-End),Senior Principal SWE;Distributed Systems (Back-End),189000,,,
+Veritas Technologies,Veritas Technologies,https://en.wikipedia.org/wiki/Veritas_Technologies,San Francisco,Software Engineer,Software Engineer,Full Stack,Software Engineer;Full Stack,140000,122k,10k,
+Verizon,vz,https://www.nasdaq.com/symbol/vz,"Taipei, TP, Taiwan",IC3,IC3,ML / AI,IC3;ML / AI,50000,30k , 10k,10k
+Viasat,vsat,https://www.nasdaq.com/symbol/vsat,"College Station, TX",L3,L3,Full Stack,L3;Full Stack,90000,,,
+Visa,V,https://finance.yahoo.com/quote/V,"Austin, TX",Software Engineer,Software Engineer,Distributed Systems (Back-End),Software Engineer;Distributed Systems (Back-End),125000,95k , 15k,15k
+Visa,V,https://finance.yahoo.com/quote/V,"Denver, CO",Senior,Senior,Security,Senior;Security,90000,,,
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Palo Alto, CA",MTS 2,MTS 2,Software,MTS 2;Software,151000,125k , 10k,16k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,Bellevue Washington,Staff Engineer 1,Staff Engineer 1,API Development (Back-End),Staff Engineer 1;API Development (Back-End),270000,180k,,
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Palo Alto, CA",m3,m3,DevOps,m3;DevOps,150000,,,
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Boston, MA",Senior MTS,Senior MTS,Distributed Systems (Back-End),Senior MTS;Distributed Systems (Back-End),200000,152k , 25k,30k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Palo Alto, CA",Staff Engineer 1,Staff Engineer 1,Testing (SDET),Staff Engineer 1;Testing (SDET),300000,178k , 80k,35k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Palo Alto, CA",MTS 2,MTS 2,API Development (Back-End),MTS 2;API Development (Back-End),150000,122k , 10k,16k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,Bengaluru,Senior MTS,Senior MTS,Distributed Systems (Back-End),Senior MTS;Distributed Systems (Back-End),46000,32k , 8k,6k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,Seattle,Senior MTS,Senior MTS,DevOps,Senior MTS;DevOps,257000,150k , 82k,25k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Bangalore, KA, India",MTS 3,MTS 3,Full Stack,MTS 3;Full Stack,30000,25k , 4k,1k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Palo Alto, CA",Staff Engineer 1,Staff Engineer 1,Distributed Systems (Back-End),Staff Engineer 1;Distributed Systems (Back-End),480000,192k , 248k,40k
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,"Palo Alto, CA",Staff Engineer 1,Staff Engineer 1,UI,Staff Engineer 1;UI,245000,170k , 40k,35k
+Workday,wday,https://www.nasdaq.com/symbol/wday,"Pleasanton, CA",Principal SWE,Principal SWE,Distributed Systems (Back-End),Principal SWE;Distributed Systems (Back-End),250000,180k,,
+Workday,wday,https://www.nasdaq.com/symbol/wday,"Pleasanton, CA",P3,P3,Testing (SDET),P3;Testing (SDET),170000,140k , 30k,
+Workday,wday,https://www.nasdaq.com/symbol/wday,Pleasanton,P1,P1,App Development,P1;App Development,168000,105k , 58k,5k
+Workday,wday,https://www.nasdaq.com/symbol/wday,Pleasanton,Senior SWE,Senior SWE,Distributed Systems (Back-End),Senior SWE;Distributed Systems (Back-End),220000,175k , 40k,
+Workday,wday,https://www.nasdaq.com/symbol/wday,"Pleasanton, CA",P3,P3,iOS,P3;iOS,124000,,,
+Yahoo,Yahoo,https://en.wikipedia.org/wiki/Yahoo!,"Sunnyvale, CA",IC3,IC3,Full Stack,IC3;Full Stack,182000,137k , 24k,21k
+Yahoo,Yahoo,https://en.wikipedia.org/wiki/Yahoo!,"San Francisco, CA",Distinguished Engineer,Distinguished Engineer,Distributed Systems (Back-End),Distinguished Engineer;Distributed Systems (Back-End),650000,,,
+Yahoo,Yahoo,https://en.wikipedia.org/wiki/Yahoo!,"Sunnyvale, CA",IC3,IC3,API Development (Back-End),IC3;API Development (Back-End),149000,126k , 11k,12k
+Yandex,yndx,https://www.nasdaq.com/symbol/yndx,"Moscow, Russia",G16,G16,ML / AI,G16;ML / AI,66000,35k , 24k,7k
+Yandex,yndx,https://www.nasdaq.com/symbol/yndx,"Moscow, Russia",G14,G14,Web Development (Front-End),G14;Web Development (Front-End),21000,,,
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,"San Francisco, CA",IC2,IC2,ML / AI,IC2;ML / AI,158000,120k , 38k,
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,"San Francisco, CA",IC1,IC1,Full Stack,IC1;Full Stack,133000,105k , 18k,10k
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,"San Francisco, CA",IC2,IC2,API Development (Back-End),IC2;API Development (Back-End),175000,131k , 44k,
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,"San Francisco, CA",IC2,IC2,iOS,IC2;iOS,190000,140k , 50k,
+Zillow,z,https://www.nasdaq.com/symbol/z,"Seattle, WA",P3,P3,Web Development (Front-End),P3;Web Development (Front-End),212000,144k , 35k,33k
+Zillow,z,https://www.nasdaq.com/symbol/z,Seattle,P5,P5,Distributed Systems (Back-End),P5;Distributed Systems (Back-End),320000,175k , 145k,
+zynga,znga,https://www.nasdaq.com/symbol/znga,san francisco,principle,principle,Distributed Systems (Back-End),principle;Distributed Systems (Back-End),300000,200k , 50k,50k

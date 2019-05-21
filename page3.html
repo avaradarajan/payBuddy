@@ -208,10 +208,7 @@ console.log(data[0][0])
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
+
 
     </ul>
     <!-- End of Sidebar -->
@@ -257,14 +254,14 @@ console.log(data[0][0])
             <div class="col" id="sal5"><label class="itext">Compensation in USD</label><div id="newbar"></div></div>
           </div>
           <div class="row">
-            <div class="col" id="sal4"><label class="itext">Other Factors</label><div id="others"></div></div>
+            <div class="col" id="sal4"><label class="itext">Other Factors</label><div id="forlegend"></div><div id="others"></div></div>
           </div>
 
             <script>
             function loadGChartP(data){
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
                         width = 960 - margin.left - margin.right,
-                        height = 300 - margin.top - margin.bottom;
+                        height = 600 - margin.top - margin.bottom;
 
                     // set the ranges
                     var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
@@ -347,15 +344,6 @@ g.append("g")
 g.append("g")
   .attr("class", "axis")
   .call(d3.svg.axis().scale(y).orient("left"))
-  .append("text")
-  .attr("x", 2)
-  .attr("y", y(y.ticks().pop()) + 0.5)
-  .attr("dy", "0.32em")
-  .attr("fill", "#000")
-  .attr("font-weight", "bold")
-  .attr("font-size", "1px")
-  .attr("text-anchor", "start")
-  .text("Score in $");
 
 
   // Prep the tooltip bits, initial display is hidden
@@ -371,6 +359,32 @@ g.append("g")
                     .style("text-anchor", "middle")
                     .attr("font-size", "20px")
                     .attr("font-weight", "bold");
+
+                    var colors = ["#1f77b4", "#ff7f0e"];
+                    // Draw legend
+                  var legend = g.selectAll(".legend")
+                    .data(colors)
+                    .enter().append("g")
+                    .attr("class", "legend")
+                    .attr("transform", function(d, i) { return "translate(-140," + i * 20 + ")"; });
+
+                  legend.append("rect")
+                    .attr("x", width - 18)
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .style("fill", function(d, i) {return colors.slice().reverse()[i];});
+
+                  legend.append("text")
+                    .attr("x", width + 5)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("text-anchor", "start")
+                    .text(function(d, i) {
+                      switch (i) {
+                      case 0: return d3.select('#companySelect2').property('value');
+                        case 1: return d3.select('#companySelect1').property('value');
+                      }
+                    });
 }
 
 
@@ -455,7 +469,7 @@ g.append("g")
             function loadGChart(data){
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
                         width = 960 - margin.left - margin.right,
-                        height = 300 - margin.top - margin.bottom;
+                        height = 600 - margin.top - margin.bottom;
 
                     // set the ranges
                     var x = d3.scale.ordinal().rangeRoundBands([0, width], 0.01)
@@ -536,15 +550,6 @@ g.append("g")
 g.append("g")
   .attr("class", "axis")
   .call(d3.svg.axis().scale(y).orient("left"))
-  .append("text")
-  .attr("x", 2)
-  .attr("y", y(y.ticks().pop()) + 0.5)
-  .attr("dy", "0.32em")
-  .attr("fill", "#000")
-  .attr("font-weight", "bold")
-  .attr("font-size", "1px")
-  .attr("text-anchor", "start")
-  .text("Score");
 
 
   // Prep the tooltip bits, initial display is hidden
@@ -560,6 +565,32 @@ g.append("g")
                     .style("text-anchor", "middle")
                     .attr("font-size", "20px")
                     .attr("font-weight", "bold");
+
+                    var colors = ["#1f77b4", "#ff7f0e"];
+                    // Draw legend
+                  var legend = g.selectAll(".legend")
+                    .data(colors)
+                    .enter().append("g")
+                    .attr("class", "legend")
+                    .attr("transform", function(d, i) { return "translate(-140," + i * 20 + ")"; });
+
+                  legend.append("rect")
+                    .attr("x", width - 18)
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .style("fill", function(d, i) {return colors.slice().reverse()[i];});
+
+                  legend.append("text")
+                    .attr("x", width + 5)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("text-anchor", "start")
+                    .text(function(d, i) {
+                      switch (i) {
+                      case 0: return d3.select('#companySelect2').property('value');
+                        case 1: return d3.select('#companySelect1').property('value');
+                      }
+                    });
 }
 
 
@@ -906,7 +937,7 @@ function loadBarChartsStocks(data)
                         var header = table.append("thead").append("tr");
                         header
                                 .selectAll("th")
-                                .data([company1 + " vs " + company2])
+                                .data([company1 + " - " + company2])
                                 .enter()
                                 .append("th")
                                 .text(function(d) { return d; });
@@ -950,7 +981,7 @@ function loadBarChartsStocks(data)
                function loadCompanyData(company1,company2) {
                     $.post("", {'data': 'comp','name1':company1,'name2':company2}, function(data_infunc){
                     console.log("Load company")
-                    //console.log(data_infunc.c1_data)
+                    console.log(data_infunc.plot_data)
                     records = JSON.parse(data_infunc.plot_data)
                     console.log(records)
                     d3.select("#table").select("table").remove();

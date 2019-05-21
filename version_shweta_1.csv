@@ -1,0 +1,732 @@
+company,companyCode,companyStockURL,state,city,location,levelTag,levelTagNormalized,specializationTag,totalCompensation,salary,stock,bonus,rating,recommendToFriend,interviewDifficulty,noOfEmployees,ceoApproval,appliedOnline,Recruiter,employeeReferral,campusRecruiting,other,inPerson,staffingAgency
+Accenture,acn,https://www.nasdaq.com/symbol/acn,MA,Boston,"Boston, MA",Manager,6,Full Stack,124000,119000,5000,0,3.8,78,2.8,10000+,90,33,10,12,32,3,4,6
+Accenture,acn,https://www.nasdaq.com/symbol/acn,TX,Dallas,"Dallas, TX",Manager,6,Big data Tech lead,128000,118000,10000,0,3.8,78,2.8,10000+,90,33,10,12,32,3,4,6
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,CA,Los Angeles,"Los Angeles, CA",Senior Software Engineer (4),4,Web Development (Front-End),281000,145000,129000,7000,4.2,85,3.1,10000+,96,26,18,21,24,3,3,5
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,TX,Austin,"Austin, TX",Technical Support Engineer 4,1,Technical Support,117000,102000,10000,5000,4.2,85,3.1,10000+,96,26,18,21,24,3,3,5
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,CA,San Jose,"San Jose, CA",Software Engineer 1,1,Distributed Systems (Back-End),140000,120000,20000,0,4.2,85,3.1,10000+,96,26,18,21,24,3,3,5
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,CA,San Jose,San Jose,Software Engineer 2,2,Full Stack,150000,120000,22000,8000,4.2,85,3.1,10000+,96,26,18,21,24,3,3,5
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,CA,San Jose,"San Jose, CA",Senior Software Engineer (4),4,Full Stack,240000,140000,50000,50000,4.2,85,3.1,10000+,96,26,18,21,24,3,3,5
+Adobe,adbe,https://www.nasdaq.com/symbol/adbe,CA,San Francisco,"San Francisco, CA",Senior Software Engineer (4),4,Full Stack,209000,120000,50000,39000,4.2,85,3.1,10000+,96,26,18,21,24,3,3,5
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,CA,San Framcisco,"San Framcisco, CA",L5,5,Full Stack,450000,220000,190000,40000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,CA,Oakland,"Oakland, CA",L6,6,Distributed Systems (Back-End),550000,225000,270000,55000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,CA,San Francisco,"San Francisco, CA",L5,5,Full Stack,527000,210000,275000,42000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,CA,San Francisco,"San Francisco, CA",L4,4,Web Development (Front-End),292000,180000,90000,22000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,CA,San Francisco,"San Francisco, CA",L5,5,ML / AI,300000,200000,60000,40000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,WA,Seattle,"Seattle, WA",L4,4,Full Stack,334000,195000,110000,29000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,CA,San Francisco,"San Francisco, CA",L5,5,Full Stack,422000,197000,186000,40000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,CA,San Francisco,"San Francisco, CA",L4,4,Full Stack,200000,170000,20000,10000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Airbnb,AIRBNB,https://stocktwits.com/symbol/AIRBNB,WA,Seattle,"Seattle, WA",L4,4,Full Stack,343000,195000,118000,30000,3.9,77,3.1,5000+,86,58,14,19,4,2,2,1
+Akamai,akam,https://www.nasdaq.com/symbol/akam,CA,Santa clara,"Santa clara, CA",Senior,3,Full Stack,187000,162000,11000,14000,3.6,72,3.1,5000+,84,35,18,20,16,2,2,6
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",SDE III,3,Distributed Systems (Back-End),289000,185000,104000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L7,4,Distributed Systems (Back-End),350000,160000,190000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,AZ,Tempe,"Tempe, AZ",L4,1,Full Stack,150000,110000,10000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE III,3,Distributed Systems (Back-End),238000,160000,78000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L5,2,API Development (Back-End),177000,134000,55000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,Distributed Systems (Back-End),152000,125000,15000,22000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,seattle,seattle,L5,2,Distributed Systems (Back-End),246000,151000,50000,38000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),209000,150000,59000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,API Development (Back-End),260000,155000,64000,41000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,API Development (Back-End),201000,142000,59000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,SDE I,1,API Development (Back-End),177000,135000,17000,25000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L5,2,Full Stack,245000,130000,115000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",SDE I,1,Mobile (iOS + Android),186000,156000,30000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",L4,1,Distributed Systems (Back-End),198000,152000,25000,21000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,API Development (Back-End),185000,185000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Distributed Systems (Back-End),199000,199000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Bellevue,"Bellevue, WA",L5,2,Distributed Systems (Back-End),202000,140000,60000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,SDE III,3,Developer Tools,381000,160000,221000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,SDE I,1,Distributed Systems (Back-End),144000,144000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),236000,134000,101750,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L6,3,Distributed Systems (Back-End),370000,160000,210000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",L5,2,API Development (Back-End),202000,202000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,TX,Austin,"Austin, TX",L5,2,ML / AI,130000,130000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattlee,"Seattlee, WA",SDE I,1,Full Stack,145000,108000,27000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),280000,155000,125000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L4,1,Middleware,127000,115000,18000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,NY,New York,"New York, NY",L4,1,Data,148000,115000,10000,23000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo alto,Palo alto,L5,2,Distributed Systems (Back-End),300000,300000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,San Francisco,"San Francisco, CA",L4,1,Full Stack,137000,108000,15000,24000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Full Stack,209000,145500,64000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Santa Clara,"Santa Clara, CA",L5,2,ML / AI,250000,250000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Distributed Systems (Back-End),171000,128000,17000,26000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,ML / AI,217000,147000,42000,22000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",L4,1,API Development (Back-End),130000,130000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",SDE II,2,Testing (SDET),247000,145000,100000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,MA,Boston,Boston,SDE II,2,Android,200000,150000,50000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,VA,Herndon,"Herndon, VA",L4,1,Distributed Systems (Back-End),170000,130000,5000,35000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",L4,1,ML / AI,170000,135000,2000,35000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,NY,New York,"New York, NY",SDE II,2,Distributed Systems (Back-End),270000,170000,60000,40000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Distributed Systems (Back-End),162000,112000,16000,34000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Full Stack,180000,180000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE III,3,DevOps,200000,120000,80000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,VA,Herndon,"Herndon, VA",SDE I,1,Security,148000,105000,20000,23000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,Security,185000,130000,5000,50000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,API Development (Back-End),135000,108000,3000,24000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L4,1,API Development (Back-End),127000,105000,22000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L4,1,API Development (Back-End),128000,128000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,API Development (Back-End),195000,195000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Distributed Systems (Back-End),220000,220000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Distributed Systems (Back-End),194000,144000,50000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,Web Development (Front-End),136000,108000,17000,11000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,Full Stack,168000,130000,21000,17000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Full Stack,200000,200000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Santa Cruz,"Santa Cruz, CA",L6,3,Full Stack,320000,160000,160000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,seattle,seattle,L4,1,Distributed Systems (Back-End),150000,150000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Networking,227000,131000,96000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L6,3,ML / AI,330000,150000,170000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",L5,2,Distributed Systems (Back-End),250000,250000,0,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Distributed Systems (Back-End),170000,140000,30000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,"Seattle,WA","Seattle,WA",L4,1,Distributed Systems (Back-End),190000,135000,55000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Full Stack,180000,134000,40000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,NY,New York,"New York, NY",SDE I,1,Full Stack,156000,120000,20000,16000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,API Development (Back-End),230000,130000,85000,15000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,NY,New York,"New York, NY",SDE II,2,Full Stack,210000,136000,54000,20000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",SDE II,2,ML / AI,253000,175000,48000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Full Stack,202000,150000,45000,7000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,API Development (Back-End),145000,108000,20000,14000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,Distributed Systems (Back-End),165000,125000,4000,36000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Full Stack,230000,150000,50000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,API Development (Back-End),172000,130000,4000,38000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,API Development (Back-End),163000,125000,4000,34000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L5,2,API Development (Back-End),215000,162000,40000,13000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,San Francisco,"San Francisco, CA",SDE I,1,Full Stack,185000,140000,25000,20000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Distributed Systems (Back-End),156000,112000,13000,31000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,TX,Austin,"Austin, TX",SDE III,3,Distributed Systems (Back-End),300000,155000,130000,15000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,API Development (Back-End),250000,160000,40000,50000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Web Development (Front-End),205000,150000,55000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L6,3,Android,285000,175000,80000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L6,3,API Development (Back-End),315000,160000,120000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Web Development (Front-End),213000,157000,6000,50000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,AWS,135000,108000,3000,24000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Full Stack,213000,150000,55000,8000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,San Francisco,"San Francisco, CA",L5,2,iOS,200000,160000,30000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L5,2,Android,215000,160000,40000,15000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),265000,150000,100000,15000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),350000,133000,177000,40000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L5,2,Distributed Systems (Back-End),220000,160000,40000,20000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),260000,155000,40000,65000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,iOS,224000,142000,62000,20000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,BC,Vancouver,"Vancouver, BC",SDE II,2,API Development (Back-End),288000,135000,88000,65000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L5,2,Distributed Systems (Back-End),220000,157000,63000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),500000,160000,240000,100000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,API Development (Back-End),127000,117000,10000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,ML / AI,150000,110000,10000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),220000,150000,60000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),218000,133000,85000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,NJ,New Jersey,New Jersey,L4,1,Full Stack,165000,112000,29000,24000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Web Development (Front-End),171000,140000,20000,11000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L4,1,ML / AI,188000,120000,50000,18000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,SDE III,3,Distributed Systems (Back-End),360000,160000,200000,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,API Development (Back-End),180000,140000,30000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Distributed Systems (Back-End),200000,135000,50000,15000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Full Stack,132000,104000,16000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",L4,1,ML / AI,174000,135000,15000,24000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L5,2,Full Stack,200000,150000,30000,20000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L5,2,Distributed Systems (Back-End),193000,144000,34000,16000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,Full Stack,136000,108000,17000,11000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,San Francisco,"San Francisco, CA",L5,2,Distributed Systems (Back-End),248000,140000,95000,13000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Distributed Systems (Back-End),179000,131000,41000,7000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Full Stack,230000,150000,50000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,MN,Minneapolis,"Minneapolis, MN",SDE I,1,API Development (Back-End),165000,125000,3000,37000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L5,2,ML / AI,190000,150000,30000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Irvine,"Irvine, CA",L4,1,Full Stack,223000,112000,70000,36000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,NY,New York,"New York, NY",L5,2,API Development (Back-End),216000,160000,34000,22000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,Full Stack,255000,160000,40000,55000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",SDE I,1,Full Stack,175000,130000,30000,15000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Palo Alto,"Palo Alto, CA",SDE I,1,API Development (Back-End),166000,120000,20000,16000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,Distributed Systems (Back-End),135000,108000,17000,11000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE I,1,SDE,135000,108000,17000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,MA,Boston,"Boston, MA",L4,1,Distributed Systems (Back-End),135000,108000,17000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Sunnyvale,"Sunnyvale, CA",L5,2,API Development (Back-End),235000,160000,46000,28000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,San Francisco,San Francisco,SDE II,2,Testing (SDET),275000,150000,100000,25000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",SDE II,2,Distributed Systems (Back-End),240000,150000,50000,40000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Testing (SDET),145000,120000,20000,5000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Full Stack,172000,145000,2000,25000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Full Stack,172000,145000,2000,25000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,SDE II,2,Distributed Systems (Back-End),230000,140000,50000,40000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L5,2,ML / AI,215000,155000,30000,30000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Full Stack,150000,108000,17000,24000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L6,3,Distributed Systems (Back-End),355000,160000,180000,15000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,CA,Irvine,"Irvine, CA",SDE II,2,API Development (Back-End),197000,128000,60000,9000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,Seattle,L5,2,Security,240000,140000,60000,40000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Mobile (iOS + Android),143000,120000,10000,13000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Full Stack,162000,125000,5000,32000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L4,1,Full Stack,145000,120000,15000,10000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,MA,Cambridge,"Cambridge, MA",L4,1,ML / AI,190000,130000,40000,20000,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Amazon,amzn,https://www.nasdaq.com/symbol/amzn,WA,Seattle,"Seattle, WA",L6,3,API Development (Back-End),307000,147700,159300,0,3.8,74,3,10000+,85,49,16,13,14,3,3,3
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,WA,Seattle,"Seattle, WA",ICT5,4,Distributed Systems (Back-End),460000,460000,0,0,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,Operations,197000,124000,62000,11000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,Full Stack,185000,135000,25000,25000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,Cupertino,ICT3,2,CoreOS,178000,130000,28000,0,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,San Francisco,"San Francisco, CA",ICT5,4,Distributed Systems (Back-End),400000,220000,180000,0,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,ML / AI,340000,340000,0,0,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,iOS,180000,135000,35000,10000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,Distributed Systems (Back-End),270000,170000,100000,10000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT3,2,Full Stack,180000,140000,28000,14000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,Connectivity,225000,165000,40000,20000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT4,3,Full Stack,305000,160000,135000,11000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,API Development (Back-End),325000,170000,130000,25000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT5,4,ML / AI,540000,540000,0,0,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,Full Stack,230000,150000,60000,20000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT3,2,Distributed Systems (Back-End),205000,140000,50000,14000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,Cupertino,ICT3,2,Compilers,183000,140000,43000,0,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,iOS,175000,140000,30000,5000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,Cupertino,ICT3,2,Full Stack,180000,135000,30000,15000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,API Development (Back-End),307000,174000,103000,30000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,Testing (SDET),260000,170000,70000,20000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT3,2,Full Stack,199000,134000,50000,15000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,ML / AI,240000,165000,45000,30000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT2,1,Full Stack,188000,120000,18000,40000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,Firmware,224000,135000,69000,20000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT3,2,Testing (SDET),247000,120000,120000,7000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT3,2,Distributed Systems (Back-End),185000,135000,26000,24000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT4,3,Distributed Systems (Back-End),250000,170000,60000,20000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT2,1,iOS,130000,110000,12000,10000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT3,2,Distributed Systems (Back-End),180000,135000,35000,10000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,iOS,354000,224000,100000,30000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,cupertino,"cupertino, ca",ICT5,4,iOS,550000,224000,290000,36000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,iOS,400000,400000,0,0,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",ICT3,2,ML / AI,255000,145000,98000,12000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,iOS,181000,133000,35000,13000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,cupertino,cupertino,ICT5,3,iOS,354000,200000,130000,24000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Sunnyvale,"Sunnyvale, CA",L5,4,Distributed Systems (Back-End),321000,176000,124000,21000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT4,3,Full Stack,330000,170000,130000,30000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,Cupertino,"Cupertino, CA",ICT3,2,Distributed Systems (Back-End),224000,165000,43000,16000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Apple,aapl,https://www.nasdaq.com/symbol/aapl,CA,San Francisco,"San Francisco, CA",ICT4,3,ML / AI,380000,180000,180000,20000,4,78,3,10000+,90,55,13,15,9,2,4,1
+Atlassian,team,https://www.nasdaq.com/symbol/team,CA,Mountain View,"Mountain View, CA",P5,4,Web Development (Front-End),236000,170000,40000,26000,4.2,85,3,1000+,93,64,15,10,3,5,2,0
+Atlassian,team,https://www.nasdaq.com/symbol/team,CA,Mountain view,"Mountain view, CA",P3,2,Web Development (Front-End),165000,165000,0,0,4.2,85,3,1000+,93,64,15,10,3,5,2,0
+Autodesk,adsk,https://www.nasdaq.com/symbol/adsk,CA,San Francisco,San Francisco,Grade 12,5,DevOps,150000,120000,25000,5000,3.9,80,2.9,5000+,83,25,14,14,12,2,3,2
+Autodesk,adsk,https://www.nasdaq.com/symbol/adsk,CA,san francisco,san francisco,Grade 12,5,Security,160000,140000,6000,14000,3.9,80,2.9,5000+,83,25,14,14,12,2,3,2
+Bank of America Merrill Lynch,BAC,https://finance.yahoo.com/quote/BAC/,NC,Charlotte,"Charlotte, NC",Staff,2,Mobile (iOS + Android),160000,160000,0,0,3.6,67,2.7,10000+,84,52,11,10,16,3,5,4
+Barclays,bclyf,https://www.nasdaq.com/symbol/bclyf,NJ,Whippany,"Whippany, NJ",Analyst,1,Full Stack,99000,97000,2000,0,3.8,77,3.1,10000+,82,51,13,7,17,2,3,7
+Barclays,bclyf,https://www.nasdaq.com/symbol/bclyf,NY,New York,"New York, NY",Analyst,1,Full Stack,101000,101000,4000,0,3.8,77,3.1,10000+,82,51,13,7,17,2,3,7
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,CA,Irvine,"Irvine, CA",Senior Software Engineer I,3,Games,145000,125000,20000,0,4.1,82,3,1000+,95,71,9,12,1,4,1,1
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,CA,Irvine,"Irvine, CA",Software Engineer,1,Games,120000,105000,15000,0,4.1,82,3,1000+,95,71,9,12,1,4,1,1
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,CA,Irvine,"Irvine, CA",Software Engineer,1,Games,140000,125000,15000,0,4.1,82,3,1000+,95,71,9,12,1,4,1,1
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,CA,Irvine,"Irvine, CA",Software Engineer,1,Games,120000,105000,15000,0,4.1,82,3,1000+,95,71,9,12,1,4,1,1
+Blizzard Entertainment,atvi,https://www.nasdaq.com/symbol/atvi,CA,Irvine,"Irvine, CA",Associate Software Engineer,2,Games,108000,96000,12000,0,4.1,82,3,1000+,95,71,9,12,1,4,1,1
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,NY,New York,"New York, NY",Sofwtare Engineer,1,Full Stack,135000,135000,0,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,NY,New York,"New York, NY",Senior,3,Distributed Systems (Back-End),233000,195000,38000,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,NY,New York,"New York, NY",Senior,3,API Development (Back-End),174000,152000,22000,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,ny,new york,"new york, ny",Software Engineer,1,Full Stack,160000,142000,18000,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,NY,New York,"New York, NY",entry,1,software developer,135000,135000,0,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,NY,New York,"New York, NY",New Grad,1,software developer,200000,142000,18000,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,NY,New York,"New York, NY",Software Engineer,1,Distributed Systems (Back-End),200000,142000,58000,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Bloomberg,Bloomberg,https://en.wikipedia.org/wiki/Bloomberg_L.P.,NY,New York,"New York, NY",Entry-Level (Master's),1,Distributed Systems (Back-End),170000,142000,18000,0,3.7,69,3,10000+,89,66,7,6,18,1,1,2
+Box,box,https://www.nasdaq.com/symbol/box,CA,Redwood City,Redwood City,Senior,3,Full Stack,300000,210000,90000,0,4.2,83,3,1000+,97,48,26,17,4,2,2,1
+Box,box,https://www.nasdaq.com/symbol/box,CA,Redwood City,"Redwood City, CA",Senior,3,Distributed Systems (Back-End),280000,195000,75000,10000,4.2,83,3,1000+,97,48,26,17,4,2,2,1
+Broadcom,avgo,https://www.nasdaq.com/symbol/avgo,GA,Duluth,"Duluth, GA",Senior Engineer,3,Firmware,155000,97000,43000,15000,3.6,62,3,10000+,76,39,9,24,18,2,4,4
+Capital One,COF,https://finance.yahoo.com/quote/COF/,VA,Vienna,"Vienna, VA",Master Software Eng,4,Full Stack,177000,164000,13200,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,VA,Vienna,"Vienna, VA",Senior Associate,2,Full Stack,123000,118000,5000,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,NY,New York,"New York, NY",Senior Associate,2,iOS,120000,117000,6000,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,WA,Seattle,Seattle,Software Eng,2,Distributed Systems (Back-End),115000,107000,2000,6000,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,VA,Mc Lean,"Mc Lean, VA",Senior Software Eng,3,Distributed Systems (Back-End),161000,140000,21000,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,VA,McLean,"McLean, VA",Director of Software Eng,6,Full Stack,261000,208000,13000,40000,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,TX,Plano,"Plano, TX",Master Software Eng,4,Web Development (Front-End),155000,130000,25000,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,VA,Vienna,"Vienna, VA",Senior Associate,2,DevOps,128000,128000,0,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,VA,mclean,"mclean, VA",Senior Associate,2,API Development (Back-End),123000,116000,2000,7000,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,VA,Reston,"Reston, VA",Associate Software Eng,1,rotational program (TDP),108000,99000,9000,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,CA,San Francisco,"San Francisco, CA",Manager,5,Distributed Systems (Back-End),195000,180000,15000,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,IL,Chicago,Chicago,Associate Software Eng,1,Full Stack,114000,114000,0,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,IL,Chicago,Chicago,Associate Software Eng,1,Full Stack,114000,114000,0,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Capital One,COF,https://finance.yahoo.com/quote/COF/,TX,Plano,"Plano, TX",Associate Software Eng,1,Full Stack,100000,90000,10000,0,3.8,74,3.1,10000+,91,43,12,10,31,1,2,1
+Cisco,csco,https://www.nasdaq.com/symbol/csco,MD,Fulton,"Fulton, MD",Grade 10,4,Full Stack,150000,120000,10000,20000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Jose,"San Jose, CA",Software Engineer III,3,Distributed Systems (Back-End),170000,125000,30000,15000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,Milpitas,"Milpitas, CA",Software Engineer IV,4,Networking,200000,155000,22000,23000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Francisco,"San Francisco, CA",L4,4,Networking,207000,160000,15000,32000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Francisco,"San Francisco, CA",Software Engineer VIII,8,Distributed Systems (Back-End),151000,135000,16000,0,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Jose,"San Jose, CA",Technical Leader 1,5,Distributed Systems (Back-End),230000,230000,0,0,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,TX,Dallas,"Dallas, TX",Grade 6,2,Networking,400000,300000,60000,40000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,TX,Dallas,"Dallas, TX",L6,2,Networking,400000,300000,60000,40000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,NC,Raleigh,"Raleigh, NC",Grade 8,3,Networking,115000,95000,10000,10000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,MA,Boston,"Boston, MA",Software Engineer 1,1,Full Stack,120000,120000,0,0,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Jose,"San Jose, CA",Software Engineer IV,4,Networking,183000,146000,8000,29000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,GA,Atlanta,"Atlanta, GA",Grade 13,7,Full Stack,380000,215000,90000,75000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Francisco,"San Francisco, CA",Technical Leader 1,5,Web Development (Front-End),255000,165000,40000,50000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Jose,"San Jose, CA",Grade 6,2,ML / AI,161000,135000,13000,13000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Jose,"San Jose, CA",Grade 8,3,Testing (SDET),163000,130000,17000,15000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Jose,"San Jose, CA",Grade 12,6,Testing (SDET),300000,180000,70000,50000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,WA,Seattle,"Seattle, WA",Software Engineer III,3,API Development (Back-End),140000,130000,10000,0,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,CA,CA,Grade 10,4,Networking,170000,120000,35000,15000,4,81,3,10000+,90,29,12,20,30,3,3,4
+Cisco,csco,https://www.nasdaq.com/symbol/csco,CA,San Jose,"San Jose, CA",Software Engineer 2,2,Networking,152000,128000,24000,0,4,81,3,10000+,90,29,12,20,30,3,3,4
+Citrix Systems Inc,ctxs,https://www.nasdaq.com/symbol/ctxs,FL,Fort Lauderdale,"Fort Lauderdale, FL",Software Engineer II,2,DevOps,120000,105000,10000,5000,3.7,69,3,5000+,77,38,17,15,19,3,3,5
+Cloudera,cldr,https://www.nasdaq.com/symbol/cldr,CA,Palo Alto,"Palo Alto, CA",Software Engineer,1,Distributed Systems (Back-End),231000,231000,0,0,3.5,61,3.1,1000+,75,42,21,24,6,4,3,1
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,PA,Philadelphia,"Philadelphia, PA",Senior Engineer,4,Programming,132000,116000,16000,0,3.5,64,2.6,10000+,76,57,18,10,4,3,5,3
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,NJ,Mount Laurel,"Mount Laurel, NJ",Senior Engineer,4,Networking,163000,131000,22000,10000,3.5,64,2.6,10000+,76,57,18,10,4,3,5,3
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,NJ,Mount Laurel,"Mount Laurel, NJ",Senior Engineer,4,Networking,164000,131000,22000,11000,3.5,64,2.6,10000+,76,57,18,10,4,3,5,3
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,PA,Philadelphia,"Philadelphia, PA",Principal Engineer,5,DevOps,160000,133000,15000,14000,3.5,64,2.6,10000+,76,57,18,10,4,3,5,3
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,PA,Philadelphia,"Philadelphia, PA",Senior Engineer,4,Full Stack,142000,122000,10000,10000,3.5,64,2.6,10000+,76,57,18,10,4,3,5,3
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,PA,Philadelphia,"Philadelphia, PA",Engineer 3,3,Android,136000,115000,12000,9000,3.5,64,2.6,10000+,76,57,18,10,4,3,5,3
+Comcast,ccz,https://www.nasdaq.com/symbol/ccz,NJ,Mt laurel,"Mt laurel, nj",Engineer 3,3,Full Stack,122000,110000,2000,10000,3.5,64,2.6,10000+,76,57,18,10,4,3,5,3
+Cruise Automation,Cruise Automation,https://en.wikipedia.org/wiki/Cruise_Automation,WA,Seattle,"Seattle, WA",Senior Software Engineer,4,API Development (Back-End),320000,210000,60000,50000,3.5,56,2.8,1000+,74,54,22,16,2,1,2,1
+Cruise Automation,Cruise Automation,https://en.wikipedia.org/wiki/Cruise_Automation,CA,San Francisco,"San Francisco, CA",IC2,2,ML / AI,240000,240000,0,0,3.5,56,2.8,1000+,74,54,22,16,2,1,2,1
+Dell,dell,https://www.nasdaq.com/symbol/dell,CA,Santa Clara,"Santa Clara, CA",Software Engineer I,1,Distributed Systems (Back-End),992000,987000,5000,0,3.9,80,2.9,10000+,91,29,14,20,20,4,7,8
+Dell,dell,https://www.nasdaq.com/symbol/dell,MA,Hopkinton,"Hopkinton, MA",Senior Engineer,3,Distributed Systems (Back-End),110000,110000,0,0,3.9,80,2.9,10000+,91,29,14,20,20,4,7,8
+Dell,dell,https://www.nasdaq.com/symbol/dell,CA,Santa Clara,"Santa Clara, CA",L3,1,API Development (Back-End),128000,121900,6100,0,3.9,80,2.9,10000+,91,29,14,20,20,4,7,8
+Dell,dell,https://www.nasdaq.com/symbol/dell,MA,Boston,"Boston, MA",L6,2,Full Stack,112000,96000,8000,0,3.9,80,2.9,10000+,91,29,14,20,20,4,7,8
+DocuSign,docu,https://www.nasdaq.com/symbol/docu,CA,San Francisco,"San Francisco, CA",P4,4,Mobile (iOS + Android),235000,160000,60000,15000,4.7,93,2.9,1000+,99,51,20,22,3,2,2,0
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,CA,San Francisco,"San Francisco, CA",L4,4,API Development (Back-End),210000,140000,55000,15000,4.3,81,3.1,1000+,92,50,14,17,16,2,1,1
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,CA,San Francisco,San Francisco,IC2,2,Networking,241000,141000,86000,14000,4.3,81,3.1,1000+,92,50,14,17,16,2,1,1
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,WA,Seattle,Seattle,IC3,3,Full Stack,313000,173000,115000,25000,4.3,81,3.1,1000+,92,50,14,17,16,2,1,1
+Dropbox,dbx,https://www.nasdaq.com/symbol/dbx,CA,San Francisco,"San Francisco, CA",IC3,4,Desktop,380000,204000,150000,30000,4.3,81,3.1,1000+,92,50,14,17,16,2,1,1
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",Member of Technical Staff 1,4,API Development (Back-End),261000,160000,85000,16000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",T23,2,ML / AI,132000,120000,6000,10000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",Software Engineer 1,1,Full Stack,150000,107000,7000,36000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,WA,Seattle,"Seattle, WA",MTS2,5,Distributed Systems (Back-End),300000,185000,100000,15000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,WA,Seattle,"Seattle, WA",26,5,Distributed Systems (Back-End),300000,185000,100000,15000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",SE 2,2,API Development (Back-End),180000,180000,0,0,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",MTS 1,4,ML / AI,345000,345000,0,0,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",Software Engineer 2,2,Full Stack,146000,124000,10000,12000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",SE 3,3,API Development (Back-End),164000,145000,15000,14000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",Software Engineer 1,1,Web Development (Front-End),120000,120000,0,0,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",24,2,Full Stack,150000,150000,0,0,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",T24,2,Web Development (Front-End),180000,150000,20000,10000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",SE 2,2,Full Stack,197000,120000,35000,42000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",SE 3,3,Distributed Systems (Back-End),184000,145000,25000,14000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,San Jose,26,2,API Development (Back-End),300000,210000,70000,30000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,OR,Portland,"Portland, OR",Senior MTS,6,iOS,270000,270000,0,0,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",SE 3,3,Distributed Systems (Back-End),175000,145000,20000,10000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",Member of Technical Staff 2,5,Distributed Systems (Back-End),290000,185000,80000,25000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+eBay,ebay,https://www.nasdaq.com/symbol/ebay,CA,San Jose,"San Jose, CA",MTS 2,5,Testing (SDET),300000,200000,75000,25000,3.6,67,3,10000+,68,41,15,19,12,3,4,5
+Etsy,etsy,https://www.nasdaq.com/symbol/etsy,NY,New York,"New York, NY",Software Engineer 2,2,Full Stack,190000,190000,0,0,3.6,62,2.9,500+,76,68,8,17,2,2,1,1
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,Bellevue,"Bellevue, WA",L,3,API Development (Back-End),204000,147000,20000,37000,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,"Bellevue,WA","Bellevue,WA",SDE II,2,API Development (Back-End),181000,148000,10000,23000,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,Seattle,"Seattle, WA",M,4,Full Stack,242000,150000,35000,57000,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,Seattle,Seattle,Senior,4,Full Stack,242000,150000,35000,57000,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,Bellevue,"Bellevue, WA",M,4,API Development (Back-End),228000,165000,30000,29000,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,Bellevue,Bellevue,M,4,Full Stack,175000,155000,5000,15000,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,wa,wa,l2,1,Web Development (Front-End),100000,100000,0,0,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,WA,Seattle,"Seattle, WA",M,4,API Development (Back-End),215000,160000,25000,30000,,,,,,,,,,,,
+Expedia,expe,https://www.nasdaq.com/symbol/expe,IL,Chicago,"Chicago, IL",K,1,Full Stack,84000,75000,9000,0,,,,,,,,,,,,
+Facebook,fb,https://www.nasdaq.com/symbol/fb,NY,New York,"New York, NY",E6,4,Distributed Systems (Back-End),450000,450000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E3,1,DevOps,165000,115000,38000,11000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E3,1,ML / AI,168000,115000,38000,16000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",IC4,3,ML / AI,360000,160000,100000,100000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E4,2,ML / AI,250000,160000,75000,16000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E3,1,Networking,180000,120000,50000,10000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Mpk,Mpk,E6,4,iOS,515000,225000,250000,45000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E4,2,Android,330000,165000,90000,75000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E4,2,Full Stack,229000,149000,68000,22000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,NY,New York,"New York, NY",e5,3,Mobile (iOS + Android),350000,200000,125000,25000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,iOS,355000,195000,130000,30000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,ML / AI,310000,310000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,WA,Seattle,Seattle,E5,3,Full Stack,312000,185000,100000,28000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,WA,Seattle,"Seattle, WA",E6,4,Distributed Systems (Back-End),545000,215000,280000,50000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E4,2,ML / AI,238000,238000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E4,2,Full Stack,212000,148000,49000,15000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E3,1,Full Stack,176000,110000,55000,11000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,Distributed Systems (Back-End),405000,188000,200000,20000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,Full Stack,368000,190000,150000,28000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E8,6,ML / AI,1450000,1300000,85000,65000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E4,2,Distributed Systems (Back-End),240000,150000,75000,15000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,API Development (Back-End),385000,205000,150000,30000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,WA,Seattle,"Seattle, WA",E5,3,Distributed Systems (Back-End),191000,150000,32000,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E7,5,Distributed Systems (Back-End),950000,950000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,Networking,360000,178000,150000,40000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E4,2,Full Stack,300000,160000,115000,15000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E3,1,Full Stack,160000,160000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,NY,New York,New York,E5,3,API Development (Back-End),309000,309000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,Distributed Systems (Back-End),307000,180000,100000,27000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",IC6,4,ML / AI,500000,230000,225000,45000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,NY,New York,"New York, NY",E5,3,API Development (Back-End),327000,183000,120000,24000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,MPK,MPK,E4,2,Full Stack,200000,200000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E6,4,Distributed Systems (Back-End),446000,213000,190000,43000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,iOS,368000,203000,135000,30000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E6,4,Full Stack,440000,200000,200000,40000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E7,5,Full Stack,725000,250000,400000,75000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,Unable to Disclose,399000,195000,125000,79000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,NY,New York,"New York, NY",E8,6,Mobile (iOS + Android),999000,292000,619000,88000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,Distributed Systems (Back-End),350000,350000,0,0,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,WA,Seattle,"Seattle, WA",E5,3,Full Stack,328000,185000,115000,28000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E5,3,Web Development (Front-End),340000,190000,130000,30000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,WA,Seattle,"Seattle, WA",E6,4,Mobile (iOS + Android),445000,215000,200000,30000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E7,5,Web Development (Front-End),885000,260000,560000,65000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+Facebook,fb,https://www.nasdaq.com/symbol/fb,CA,Menlo Park,"Menlo Park, CA",E3,1,ML / AI,164000,115000,38000,11000,4.3,86,3.1,10000+,93,29,29,25,13,2,1,1
+GE Digital,ge,https://www.nasdaq.com/symbol/ge,CA,San Ramon,"San Ramon, CA",Staff SWE,3,Full Stack,220000,160000,20000,40000,2.9,40,2.7,1000+,55,31,25,10,25,2,2,3
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,NJ,Jersey City,"Jersey City, NJ",Executive Director / Vice-President,3,Distributed Systems (Back-End),210000,170000,30000,0,3.8,77,3.1,10000+,80,45,10,8,31,2,1,3
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,NY,New York,New York,Executive Director / Vice-President,3,API Development (Back-End),203000,203000,0,0,3.8,77,3.1,10000+,80,45,10,8,31,2,1,3
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,NY,New York,"New York, NY",Associate,1,Web Development (Front-End),200000,140000,60000,0,3.8,77,3.1,10000+,80,45,10,8,31,2,1,3
+Goldman Sachs,GS,https://finance.yahoo.com/quote/GS/,NY,New York,"New York, NY",Vice President,3,Distributed Systems (Back-End),260000,180000,20000,60000,3.8,77,3.1,10000+,80,45,10,8,31,2,1,3
+Google,googl,https://www.nasdaq.com/symbol/googl,CO,Boulder,"Boulder, CO",L5,4,Android,335000,146000,160000,27000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",5,4,Distributed Systems (Back-End),300000,300000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,WA,Kirkland,"Kirkland, WA",L5,4,Distributed Systems (Back-End),327000,172000,120000,30000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Distributed Systems (Back-End),193000,128000,65000,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,"New York, NY",L3,2,Full Stack,221000,140000,60000,21000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Tools & Infrastructure,163000,163000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Full Stack,171000,121000,32000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,San Francisco,San Francisco,L5,4,Distributed Systems (Back-End),340000,200000,110000,30000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L4,2,Distributed Systems (Back-End),360000,155000,182000,23000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L6,5,Distributed Systems (Back-End),522000,227000,250000,45000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,San Francisco,"San Francisco, CA",L4,3,Android,120000,120000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,Mobile (iOS + Android),325000,160000,90000,75000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L4,3,Testing (SDET),283000,156000,100000,27000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,API Development (Back-End),185000,125000,41000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,API Development (Back-End),188000,125000,45000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,PA,Pittsburgh,"Pittsburgh, PA",L3,2,Full Stack,188000,115000,56000,17000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Full Stack,223000,125000,50000,48000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Distributed Systems (Back-End),163000,120000,25000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L6,5,ML / AI,410000,410000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Firmware,186000,129000,27000,29000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,MA,Cambridge,"Cambridge, MA",L5,4,Distributed Systems (Back-End),300000,300000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CO,Boulder,"Boulder, CO",L3,2,Full Stack,140000,102000,20000,15000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,API Development (Back-End),196000,120000,58000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,CA,CA,L4,3,Networking,215000,153000,39000,23000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,API Development (Back-End),210000,129000,42000,30000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,Distributed Systems (Back-End),278000,150000,86000,42000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,San Bruno,"San Bruno, CA",L3,2,API Development (Back-End),177000,130000,28000,19000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,Full Stack,199000,143000,35000,21000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,IL,Chicago,"Chicago, IL",Software Engineer,1,Distributed Systems (Back-End),193000,125000,50000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Security,160000,120000,22000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,ML / AI,233000,153000,57000,23000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,WA,Seattle,"Seattle, WA",4,4,API Development (Back-End),288000,146000,110000,33000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Distributed Systems (Back-End),248000,150000,69000,29000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,ML / AI,204000,146000,32000,26000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Los Angeles,"Los Angeles, CA",L3,2,Full Stack,213000,120000,70000,23000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,"New York, NY",L4,3,Distributed Systems (Back-End),256000,175000,55000,26000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,"New York, NY",L5,4,Distributed Systems (Back-End),338000,170000,136000,32000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Android,160000,120000,25000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",7,7,Android,450000,450000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,San Francisco,"San Francisco, CA",L4,3,Distributed Systems (Back-End),240000,140000,80000,20000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,"New York, NY",L7,6,ML / AI,600000,245000,300000,55000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,"New York, NY",L5,4,Distributed Systems (Back-End),354000,354000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,Distributed Systems (Back-End),264000,144000,95000,25000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,MA,Cambridge,"Cambridge, MA",L4,3,API Development (Back-End),200000,200000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Full Stack,212000,135000,50000,27000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L4,3,Distributed Systems (Back-End),267000,165000,77000,25000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,San Bruno,"San Bruno, CA",L3,2,iOS,169000,125000,25000,19000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,new york,new york,L3,2,ML / AI,128000,128000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Security,195000,129000,47000,20000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",4,4,DevOps,226000,142000,63000,21000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,San Francisco,"San Francisco, CA",L3,2,Distributed Systems (Back-End),195000,127000,50000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L6,5,DevOps,270000,270000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,API Development (Back-End),251000,251000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,WA,Seattle,"Seattle, WA",L3,2,Full Stack,117000,102000,15000,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,New York,L5,4,API Development (Back-End),400000,200000,150000,50000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,"New York, NY",L5,4,Distributed Systems (Back-End),300000,170000,100000,30000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,WA,Seattle,"Seattle, WA",L5,4,API Development (Back-End),310000,174000,105000,31000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CO,Boulder,"Boulder, CO",L4,3,Full Stack,240000,140000,80000,20000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,ML / AI,215000,129000,40000,46000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,NY,New York,"New York, NY",L3,2,DevOps,160000,120000,25000,15000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,API Development (Back-End),290000,140000,140000,13000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,San Bruno,"San Bruno, CA",L4,3,Full Stack,228000,146000,60000,22000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,Testing (SDET),241000,144000,65000,32000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L5,4,Distributed Systems (Back-End),245000,170000,50000,25000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Infrastructure,201000,120000,63000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,DevOps,169000,125000,25000,19000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,API Development (Back-End),189000,125000,25000,39000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,iOS,200000,100000,50000,50000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,API Development (Back-End),210000,130000,60000,20000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Full Stack,169000,125000,25000,19000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Full Stack,169000,125000,25000,19000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Los Angeles,"Los Angeles, CA",L3,2,Full Stack,174000,108000,50000,16000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L4,3,Backend,243000,142000,25000,76000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, Ca",SWE III,3,Web Development (Front-End),133000,90000,20000,23000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Sunnyvale,"Sunnyvale, CA",L3,2,Full Stack,163000,120000,25000,18000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Irvine,"Irvine, CA",L4,3,Distributed Systems (Back-End),220000,140000,60000,20000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Irvine,"Irvine, CA",L4,3,Distributed Systems (Back-End),220000,140000,60000,20000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,WA,Seattle,"Seattle, WA",L5,4,Distributed Systems (Back-End),400000,170000,0,0,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Android,200000,100000,50000,50000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",L3,2,Android,200000,100000,50000,50000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Google,googl,https://www.nasdaq.com/symbol/googl,CA,Mountain View,"Mountain View, CA",SWE II,2,Web Development (Front-End),190000,120000,25000,45000,4.4,87,3.8,10000+,93,41,23,23,8,2,1,2
+Groupon,grpn,https://www.nasdaq.com/symbol/grpn,CA,San Francisco,"San Francisco, CA",SDE 2,2,API Development (Back-End),155000,143000,11000,1000,3.5,63,2.8,5000+,79,57,13,13,9,3,2,3
+Groupon,grpn,https://www.nasdaq.com/symbol/grpn,WA,Seattle,"Seattle, WA",SDE 3,3,Full Stack,180000,180000,0,0,3.5,63,2.8,5000+,79,57,13,13,9,3,2,3
+GrubHub,grub,https://www.nasdaq.com/symbol/grub,IL,Chicago,Chicago,Senior,3,Full Stack,175000,130000,45000,0,3.4,62,2.6,1000+,75,61,10,14,7,4,2,2
+Hulu,Hulu,https://en.wikipedia.org/wiki/Hulu,CA,Santa Monica,"Santa Monica, CA",IC3,2,Web Development (Front-End),225000,145000,40000,40000,3.8,71,3.1,1000+,80,51,16,14,13,3,1,1
+Hulu,Hulu,https://en.wikipedia.org/wiki/Hulu,WA,Seattle,"Seattle, WA",IC3,2,Distributed Systems (Back-End),256000,165000,30000,61000,3.8,71,3.1,1000+,80,51,16,14,13,3,1,1
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,TX,Austin,"Austin, TX",6,1,Distributed Systems (Back-End),81000,79000,2000,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,TX,Austin,"Austin, TX",7,2,Distributed Systems (Back-End),112000,10000,2000,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,MA,Littleton,"Littleton, MA",Staff Engineer,2,Full Stack,120000,117000,3000,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,CA,San Jose,"San Jose, CA",Associate Engineer,1,Distributed Systems (Back-End),107000,107000,2000,2000,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,NC,Durham,"Durham, NC",7,2,DevOps,110000,110000,0,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,CA,San Jose,"San Jose, CA",7,2,Full Stack,130000,130000,0,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,CA,San Jose,"San Jose, CA",Staff Engineer,2,ML / AI,130000,130000,0,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,CA,San Jose,"San Jose, CA",Grade 10,5,Distributed Systems (Back-End),380000,330000,50000,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,CA,San Jose,"San Jose, CA",7,2,ML / AI,138000,136000,2000,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,NY,Poughkeepsie,"Poughkeepsie, NY",Advisory Engineer,3,DevOps,122000,122000,0,0,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+IBM,ibm,https://www.nasdaq.com/symbol/ibm,MA,Boston,"Boston, MA",7,2,API Development (Back-End),136000,126000,8000,2000,3.6,68,2.8,10000+,71,39,10,15,24,3,4,5
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,WA,Seattle,"Seattle, WA",Product Developer,2,Full Stack,123000,123000,0,0,3.6,66,2.9,5000+,81,45,16,17,16,3,2,0
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,TX,Austin,"Austin, TX",L3,4,Full Stack,345000,165000,150000,30000,3.6,66,2.9,5000+,81,45,16,17,16,3,2,0
+Indeed,Indeed,https://en.wikipedia.org/wiki/Indeed,CA,San Francisco,"San Francisco, CA",L5,6,Distributed Systems (Back-End),126000,100000,25000,1000,3.6,66,2.9,5000+,81,45,16,17,16,3,2,0
+Intel,INTC,https://finance.yahoo.com/quote/INTC,MA,Hudson,"Hudson, MA",Grade 6,2,Software Products,102000,102000,0,0,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,CA,Santa Clara,"Santa Clara, CA",Grade 6,2,Full Stack,150000,130000,8000,12000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,WA,Bellevue,"Bellevue, WA",Grade 6,2,DevOps,116000,100000,16000,0,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,CA,Santa Clara,"Santa Clara, CA",Grade 9,5,Distributed Systems (Back-End),230000,175000,25000,30000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,OR,Hillsboro,"Hillsboro, OR",Grade 8,4,SW,180000,130000,20000,30000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,MA,Hudson,"Hudson, MA",L6,2,ML / AI,128000,110000,8000,10000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,OR,Hillsboro,"Hillsboro, OR",6,2,Distributed Systems (Back-End),125000,125000,0,0,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,OR,Hillsboro,"Hillsboro, OR",Staff Engineer,4,Design,187000,136000,25000,26000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,CA,San Jose,"San Jose, CA",Staff Engineer,4,Networking,240000,180000,30000,30000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,OR,Hillsboro,"Hillsboro, OR",G7,3,Operating systems,130000,110000,2000,18000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,OR,Hillsboro,"Hillsboro, OR",Grade 6,2,API Development (Back-End),127000,127000,0,0,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,OR,Hillsboro,"Hillsboro, OR",Grade 7,3,Firmware,140000,140000,0,0,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intel,INTC,https://finance.yahoo.com/quote/INTC,CA,Folsom,Folsom,Grade 6,2,Firmware,120000,103000,7000,10000,3.9,76,3,10000+,82,37,9,20,25,4,3,2
+Intercom,Intercom,https://en.wikipedia.org/wiki/Intercom_(company),CA,San Francisco,"San Francisco, CA",Product Engineer 2,2,Full Stack,130000,130000,0,0,4.1,74,3,200+,83,78,10,7,0,0,3,2
+Intuit,intu,https://www.nasdaq.com/symbol/intu,CA,Mountain View,"Mountain View, CA",Software Engineer 2,2,Full Stack,167000,130000,25000,12000,4.1,82,3,5000+,84,41,17,15,17,3,4,4
+Intuit,intu,https://www.nasdaq.com/symbol/intu,CA,Mountain View,"Mountain View, CA",Staff Software Engineer,4,Distributed Systems (Back-End),323000,181000,105000,36000,4.1,82,3,5000+,84,41,17,15,17,3,4,4
+Intuit,intu,https://www.nasdaq.com/symbol/intu,CA,Mountain View,"Mountain View, CA",Principal / Architect,5,Full Stack,390000,192000,150000,48000,4.1,82,3,5000+,84,41,17,15,17,3,4,4
+Intuit,intu,https://www.nasdaq.com/symbol/intu,CA,Mountain view,"Mountain view, ca",Software Engineer 1,1,Full Stack,132000,105000,17000,10000,4.1,82,3,5000+,84,41,17,15,17,3,4,4
+Intuit,intu,https://www.nasdaq.com/symbol/intu,CA,San Diego,"San Diego, CA",Software Engineer 1,1,Web Development (Front-End),130000,110000,15000,5000,4.1,82,3,5000+,84,41,17,15,17,3,4,4
+JPMorgan Chase,amj,https://www.nasdaq.com/symbol/amj,NY,New York,"New York, NY",Associate,1,API Development (Back-End),114000,110000,4000,0,3.8,78,2.9,10000+,93,52,9,10,20,2,3,3
+JPMorgan Chase,amj,https://www.nasdaq.com/symbol/amj,CA,San Francisco,"San Francisco, CA",602,3,Web Development (Front-End),150000,140000,10000,0,3.8,78,2.9,10000+,93,52,9,10,20,2,3,3
+JPMorgan Chase,amj,https://www.nasdaq.com/symbol/amj,FL,Tampa,"Tampa, FL",603,3,Full Stack,145000,145000,0,0,3.8,78,2.9,10000+,93,52,9,10,20,2,3,3
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Sunnyvale,"Sunnyvale, CA",Staff Software Engineer,3,Distributed Systems (Back-End),340000,185000,125000,30000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Mountain View,"Mountain View, CA",Senior Software Engineer,2,API Development (Back-End),353000,174000,149000,30000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Sunnyvale,"Sunnyvale, CA",Senior Software Engineer,2,Distributed Systems (Back-End),330000,180000,120000,30000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Sunnyvale,"Sunnyvale, CA",Senior Software Engineer,2,iOS,225000,225000,0,0,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,San Francisco,"San Francisco, CA",Software Engineer,1,API Development (Back-End),184000,130000,43000,11000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Sunnyvale,"Sunnyvale, CA",Senior Software Engineer,2,API Development (Back-End),300000,152000,133000,15000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Sunnyvale,"Sunnyvale, CA",Senior Software Engineer,2,Web Development (Front-End),145000,145000,0,0,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Sunnyvale,"Sunnyvale, CA",Senior Software Engineer,2,Distributed Systems (Back-End),291000,185000,88000,19000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Sunnyvale,"Sunnyvale, CA",Senior Software Engineer,2,ML / AI,250000,250000,0,0,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,San Jose,"San Jose, CA",Senior Software Engineer,2,Security,250000,250000,0,0,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Mountain View,"Mountain View, CA",Senior Software Engineer,2,Distributed Systems (Back-End),300000,300000,0,0,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,sunnyvale,sunnyvale,Staff Software Engineer,3,software,435000,230000,170000,35000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,Mountain View,"Mountain View, CA",Software Engineer,1,Distributed Systems (Back-End),233000,233000,0,0,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+LinkedIn,LinkedIn,https://en.wikipedia.org/wiki/LinkedIn,CA,San Francisco,"San Francisco, CA",Senior Software Engineer,2,API Development (Back-End),336000,178000,140000,18000,4.3,84,3,5000+,96,36,29,24,7,3,1,1
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,CA,San Francisco,"San Francisco, CA",T5,3,Web Development (Front-End),377000,190000,187000,0,4.1,77,2.8,1000+,91,57,12,26,1,2,2,0
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,CA,Palo Alto,"Palo Alto, CA",T5,3,Distributed Systems (Back-End),420000,200000,213000,7000,4.1,77,2.8,1000+,91,57,12,26,1,2,2,0
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,WA,Seattle,"Seattle, WA",T4,2,Web Development (Front-End),300000,300000,0,0,4.1,77,2.8,1000+,91,57,12,26,1,2,2,0
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,CA,San Francisco,"San Francisco, CA",T5,3,Distributed Systems (Back-End),425000,425000,0,0,4.1,77,2.8,1000+,91,57,12,26,1,2,2,0
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,CA,San Francisco,"San Francisco, CA",T5,3,Android,420000,185000,235000,0,4.1,77,2.8,1000+,91,57,12,26,1,2,2,0
+Lyft,lyft,https://www.nasdaq.com/symbol/lyft,WA,Seattle,"Seattle, WA",T5,3,Distributed Systems (Back-End),355000,190000,165000,0,4.1,77,2.8,1000+,91,57,12,26,1,2,2,0
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",62,4,Web Development (Front-End),142000,112000,15000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",60,2,Distributed Systems (Back-End),186000,117000,19000,50000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",64,6,Distributed Systems (Back-End),250000,166000,40000,40000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,redmond,redmond,63,5,Full Stack,220000,220000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,CA,San Francisco,"San Francisco, CA",60,2,iOS,125000,80000,20000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,MA,Cambridge,"Cambridge, MA",59,1,API Development (Back-End),162000,108000,18000,36000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",63,5,Distributed Systems (Back-End),240000,165000,40000,40000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",62,4,Android,160000,144000,6000,10000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,API Development (Back-End),160000,160000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",59,1,Full Stack,184000,109000,30000,45000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,API Development (Back-End),200000,140000,35000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",65,7,API Development (Back-End),287000,192000,55000,40000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",SDE II,3,Distributed Systems (Back-End),170000,142000,14000,14000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,Distributed Systems (Back-End),133000,118000,3000,12000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",SDE II,3,Full Stack,197000,147000,30000,20000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,Redmond,64,6,Windows,243000,170000,43000,30000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Bellevue,"Bellevue, WA",SDE,1,API Development (Back-End),139000,109000,20000,10000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,Full Stack,186000,131000,40000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",62,4,Web Development (Front-End),185000,150000,20000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",61,3,Distributed Systems (Back-End),180000,135000,30000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",63,5,Web Development (Front-End),207000,157000,20000,30000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,CA,San Diego,"San Diego, CA",64,6,Full Stack,220000,165000,30000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",59,1,Full Stack,175000,109000,31000,35000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,API Development (Back-End),158000,135000,8000,14000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",63,5,API Development (Back-End),252000,152000,50000,50000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",62,4,Full Stack,160000,160000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,Full Stack,163000,109000,34000,20000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",63,5,Full Stack,240000,160000,50000,30000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",62,4,Full Stack,195000,147000,13000,35000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Bellevue,Bellevue,61,3,Web Development (Front-End),142000,123000,7000,12000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,Full Stack,190000,130000,35000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,CA,San Francisco,"San Francisco, CA",64,6,Distributed Systems (Back-End),287000,195000,62000,30000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",61,3,Office,172000,172000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Bellevue,"Bellevue, WA",SDE II,3,ML / AI,176000,138000,18000,20000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,Seattle,63,5,Full Stack,188000,147000,25000,16000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",SDE II,3,Distributed Systems (Back-End),140000,128000,6000,4000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",62,3,Data Analysis,176000,152000,8000,16000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,API Development (Back-End),154000,109000,30000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,API Development (Back-End),140000,125000,5000,12000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Bellevue,"Bellevue, WA",63,5,API Development (Back-End),190000,153000,20000,17000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",62,4,Full Stack,185000,140000,20000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",60,2,API Development (Back-End),160000,117000,19000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",64,6,Distributed Systems (Back-End),265000,182000,55000,28000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond WA,Redmond WA,62,4,DevOps,172000,142000,20000,10000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",60,2,Full Stack,175000,125000,25000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,Seattle,62,4,Distributed Systems (Back-End),192000,140000,25000,28000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",63,5,API Development (Back-End),263000,158000,82000,23000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,Full Stack,170000,135000,20000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,Redmond,65,7,Full Stack,246000,186000,30000,30000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",SDE II,3,DevOps,151000,151000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Bellevue,"Bellevue, WA",60,2,ML / AI,190000,125000,30000,35000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",63,5,API Development (Back-End),211000,211000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",60,2,Distributed Systems (Back-End),164000,121000,30000,13000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,MA,Cambridge,"Cambridge, MA",62,4,Full Stack,168000,135000,13000,20000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",SDE,1,Full Stack,141000,109000,15000,17000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Bellevue,"Bellevue, WA",61,3,Web Development (Front-End),123000,115000,6000,2000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,API Development (Back-End),190000,129000,46000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",67,9,API Development (Back-End),530000,242000,202000,86000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",67,9,Full Stack,530000,242000,202000,86000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",63,5,Full Stack,245000,156000,66000,23000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,API Development (Back-End),150000,109000,30000,10000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",62,4,Distributed Systems (Back-End),206000,147000,31000,28000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",61,3,API Development (Back-End),180000,180000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",63,5,Distributed Systems (Back-End),226000,226000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,Seattle,60,2,"IoT, computer engineering",155000,118000,35000,12000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",64,6,Distributed Systems (Back-End),258000,177000,40000,36000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,Full Stack,158000,108000,25000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",63,5,Full Stack,280000,165000,86000,29000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",62,4,Full Stack,155000,155000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",60,2,DevOps,188000,118000,50000,15000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",60,2,Networking,135000,120000,5000,10000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,CA,San Francisco,"San Francisco, CA",64,6,Web Development (Front-End),246000,181000,40000,25000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",66,8,Testing (SDET),332000,202000,90000,40000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",62,4,API Development (Back-End),201000,137000,51000,13000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",65,7,Full Stack,600000,600000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",64,6,Distributed Systems (Back-End),256000,177000,40000,36000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,Seattle,59,1,Distributed Systems (Back-End),199000,116000,33000,50000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",60,2,Desktop App Development,140000,140000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,ML / AI,269000,109000,120000,40000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Seattle,"Seattle, WA",60,2,API Development (Back-End),138000,120000,6000,12000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Bellevue,"Bellevue, WA",64,6,ML / AI,210000,210000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,Web Development (Front-End),136000,108000,18000,10000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",63,5,API Development (Back-End),190000,190000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",Senior SDE,5,API Development (Back-End),190000,190000,0,0,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Microsoft,msft,https://www.nasdaq.com/symbol/msft,WA,Redmond,"Redmond, WA",59,1,ML / AI,160000,109000,30000,21000,4.4,86,3.5,10000+,96,26,16,14,36,2,3,3
+Morgan Stanley,Morgan Stanley,https://en.wikipedia.org/wiki/Morgan_Stanley,NY,New York,New York,Contractor,3,Full Stack,190000,190000,0,0,3.7,71,3.1,10000+,91,42,9,10,28,3,3,5
+NetApp,Morgan Stanley,https://en.wikipedia.org/wiki/Morgan_Stanley,CA,Sunnyvale,"Sunnyvale, CA",MTS IV,4,Distributed Systems (Back-End),200000,180000,20000,10000,3.7,72,3,10000+,84,30,16,20,23,2,4,4
+NetApp,ntap,https://www.nasdaq.com/symbol/ntap,CA,Sunnyvale,"Sunnyvale, CA",MTS IV,4,Distributed Systems (Back-End),160000,160000,0,0,3.7,72,3,10000+,84,30,16,20,23,2,4,4
+Netflix,nflx,https://www.nasdaq.com/symbol/nflx,CA,Los Gatos,"Los Gatos, CA",Senior Software Engineer,3,--,393000,375000,18700,0,3.6,66,2.9,1000+,85,50,27,14,0,5,2,2
+Netflix,nflx,https://www.nasdaq.com/symbol/nflx,CA,Los Gatos,"Los Gatos, CA",Senior Software Engineer,3,Full Stack,394000,375000,19000,0,3.6,66,2.9,1000+,85,50,27,14,0,5,2,2
+Netflix,nflx,https://www.nasdaq.com/symbol/nflx,CA,Los Gatos,"Los Gatos, CA",Senior Software Engineer,3,API Development (Back-End),483000,460000,23000,0,3.6,66,2.9,1000+,85,50,27,14,0,5,2,2
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,CA,Santa Clara,"Santa Clara, CA",IC5,4,ML / AI,415000,230000,150000,35000,4.5,92,3.2,10000+,97,36,8,15,35,2,2,3
+NVIDIA,nvda,https://www.nasdaq.com/symbol/nvda,CA,Santa Clara,Santa Clara,IC4,3,API Development (Back-End),200000,200000,0,0,4.5,92,3.2,10000+,97,36,8,15,35,2,2,3
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,NJ,USA,USA,IC4,3,Mobile (iOS + Android),200000,200000,0,0,4.5,92,3.2,10000+,97,36,8,15,35,2,2,3
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,CA,Santa Clara,"Santa Clara, CA",IC4,3,iOS,230000,194000,50000,0,4.5,92,3.2,10000+,97,36,8,15,35,2,2,3
+NVIDIA,nvda,https://www.nasdaq.com/symbol/nvda,CA,Santa Clara,Santa Clara,IC4,3,Systems,235000,194000,50000,0,4.5,92,3.2,10000+,97,36,8,15,35,2,2,3
+Nvidia,nvda,https://www.nasdaq.com/symbol/nvda,CA,Santa Clara,"Santa Clara, CA",IC5,4,Android,230000,192000,32000,4000,4.5,92,3.2,10000+,97,36,8,15,35,2,2,3
+NVIDIA,nvda,https://www.nasdaq.com/symbol/nvda,NJ,USA,USA,IC3,2,ML / AI,173000,161000,12000,0,4.5,92,3.2,10000+,97,36,8,15,35,2,2,3
+Oath,Oath,https://en.wikipedia.org/wiki/Verizon_Media,CA,Playa vista,"Playa vista, ca",IC2,1,DevOps,145000,131000,1000,13000,3.1,40,2.9,10000+,59,30,15,18,34,2,1,0
+Oath,Oath,https://en.wikipedia.org/wiki/Verizon_Media,CA,Los Angeles,"Los Angeles, CA",IC2,1,DevOps,147000,134000,1000,13000,3.1,40,2.9,10000+,59,30,15,18,34,2,1,0
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Redwood City,"Redwood City, CA",IC4,3,Web Development (Front-End),145000,140000,5000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,NY,New York,"New York, NY",IC2,1,Full Stack,175000,125000,50000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Santa Clara,"Santa Clara, CA",IC2,1,API Development (Back-End),130000,130000,10000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,WA,Seattle,"Seattle, WA",IC3,2,Full Stack,250000,150000,100000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,WA,Seattle,Seattle,IC3,2,Distributed Systems (Back-End),320000,320000,0,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,WA,Seattle,"Seattle, WA",IC3,2,Security,264000,160000,84000,20000,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,San Francisco,"San Francisco, CA",IC2,1,Distributed Systems (Back-End),136000,121000,15000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Pleasanton,"Pleasanton, CA",Application Developer,1,Full Stack,132000,128000,4000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,NH,Manchester,"Manchester, NH",IC3,2,Full Stack,167000,152000,15000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Redwood City,"Redwood City, CA",IC4,3,Distributed Systems (Back-End),375000,375000,0,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Redwood City,"Redwood City, CA",Principal MTS,3,Testing (SDET),159000,159000,0,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Redwood City,"Redwood City, CA",IC3,2,Testing (SDET),139000,123000,16000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Redwood City,"Redwood City, CA",Senior MTS,2,Testing (SDET),139000,123000,16000,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Redwood City,"Redwood City, CA",IC4,3,Testing (SDET),150000,150000,0,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Oracle,orcl,https://www.nasdaq.com/symbol/orcl,CA,Redwood City,"Redwood City, CA",Member of Technical Staff,1,Database,170000,170000,0,0,3.4,61,3,10000+,65,25,20,18,29,4,4,2
+Palantir,Palantir,https://en.wikipedia.org/wiki/Palantir_Technologies,DC,Washington,"Washington, DC","FDE - Forward Deployed Engineer (different roles, but same starting level, only one level across Palantir)",2,Full Stack,212000,212000,0,0,4.3,81,3.2,1000+,87,41,25,17,14,2,1,1
+Palantir,Palantir,https://en.wikipedia.org/wiki/Palantir_Technologies,NY,New York,"New York, New York",Software Engineer,2,Full Stack,200000,155000,10000,35000,4.3,81,3.2,1000+,87,41,25,17,14,2,1,1
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,CA,Oakland,Oakland,SDE3,,Mobile (iOS + Android),175000,135000,25000,20000,3.4,54,2.8,1000+,65,61,19,14,3,1,1,1
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,CA,Oakland,"Oakland, CA",Senior software engineer,3,Full Stack,177000,145000,18000,14000,3.4,54,2.8,1000+,65,61,19,14,3,1,1,1
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,CA,Oakland,"Oakland, CA",1,1,API Development (Back-End),140000,140000,0,0,3.4,54,2.8,1000+,65,61,19,14,3,1,1,1
+Pandora,pdrb,https://www.nasdaq.com/symbol/pdrb,CA,Oakland,"Oakland, CA",1,1,API Development (Back-End),115000,115000,0,0,3.4,54,2.8,1000+,65,61,19,14,3,1,1,1
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,CA,San Jose,"San Jose, CA",Member of Technical Staff 2,5,Distributed Systems (Back-End),271000,211000,30000,30000,3.8,73,2.9,10000+,89,43,14,17,13,3,5,5
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,CA,San Jose,"San Jose, CA",Member of Technical Staff 1,4,Distributed Systems (Back-End),250000,250000,0,0,3.8,73,2.9,10000+,89,43,14,17,13,3,5,5
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,CA,San Jose,"San Jose, CA",T23,2,Full Stack,155000,130000,12000,13000,3.8,73,2.9,10000+,89,43,14,17,13,3,5,5
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,CA,San Jose,"San Jose, CA",T24,3,DevOps,156000,128000,20000,8000,3.8,73,2.9,10000+,89,43,14,17,13,3,5,5
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,CA,San Jose,"San Jose, CA",T25,4,Distributed Systems (Back-End),180000,180000,0,0,3.8,73,2.9,10000+,89,43,14,17,13,3,5,5
+PayPal,pypl,https://www.nasdaq.com/symbol/pypl,CA,San Jose,"San Jose, CA",T24,3,Full Stack,171000,135000,20000,16000,3.8,73,2.9,10000+,89,43,14,17,13,3,5,5
+Pinterest,Pinterest,https://en.wikipedia.org/wiki/Pinterest,CA,San Francisco,"San Francisco, CA",L4,2,Distributed Systems (Back-End),150000,150000,100000,0,4.2,82,2.9,1000+,87,54,16,20,6,2,2,1
+Pinterest,Pinterest,https://en.wikipedia.org/wiki/Pinterest,WA,Seattle,"Seattle, WA",L4,2,Full Stack,175000,165000,138000,0,4.2,82,2.9,1000+,87,54,16,20,6,2,2,1
+Pinterest,Pinterest,https://en.wikipedia.org/wiki/Pinterest,CA,San Francisco,"San Francisco, CA",L5,3,Distributed Systems (Back-End),564000,200000,313000,50000,4.2,82,2.9,1000+,87,54,16,20,6,2,2,1
+Qualcomm,qcom,https://www.nasdaq.com/symbol/qcom,CA,San Diego,"San Diego, CA",Staff Engineer,4,ASIC,200000,150000,35000,15000,3.8,68,3.1,10000+,54,52,7,14,20,2,2,3
+Qualcomm,qcom,https://www.nasdaq.com/symbol/qcom,CA,San Diego,"San Diego, CA",Senior Engineer,3,RFSW,145000,120000,15000,10000,3.8,68,3.1,10000+,54,52,7,14,20,2,2,3
+Qualcomm,qcom,https://www.nasdaq.com/symbol/qcom,CA,San Diego,"San Diego, CA",Senior Engineer,3,RF software,130000,130000,0,0,3.8,68,3.1,10000+,54,52,7,14,20,2,2,3
+Reddit,Reddit,https://en.wikipedia.org/wiki/Reddit,CA,San Francisco,"San Francisco, CA",L5,3,Distributed Systems (Back-End),265000,200000,65000,0,3.6,61,2.9,200+,78,50,17,26,0,0,6,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,WA,Bellevue,"Bellevue, WA",Senior MTS,3,Distributed Systems (Back-End),236000,162000,50000,24000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Lead MTS,4,Full Stack,260000,195000,35000,30000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,MA,Boston,"Boston, MA",MTS,2,API Development (Back-End),152000,125000,15000,12000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,WA,Bellevue,Bellevue,Lead SWE,4,Distributed Systems (Back-End),469000,265000,169000,35000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,UT,Salt Lake City,"Salt Lake City, UT",Sofwtare Engineer,2,Full Stack,139000,120000,18000,0,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,WA,Seattle,"Seattle, WA, USA",Senior Director,6,Infrastructure,350000,250000,60000,40000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,San Francisco,Principal MTS,5,Distributed Systems (Back-End),297000,203000,60000,40000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Principal MTS,5,Distributed Systems (Back-End),365000,235000,83000,47000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Principal MTS,5,Distributed Systems (Back-End),272000,212000,18000,42000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Senior SWE,3,API Development (Back-End),270000,180000,63000,27000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Principal MTS,5,Distributed Systems (Back-End),340000,202000,100000,40000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Senior MTS,3,Distributed Systems (Back-End),210000,210000,0,0,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Principal SWE,5,Distributed Systems (Back-End),350000,210000,98000,42000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,VA,Herndon,"Herndon, VA",Senior MTS,3,Distributed Systems (Back-End),160000,160000,0,0,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Senior MTS,3,Distributed Systems (Back-End),220000,220000,0,0,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,San Francisco,Lead MTS,4,Distributed Systems (Back-End),250000,250000,0,0,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,MA,Burlington,"Burlington, MA",Senior MTS,3,API Development (Back-End),209000,160000,25000,24000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Associate Member of Technical Staff,1,Full Stack,160000,125000,22000,13000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,IN,Indianapolis,"Indianapolis, IN",Senior SWE,3,API Development (Back-End),220000,220000,0,0,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+Salesforce,crm,https://www.nasdaq.com/symbol/crm,CA,San Francisco,"San Francisco, CA",Associate Member of Technical Staff,1,DevOps,165000,130000,22000,13000,4.4,87,3.2,10000+,97,29,15,45,5,2,2,1
+SAP,sap,https://www.nasdaq.com/symbol/sap,CA,San Francisco,"San Francisco, CA",T2,2,Distributed Systems (Back-End),105000,105000,0,0,4.4,91,2.9,10000+,96,47,9,15,21,2,4,3
+SAP,sap,https://www.nasdaq.com/symbol/sap,CA,Palo Alto,"Palo Alto, CA",Senior Developer,3,Full Stack,171000,171000,0,0,4.4,91,2.9,10000+,96,47,9,15,21,2,4,3
+SAP,sap,https://www.nasdaq.com/symbol/sap,CA,San Francisco,"San Francisco, CA",T2,2,Distributed Systems (Back-End),144000,124000,7000,14000,4.4,91,2.9,10000+,96,47,9,15,21,2,4,3
+SAP,sap,https://www.nasdaq.com/symbol/sap,CA,Palo Alto,"Palo Alto, CA",T4,4,Distributed Systems (Back-End),225000,160000,15000,50000,4.4,91,2.9,10000+,96,47,9,15,21,2,4,3
+SAP,sap,https://www.nasdaq.com/symbol/sap,CA,San Ramon,"San Ramon, CA",T2,2,Full Stack,110000,103000,7000,0,4.4,91,2.9,10000+,96,47,9,15,21,2,4,3
+SAP,sap,https://www.nasdaq.com/symbol/sap,CA,Palo Alto,"Palo Alto, CA",Senior Developer,3,Distributed Systems (Back-End),200000,200000,0,0,4.4,91,2.9,10000+,96,47,9,15,21,2,4,3
+SAP,sap,https://www.nasdaq.com/symbol/sap,CA,Palo Alto,"Palo Alto, CA",T3,3,Web Development (Front-End),320000,200000,100000,20000,4.4,91,2.9,10000+,96,47,9,15,21,2,4,3
+ServiceNow,NOW,https://finance.yahoo.com/quote/NOW,CA,San Diego,San Diego,IC2,1,Full Stack,135000,100000,25000,10000,3.5,64,2.9,5000+,91,48,6,21,10,4,4,7
+Snap,NOW,https://finance.yahoo.com/quote/NOW,WA,Seattle,"Seattle, WA",L7,7,Full Stack,860000,260000,550000,52000,3,44,3,1000+,44,45,25,20,4,3,2,0
+Snap,snap,https://www.nasdaq.com/symbol/snap,CA,San Francisco,"San Francisco, CA",L3,3,Full Stack,260000,160000,100000,0,3,44,3,1000+,44,45,25,20,4,3,2,0
+Splunk,splk,https://www.nasdaq.com/symbol/splk,CA,San Francisco,"San Francisco, CA",P4,4,Web Development (Front-End),300000,165000,110000,25000,3.8,65,2.9,1000+,86,59,16,21,6,2,1,1
+Spotify,snap,https://www.nasdaq.com/symbol/snap,NY,New York,New York,L2,2,Web Development (Front-End),200000,150000,50000,0,3.6,66,2.9,1000+,75,65,19,10,1,2,2,2
+SquareSpace,splk,https://www.nasdaq.com/symbol/splk,NY,New York,"New York, NY",E3,3,Web Development (Front-End),189000,151000,18000,20000,3.7,71,3,500+,86,78,9,8,3,1,1,1
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),CA,San Francisco,"San Francisco, CA",L1,1,Full Stack,149000,148500,0,0,4.4,80,2.9,1000+,93,61,12,18,3,3,2,1
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),CA,San Francisco,"San Francisco, CA",L3,3,API Development (Back-End),360000,201000,129000,30000,4.4,80,2.9,1000+,93,61,12,18,3,3,2,1
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),CA,San Francisco,"San Francisco, CA",L1,1,Full Stack,203000,121000,67000,15000,4.4,80,2.9,1000+,93,61,12,18,3,3,2,1
+Stripe,Stripe,https://en.wikipedia.org/wiki/Stripe_(company),CA,San Francisco,"San Francisco, CA",L3,3,API Development (Back-End),478000,229000,204000,45000,4.4,80,2.9,1000+,93,61,12,18,3,3,2,1
+Tableau Software,data,https://www.nasdaq.com/symbol/data,WA,Seattle,"Seattle, WA",Senior SWE,4,Full Stack,350000,180000,152000,18000,3.8,74,3.2,1000+,88,52,10,26,7,2,3,1
+Tableau Software,data,https://www.nasdaq.com/symbol/data,WA,Seattle,"Seattle, WA",Software Engineer (SWE),2,API Development (Back-End),242000,120000,110000,12000,3.8,74,3.2,1000+,88,52,10,26,7,2,3,1
+Tesla,tsla,https://www.nasdaq.com/symbol/tsla,CA,Palo Alto,"Palo Alto, CA",Senior Engineer,3,Distributed Systems (Back-End),400000,183000,202000,15000,3.3,54,2.8,10000+,68,49,21,16,6,3,3,2
+Tesla,tsla,https://www.nasdaq.com/symbol/tsla,CA,San Francisco,"San Francisco, CA",P5,5,Pipeline,460000,240000,220000,0,3.3,54,2.8,10000+,68,49,21,16,6,3,3,2
+Tesla,tsla,https://www.nasdaq.com/symbol/tsla,CA,Palo Alto,"Palo Alto, CA",Senior Engineer,3,Embedded,253000,166000,75000,0,3.3,54,2.8,10000+,68,49,21,16,6,3,3,2
+T-Mobile,TMUS,https://finance.yahoo.com/quote/TMUS,CA,San Francisco,San Francisco,L3,1,iOS,100000,100000,0,0,4,80,2.7,10000+,96,65,7,13,1,2,10,1
+T-Mobile,TMUS,https://finance.yahoo.com/quote/TMUS,WA,Bellevue,Bellevue,Software Engineer,2,Full Stack,136000,110000,10000,15000,4,80,2.7,10000+,96,65,7,13,1,2,10,1
+Tripadvisor,trip,https://www.nasdaq.com/symbol/trip,MA,Boston,"Boston, MA",Software Engineer,1,Full Stack,150000,110000,33000,12000,3.6,66,3,1000+,70,29,18,10,35,3,2,3
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,CO,Boulder,"Boulder, CO",Senior SWE,3,API Development (Back-End),280000,155000,100000,25000,4,81,3,1000+,86,56,15,19,6,3,1,0
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,CA,San Francisco,"San Francisco, CA",SWE II,2,Distributed Systems (Back-End),290000,175000,75000,30000,4,81,3,1000+,86,56,15,19,6,3,1,0
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,CA,San Francisco,"San Francisco, CA",SWE II,2,Full Stack,215000,145000,60000,10000,4,81,3,1000+,86,56,15,19,6,3,1,0
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,CA,San Francisco,"San Francisco, CA",SWE II,2,ML / AI,230000,150000,70000,10000,4,81,3,1000+,86,56,15,19,6,3,1,0
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,CA,San Francisco,"San Francisco, CA",SWE II,2,Android,221000,145000,55000,21000,4,81,3,1000+,86,56,15,19,6,3,1,0
+Twitter,twtr,https://www.nasdaq.com/symbol/twtr,NY,New York,New York,SWE II,2,Distributed Systems (Back-End),213000,213000,0,0,4,81,3,1000+,86,56,15,19,6,3,1,0
+Two Sigma,Two Sigma,https://en.wikipedia.org/wiki/Two_Sigma,NY,New York,New York,Vice President,4,Distributed Systems (Back-End),350000,204000,146000,0,3.6,79,3.3,1000+,92,45,26,6,16,3,1,3
+Two Sigma,Two Sigma,https://en.wikipedia.org/wiki/Two_Sigma,NY,New York,"New York, NY",Vice President,4,Distributed Systems (Back-End),380000,190000,190000,0,3.6,79,3.3,1000+,92,45,26,6,16,3,1,3
+Two Sigma,Two Sigma,https://en.wikipedia.org/wiki/Two_Sigma,NY,New York,"New York, NY",Senior Software Engineer,3,Distributed Systems (Back-End),335000,175000,160000,0,3.6,79,3.3,1000+,92,45,26,6,16,3,1,3
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Software Engineer II,2,API Development (Back-End),241000,140000,87000,14000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Senior Software Engineer,3,ML / AI,400000,400000,0,0,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,San Francisco,Senior Software Engineer,3,Distributed Systems (Back-End),525000,525000,0,0,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Level 5a,3,Full Stack,317000,176000,120000,21000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,PA,Pittsburgh,"Pittsburgh, PA",Level 4,2,Distributed Systems (Back-End),312000,155000,142000,15000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Senior Software Engineer,3,Full Stack,442000,192000,225000,25000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,WA,Seattle,"Seattle, WA",Level 4,2,Android,249000,149000,85000,15000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,Palo Alto,"Palo Alto, CA",Level 4,2,Distributed Systems (Back-End),260000,152000,90000,17000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Level 3,1,ML / AI,220000,140000,70000,10000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Level 4,2,Distributed Systems (Back-End),275000,151000,100000,18000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,Palo Alto,"Palo Alto, CA",Level 4,2,Distributed Systems (Back-End),290000,145000,128000,17000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,PA,Pittsburgh,"Pittsburgh, PA",Software Engineer II,2,Web Development (Front-End),234000,159000,60000,15000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,WA,Seattle,Seattle,Software Engineer II,2,API Development (Back-End),230000,143000,73000,14000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Senior Software Engineer II,4,Distributed Systems (Back-End),485000,230000,225000,30000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Level 5a,3,Distributed Systems (Back-End),410000,188000,190000,32000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Senior Software Engineer,4,Distributed Systems (Back-End),372000,172000,178000,22000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Software Engineer II,2,Distributed Systems (Back-End),297000,147000,95000,55000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,sfo,sfo,Level 4,2,API Development (Back-End),10000,10000,0,0,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Software Engineer II,2,Android,260000,160000,80000,20000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,Mountain View,"Mountain View, CA",Level 3,1,Testing (SDET),340000,160000,135000,50000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,Palo Alto,"Palo Alto, CA",Software Engineer II,2,API Development (Back-End),220000,143000,70000,14000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,Palo Alto,"Palo Alto, CA",Software Engineer I,1,API Development (Back-End),155000,110000,35000,10000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+Uber,Uber,https://en.wikipedia.org/wiki/Uber,CA,San Francisco,"San Francisco, CA",Software Engineer II,2,Distributed Systems (Back-End),200000,137000,50000,13000,4.2,85,2.9,10000+,94,56,14,20,4,3,3,0
+USAA,USAA,https://en.wikipedia.org/wiki/USAA,TX,Plano,Plano,Software Engineer III,3,B2B,70000,60000,10000,0,3.6,67,2.8,10000+,75,62,7,7,18,2,3,1
+Veritas Technologies,Veritas Technologies,https://en.wikipedia.org/wiki/Veritas_Technologies,CA,Santa Clara,"Santa Clara, CA",Senior Principal SWE,4,Distributed Systems (Back-End),189000,189000,0,0,2.9,38,2.9,5000+,36,36,7,15,33,3,3,3
+Veritas Technologies,Veritas Technologies,https://en.wikipedia.org/wiki/Veritas_Technologies,CA,San Francisco,San Francisco,Software Engineer,1,Full Stack,140000,122000,10000,0,2.9,38,2.9,5000+,36,36,7,15,33,3,3,3
+Viasat,vsat,https://www.nasdaq.com/symbol/vsat,TX,College Station,"College Station, TX",L3,3,Full Stack,90000,90000,0,0,4.3,86,2.8,5000+,93,45,8,9,31,2,2,3
+Visa,V,https://finance.yahoo.com/quote/V,TX,Austin,"Austin, TX",Software Engineer,1,Distributed Systems (Back-End),125000,95000,15000,15000,3.3,54,2.8,10000+,92,43,13,12,22,3,3,4
+Visa,V,https://finance.yahoo.com/quote/V,CO,Denver,"Denver, CO",Senior Software Engineer,2,Security,90000,90000,0,0,3.3,54,2.8,10000+,92,43,13,12,22,3,3,4
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,CA,Palo Alto,"Palo Alto, CA",MTS 2,2,Software,151000,125000,10000,16000,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,WA,Bellevue Washington,Bellevue Washington,Staff Engineer 1,5,API Development (Back-End),270000,180000,0,0,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,CA,Palo Alto,"Palo Alto, CA",MTS 3,3,DevOps,150000,150000,0,0,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,MA,Boston,"Boston, MA",Senior MTS,4,Distributed Systems (Back-End),200000,152000,25000,30000,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,CA,Palo Alto,"Palo Alto, CA",Staff Engineer 1,5,Testing (SDET),300000,178000,80000,35000,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,CA,Palo Alto,"Palo Alto, CA",MTS 2,2,API Development (Back-End),150000,122000,10000,16000,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,WA,Seattle,Seattle,Senior MTS,4,DevOps,257000,150000,82000,25000,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,CA,Palo Alto,"Palo Alto, CA",Staff Engineer 1,5,Distributed Systems (Back-End),480000,192000,248000,40000,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+VMware,vmw,https://www.nasdaq.com/symbol/vmw,CA,Palo Alto,"Palo Alto, CA",Staff Engineer 1,5,UI,245000,170000,40000,35000,4.1,85,3.1,10000+,97,28,23,22,17,3,4,3
+Workday,wday,https://www.nasdaq.com/symbol/wday,CA,Pleasanton,"Pleasanton, CA",Principal SWE,5,Distributed Systems (Back-End),250000,180000,0,0,4,76,2.8,5000+,95,34,14,19,27,3,2,1
+Workday,wday,https://www.nasdaq.com/symbol/wday,CA,Pleasanton,"Pleasanton, CA",P3,3,Testing (SDET),170000,140000,30000,0,4,76,2.8,5000+,95,34,14,19,27,3,2,1
+Workday,wday,https://www.nasdaq.com/symbol/wday,CA,Pleasanton,Pleasanton,P1,1,App Development,168000,105000,58000,5000,4,76,2.8,5000+,95,34,14,19,27,3,2,1
+Workday,wday,https://www.nasdaq.com/symbol/wday,CA,Pleasanton,Pleasanton,Senior SWE,4,Distributed Systems (Back-End),220000,175000,40000,0,4,76,2.8,5000+,95,34,14,19,27,3,2,1
+Workday,wday,https://www.nasdaq.com/symbol/wday,CA,Pleasanton,"Pleasanton, CA",P3,3,iOS,124000,124000,0,0,4,76,2.8,5000+,95,34,14,19,27,3,2,1
+Yahoo,Yahoo,https://en.wikipedia.org/wiki/Yahoo!,CA,Sunnyvale,"Sunnyvale, CA",IC3,3,Full Stack,182000,137000,24000,21000,3.9,67,3,5000+,60,29,15,22,28,3,2,1
+Yahoo,Yahoo,https://en.wikipedia.org/wiki/Yahoo!,CA,San Francisco,"San Francisco, CA",Distinguished Engineer,7,Distributed Systems (Back-End),650000,650000,0,0,3.9,67,3,5000+,60,29,15,22,28,3,2,1
+Yahoo,Yahoo,https://en.wikipedia.org/wiki/Yahoo!,CA,Sunnyvale,"Sunnyvale, CA",IC3,3,API Development (Back-End),149000,126000,11000,12000,3.9,67,3,5000+,60,29,15,22,28,3,2,1
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,CA,San Francisco,"San Francisco, CA",IC2,2,ML / AI,158000,120000,38000,0,3.2,47,2.8,5000+,78,60,5,13,20,1,1,0
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,CA,San Francisco,"San Francisco, CA",IC1,1,Full Stack,133000,105000,18000,10000,3.2,47,2.8,5000+,78,60,5,13,20,1,1,0
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,CA,San Francisco,"San Francisco, CA",IC2,2,API Development (Back-End),175000,131000,44000,0,3.2,47,2.8,5000+,78,60,5,13,20,1,1,0
+Yelp,yelp,https://www.nasdaq.com/symbol/yelp,CA,San Francisco,"San Francisco, CA",IC2,2,iOS,190000,140000,50000,0,3.2,47,2.8,5000+,78,60,5,13,20,1,1,0
+Zillow,z,https://www.nasdaq.com/symbol/z,WA,Seattle,"Seattle, WA",P3,3,Web Development (Front-End),212000,144000,35000,33000,4,74,2.9,1000+,87,65,11,13,7,1,2,1
+Zillow,z,https://www.nasdaq.com/symbol/z,WA,Seattle,Seattle,P5,5,Distributed Systems (Back-End),320000,175000,145000,0,4,74,2.9,1000+,87,65,11,13,7,1,2,1
+zynga,znga,https://www.nasdaq.com/symbol/znga,CA,san francisco,san francisco,principle,5,Distributed Systems (Back-End),300000,200000,50000,50000,3.6,63,3,1000+,91,35,13,21,24,3,3,1
